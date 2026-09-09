@@ -1,0 +1,1048 @@
+[
+ {
+  "name": "AgentMail",
+  "url": "https://agentmail.to",
+  "cited_by": [
+   "Hyperspell",
+   "Honcho (Plastic Labs)"
+  ],
+  "quote": "\"The Hyperspell company brain has been incredibly helpful for our customer support. Having one shared source of truth across our whole team and agents has let us automate most of our internal operations.\" \u2014 appears under the homepage heading \"Testimonials / What our customers say\". AgentMail also appears in the homepage logo marquee.",
+  "person": "Adi Singh, Founder",
+  "category": "AI agent infrastructure / email API (dev tools)",
+  "stage": "Seed",
+  "funding": "$6M seed announced 2026-03-10, led by General Catalyst, with Y Combinator and Phosphor Capital participating; angels include Paul Graham, Dharmesh Shah (HubSpot), Paul Copplestone (Supabase), Karim Atiyeh (Ramp) and Taro Fukuyama",
+  "headcount": "~10-11 (YC directory lists team size 10; LinkedIn structured data reports 11, band \"2-10 employees\")",
+  "accel": "Y Combinator, Summer 2025 batch (group partner Ankit Gupta); LinkedIn name is literally \"AgentMail (YC S25)\"",
+  "agents": "Agents ARE the product's end user: AgentMail sells inboxes that autonomous agents own and operate \u2014 signing up for services, receiving confirmations, authenticating, and running email threads with no human in the loop (their AISDR case study cites thousands of emails/week fully unattended). Internally, per Adi Singh's testimonial, they run Hyperspell's \"company brain\" as a shared source of truth across the human team and their internal agents, which they say lets them automate most internal operations, customer support especially.",
+  "why_memory": "Small (~10 person) dev-tools team fielding high-volume developer support across docs, Discord, email and a large SEO blog surface; support answers must be grounded in constantly-shipping product docs. They wanted one retrieval layer both humans and their internal support agents query rather than building ingestion/search themselves. Thematically aligned too \u2014 they publish content arguing email is itself agent memory and identity (\"email as memory for AI agents\", \"the next trillion users need an identity\"), so a persistent-context vendor is an adjacent, well-understood purchase rather than a leap.",
+  "sells_to": "developers \u2014 AI agent startups and platform teams building autonomous agents; self-serve PLG bottom tier with an enterprise/BYOC tier on top"
+ },
+ {
+  "name": "OpenNote",
+  "url": "https://www.opennote.me",
+  "cited_by": [
+   "Mem0 (mem0.ai) \u2014 Embedchain, Inc., YC S24",
+   "OpenMemory MCP (by Mem0 / Embedchain, Inc. \u2014 mem0.ai)"
+  ],
+  "quote": "\"Mem0 turned our AI tutors into true learning companions - tracking each student's struggles, strengths, and learning style across the entire platform and tools.\" \u2014 Abhi Arya, Co-Founder. Two further co-founder quotes in the same case study: \"We're incredibly glad to be working with this team and have Mem0 built into Feynman-2, our AI tutoring engine, driving learner profiles on OpenNote.\" \u2014 Rishi",
+  "person": "Abhi Arya, Co-Founder, Opennote (also quoted: Rishi Srihari, Co-Founder; Vedant Vyas, Co-Founder)",
+  "category": "Consumer edtech / AI tutoring (AI-native study + note-taking app). Now folded into document-intelligence infrastructure (Reducto).",
+  "stage": "Seed / YC S25 \u2014 now ACQUIRED (exited May 2026). No longer an independent buyer.",
+  "funding": "$850,000 USD raised before Y Combinator, per the YC company directory, plus the standard YC S25 deal. No priced seed or Series A found. Acquisition terms by Reducto were not disclosed. Do not treat the $850k as a full picture \u2014 no Crunchbase/PitchBook record was reachable in this session (web search budget was exhausted), so this is the YC directory figure only.",
+  "headcount": "3 (team size listed on the YC company directory page). All three headcount slots are the co-founders \u2014 this was a three-person company at the time of the Mem0 case study.",
+  "accel": "Y Combinator, Summer 2025 batch (S25). Note: the S24 batch reference in the brief belongs to Mem0/Embedchain, the vendor, not to Opennote.",
+  "agents": "Agents were the product, not a back-office tool. 'Feynman-2' was their AI tutoring engine \u2014 an in-workspace tutor agent that explained concepts, generated interactive diagrams, edited the student's writing, referenced both the student's own notes and the web, ran background tasks, and gave feedback mid-session. Mem0 sat inside Feynman-2 to drive per-student 'learner profiles' spanning the whole platform and all its tools, so the tutor could open with things like 'You highlighted the chain rule diagram yesterday \u2014 want to apply it to this example?' or 'You stopped at Newton's Second Law. Would you like a quick recap before moving to momentum?'",
+  "why_memory": "Three stated drivers, all classic for this category. (1) Session fragmentation: the tutor could not recall a student's prior questions, struggles or learning path, so every session restarted cold \u2014 fatal for a tutoring product whose value proposition is continuity. (2) Token cost/latency: they were stuffing full interaction histories into prompts; Mem0 cut token usage per prompt by 40%. (3) Build-vs-buy on a 3-person team: they estimated 3-4 weeks to build memory infrastructure in-house and integrated Mem0 in 2 days with no changes to core infrastructure. This is the archetypal buyer for agent-memory: a tiny AI-native team whose product is a long-lived personalized agent, where memory is core UX but not core IP, and engineer-weeks are the scarcest resource.",
+  "sells_to": "Prosumer / B2C \u2014 individual students (and peer study groups). Not an enterprise or developer sale. Founders were themselves undergraduate CS/software-engineering students with tutoring and TA backgrounds, selling to their own demographic."
+ },
+ {
+  "name": "AlphaSignal",
+  "url": "https://alphasignal.ai",
+  "cited_by": [
+   "Zep (Zep AI, Inc. / getzep.com) \u2014 YC W24",
+   "Zep (Graphiti)"
+  ],
+  "quote": "\"Unlike other systems that only retrieve static documents, Zep uses a temporal knowledge graph to combine conversations and structured business data, keeping track of how things change over time.\" \u2014 in the homepage section \"What teams are saying / Voices from the teams running Zep in production.\" AMBIGUOUS: AlphaSignal is an AI newsletter and the quote is third-person analyst-style commentary desc",
+  "person": "Lior Sinclair, Founder/CEO, AlphaSignal",
+  "category": "AI media / newsletter and research-discovery platform (NOT an agent or SaaS vendor)",
+  "stage": "unknown \u2014 no institutional round found; presents itself as independent/bootstrapped media",
+  "funding": "unknown \u2014 no disclosed funding round, investor, or accelerator found on the site, in the YC public company dataset, or in any page I could reach. Do not assume venture-backed.",
+  "headcount": "very small: LinkedIn company size band is 2-10 employees (HQ San Francisco); 55 LinkedIn profiles list AlphaSignal as employer, but the site's own Editorial Team page names only 5 people (Lior Alexander, Ben Dickson, Akruti Acharya, Adham Khaled, Rehman Rind) plus an open call for freelance contributors \u2014 so the 55 is likely mostly contributors/alumni. Best estimate: under 10 core staff. 87,777 LinkedIn followers.",
+  "accel": "none found \u2014 AlphaSignal does not appear in Y Combinator's public company directory (yc-oss all-companies dataset, 6,203 records). NOTE: the 'YC W24' in the source brief belongs to the VENDOR, Zep AI (confirmed in that dataset: Zep AI, getzep.com, Winter 2024, team size 10), not to AlphaSignal.",
+  "agents": "Publicly, AlphaSignal describes an 'autonomous editorial platform' and a real-time ranking system built over years, plus an ambition to build a linked graph of papers/repos/models/researchers. That is the only agent-adjacent claim on its own site. There is NO published statement that AlphaSignal runs Zep, Graphiti, or any agent-memory product in production. Their editorial coverage is heavily agent-focused, which is the more likely reason Zep's team engaged with them.",
+  "why_memory": "WEAK / UNVERIFIED. A temporal knowledge graph is a genuinely natural fit for their stated 'intelligence layer' (entity resolution across papers, repos, models and people, with technique lineage tracked over time), so the category fit is plausible. But the evidence of purchase is not there. IMPORTANT CAVEAT ON THE SOURCE: Zep's homepage testimonial is attributed to 'Lior Sinclair, Founder/CEO, AlphaSignal' and hyperlinks to LinkedIn activity 7287958207971434496 \u2014 which I fetched and confirmed is a Zep AI COMPANY repost of a third-party post. The original post is analyst-style commentary about Zep's Graphiti paper ('Zep just introduced a game-changing way for AI agents to remember and learn... 94.8% on DMR (better than MemGPT's 93.4%)... Cuts response time by 90%'), i.e. newsletter-style coverage, not a statement of use. Resolving the byline discrepancy flagged in the brief: the post author's profile is ca.linkedin.com/in/lioralex, display name now 'Lior Alexander'; a commenter on that same post writes 'Thanks for posting this, Lior Sinclair!', and AlphaSignal's own Editorial Team page lists 'Lior Alexander'. So it is one person who changed his LinkedIn display name, not two people \u2014 but that only confirms the attribution, not that AlphaSignal is a Zep customer. Treat AlphaSignal as earned media / influencer social proof, not a reference account.",
+  "sells_to": "Two sides: audience is developers/AI engineers and researchers (free + paid newsletter); paying customers are advertisers \u2014 AI companies and dev-tool vendors buying newsletter placements, 'Get Listed', and an Enterprise tier."
+ },
+ {
+  "name": "Composio",
+  "url": "https://composio.dev",
+  "cited_by": [
+   "Glen (Glen Labs Incorporated) \u2014 https://www.tryglen.com/",
+   "Supermemory",
+   "Poth Labs"
+  ],
+  "quote": "\"Yesterday I got Posthog access and was trying to understand some stuff, glen surfaced Sarah's context and was very very very helpful, would recommend\" \u2014 homepage testimonial carousel. Composio also appears in the homepage logo wall under the heading \"Powering knowledge work at\" (/logos/composio.svg, alt \"Composio logo\"). Note: founder Nikos Dritsakos is ex-Head of Special Projects (MTS) at Compos",
+  "person": "KJ, MTS (Member of Technical Staff), Composio",
+  "category": "Agent infrastructure / developer tools \u2014 the tool-calling, auth and execution layer for AI agents",
+  "stage": "Series A",
+  "funding": "$29M Series A announced 2025-07-22 by co-founder Soham Ganatra ('We raised $29M to build skills that evolve with your agents'). Note a discrepancy: the post's metadata/headline references $25M while the body says $29M. The company's own announcement names NO investors, and I could not confirm a lead investor or valuation from any other source \u2014 treat lead investor and valuation as unknown. Do not assume a specific VC.",
+  "headcount": "11-50 (LinkedIn band); likely toward the upper half of that range given a Series A and shipping cadence, but no exact number published",
+  "accel": "Unknown / not confirmed \u2014 ycombinator.com/companies/composio returns 404 and neither the site nor the blog claims an accelerator. Do not state Composio is YC without better evidence.",
+  "agents": "Composio IS agent infrastructure \u2014 its entire product is the action/tool layer agents call to do work in external SaaS. Agents are the users of the product (they even self-register as of May 2026). Internally, the team is a small AI-native engineering org building distributed self-improving systems, and the stated roadmap ('skills that evolve with your agents') is itself an agent-memory/learning play \u2014 notable because it means an agent-memory-adjacent vendor is buying a company-brain tool for its own internal knowledge work.",
+  "why_memory": "This is the strongest, most concrete signal of the three. The Glen testimonial is from a named employee \u2014 'KJ, MTS at Composio' \u2014 and describes a real onboarding/context-recovery moment: 'Yesterday I got Posthog access and was trying to understand some stuff, glen surfaced Sarah's context and was very very very helpful, would recommend.' The buying trigger is a fast-growing small eng team where knowledge lives scattered across Slack, GitHub, PostHog and agent sessions, and a new MTS cannot reconstruct why a teammate did something. Composio also appears in Glen's 'Powering knowledge work at' logo wall, so it is an advertised customer, not just a quote. Two things worth flagging to the buyer-persona analysis: (a) founder Nikos Dritsakos of Glen is ex-Head of Special Projects (MTS) at Composio, so this is also a warm founder-network account, though unlike Snorkel there is a named current-employee usage quote; (b) Composio published two security incident reports (2026-02-13 covering a Feb 9 incident, and 2026-05-21 covering a May 2026 incident affecting internal systems), which is context for how such companies think about piping internal knowledge into third-party tools.",
+  "sells_to": "Developers first (self-serve freemium, SDK, GitHub), expanding to enterprise \u2014 logo wall shows both AI-native companies (Glean) and large orgs (AWS, Google, Zoom, ASU)"
+ },
+ {
+  "name": "Zaplar",
+  "url": "https://zaplar.com",
+  "cited_by": [
+   "Glen (Glen Labs Incorporated) \u2014 https://www.tryglen.com/"
+  ],
+  "quote": "\"The absolute best dev ex tool I've used since the invention of the text editor.\" \u2014 homepage testimonial carousel. Zaplar also appears in the homepage logo wall under \"Powering knowledge work at\" (/logos/zaplar.png, alt \"Zaplar logo\"). Zaplar is a YC S26 agentic hotel operating system; its co-founder/CTO is Jon Milles, matching the attribution.",
+  "person": "Jon, Co-Founder & CTO, Zaplar",
+  "category": "Vertical AI / agentic vertical SaaS for hospitality (hotel operations)",
+  "stage": "Pre-seed / seed \u2014 YC Summer 2026 batch, currently active",
+  "funding": "Not disclosed. Backed by Y Combinator (S26 batch, so presumably the standard YC deal, though no amount is published) plus angel investors from Anthropic, OpenAI and Legora per their LinkedIn page. No priced round, amount or valuation is public \u2014 treat the dollar figure as unknown.",
+  "headcount": "8-9 (YC directory says team size 8; LinkedIn shows 9 employees)",
+  "accel": "Y Combinator, Summer 2026 (S26)",
+  "agents": "Agents run hotel operations in production and guest-facing: autonomous handling of bookings and OTA data, staffing and scheduling, reports, contracts and inventory around the clock, with a human-in-the-loop approval step; 'agent mode' conducts guest conversations directly. This is agents as the core operating layer of the business the customer runs, not an internal copilot.",
+  "why_memory": "The buying motive here is developer experience, not customer-facing memory. The testimonial is from co-founder/CTO Jon Milles \u2014 'The absolute best dev ex tool I've used since the invention of the text editor' \u2014 and Zaplar also sits in Glen's 'Powering knowledge work at' logo wall, so it is a genuine advertised customer. Underlying pressure: a 9-person, months-old team writing a greenfield replacement for an entire legacy vertical stack, with agents running in production against real guests. Context about why a booking rule, OTA edge case or agent guardrail exists lives in agent sessions, Slack and GitHub and is lost between people; a company brain compresses onboarding and cross-surface recall for a team with no institutional memory yet.",
+  "sells_to": "B2B SMB \u2014 independent hoteliers and small hotel groups (the site addresses 'exceptional hoteliers'); a rip-and-replace of PMS/POS/booking engine points at properties small enough to switch their whole stack, not large chains"
+ },
+ {
+  "name": "Amorphic Labs",
+  "url": "https://www.amorphiclabs.com",
+  "cited_by": [
+   "Glen (Glen Labs Incorporated) \u2014 https://www.tryglen.com/"
+  ],
+  "quote": "\"It just works and works well. Love using it\" \u2014 homepage testimonial carousel. Amorphic Labs also appears in the homepage logo wall under \"Powering knowledge work at\" (/logos/amorphic.png, alt \"Amorphic Labs logo\"). Amorphic Labs is a YC S26 company (\"OpenRouter for Agent Capabilities\"); its co-founder/CTO is Frank Li (ex-OpenAI), matching the attribution.",
+  "person": "Frank, Co-Founder & CTO, Amorphic Labs",
+  "category": "agent infrastructure / AI dev tools (capability marketplace + payments/routing layer for agents)",
+  "stage": "pre-seed / accelerator (YC S26, active batch)",
+  "funding": "unknown \u2014 no disclosed round. Backed by Y Combinator (S26); no announced priced round found. Site says only \"Backed by Y Combinator.\"",
+  "headcount": "2 (per YC company profile team size; both co-founders)",
+  "accel": "Y Combinator, Summer 2026 (S26) \u2014 active",
+  "agents": "Agents ARE the customer, not just an internal tool. AgentMuxer is consumed by autonomous agents at runtime: an agent connects one MCP server, then discovers, selects, pays for, and invokes external capabilities (search, scraping, browser automation, financial and government data) without a human pre-provisioning accounts or API keys. The routing layer picks providers using real-task benchmarks and feedback from agent runs. Internally, a 2-person team ships this with coding agents \u2014 which is the context for the Glen testimonial.",
+  "why_memory": "Two founders (Dylan Kelly, CEO; Frank Li, CTO, ex-OpenAI MTS/project lead) building a marketplace with thousands of provider integrations, almost entirely via coding agents. With no headcount to absorb tribal knowledge, agent session context IS the institutional memory \u2014 every integration decision, provider quirk, and routing heuristic lives in prior agent runs. Glen's pitch (replay why an agent made a change, inject prior work into prompts, cut token spend on repeat tasks) maps directly onto a tiny team where the codebase grows far faster than any human's recall. This is the strongest of the three evidence-wise: a named, on-the-record testimonial from the CTO (\"It just works and works well. Love using it\") plus a logo-wall placement, not just a logo.",
+  "sells_to": "developers \u2014 engineers and startups building AI agent applications; B2B/self-serve dev-tool motion with pay-per-call usage billing"
+ },
+ {
+  "name": "Hobbes",
+  "url": "https://www.hihobbes.com",
+  "cited_by": [
+   "Hyperspell"
+  ],
+  "quote": "\"Reliable data ingestion, search, monitoring, and tuning-for a small team, putting it together would have taken months. Hyperspell had a complete solution out of the box and saved us the heavy lift.\" \u2014 under \"Testimonials / What our customers say\". Logo asset filename is literally \"customer logos/Hobbes\". NOTE: the relationship is reciprocal \u2014 Hobbes's own customer-stories index advertises \"How Hy",
+  "person": "Arjun Athreya, CTO",
+  "category": "AI SDR / AI sales agent (GTM software)",
+  "stage": "Seed",
+  "funding": "$6M seed, announced ~May 2026, led by Steve Vassallo at Foundation Capital, with support from Ramy Adeeb (1984 Ventures), Gaurav Jain and Joseph Cardini (Afore Capital), plus investors from Emergence Capital. The $6M figure is also stated on their own homepage.",
+  "headcount": "~9 (LinkedIn reports 9 employees, band \"2-10\"); careers page says \"a small team\" that \"changes every month\"",
+  "accel": "none found \u2014 no YC or accelerator affiliation surfaced on their site, careers page or LinkedIn",
+  "agents": "The agent is the entire product \u2014 a conversational sales rep that autonomously drives a live product walkthrough, qualifies, and closes or books. Publicly described as powered by Claude, with buyer memory carried across sessions and self-improvement loops; the founders say agent-to-agent sales, world-models and self-improving product feedback loops are next on the roadmap.",
+  "why_memory": "The agent has to be grounded in a customer's whole knowledge surface \u2014 product docs, help center, recorded sales calls \u2014 and stay current as that surface changes, per customer, across every tenant. Arjun Athreya's testimonial is explicit that reliable ingestion, search, monitoring and tuning would have taken a nine-person team months to assemble, so they bought it out of the box instead. Memory is not a convenience here, it is the substrate of the demo agent's competence, and the buyer-memory/world-model roadmap deepens that dependency.",
+  "sells_to": "B2B, SMB through enterprise \u2014 sales/GTM and demand-gen teams at software companies; self-serve-ish tiers at the bottom, security-reviewed enterprise contracts at the top"
+ },
+ {
+  "name": "SlideSpeak",
+  "url": "https://slidespeak.co",
+  "cited_by": [
+   "Cognee (Topoteretes UG) \u2014 https://cognee.ai"
+  ],
+  "quote": "Homepage and /customers testimonial: \"SlideSpeak customers create slides from scratch over and over again. With cognee, we added memory, so users can create better slides from shared context and improve those slides over time.\"",
+  "person": "Kevin Goedecke, Founder & CEO, SlideSpeak",
+  "category": "AI document & presentation generation \u2014 prosumer/SMB self-serve SaaS plus a developer API/MCP business; agent-infrastructure-adjacent",
+  "stage": "unknown \u2014 no funding round found in any source I could reach. Profile is consistent with bootstrapped/indie: 2-10 employees, lifetime-deal pricing ($359 Premium Plus lifetime), heavy programmatic-SEO and comparison-page growth, affiliate program.",
+  "funding": "unknown \u2014 no disclosed round, no press release, no Crunchbase/TechCrunch item located. Do not assume venture backing. (Note: my web-search budget was exhausted this session, so absence of evidence here is weaker than usual.)",
+  "headcount": "~9 (LinkedIn public data reports numberOfEmployees 9 and a 2-10 size band). Fully remote team.",
+  "accel": "None found \u2014 no YC, no accelerator affiliation surfaced on the site or in LinkedIn metadata.",
+  "agents": "SlideSpeak is unusual in this cohort: it is being repositioned as agent infrastructure, not just an AI app. (1) 'Onbrand' Brand MCP server exposes an org's logos, colors, fonts, imagery and approved slide layouts read-only to MCP clients \u2014 Claude Code, Codex, Cursor \u2014 so agents generate on-brand decks; it adds version control, role-based access and usage audit trails. (2) The SlideSpeak API is explicitly marketed as agent-ready and MCP-compatible for 'autonomous AI agents and advanced workflows,' with a separate SlideSpeak MCP server and an OpenClaw skill. (3) In-app, 'Charles' is the agentic editor assistant. (4) With cognee, they added a memory layer to the product itself so a user's shared context persists across deck-creation sessions.",
+  "why_memory": "Their own marketing copy states the thesis better than any analyst could: 'AI agents are brilliant designers with amnesia.' The concrete product pain is repetition \u2014 per Kevin Goedecke, 'SlideSpeak customers create slides from scratch over and over again,' so every deck restarts from zero context about the company, the brand and the previous decks. They need persistent memory on two axes: organizational (brand tokens, approved layouts, prior decks \u2014 which they productized as the Brand MCP) and per-user (accumulated context so 'users can create better slides from shared context and improve those slides over time'). Notably, they are both a buyer of agent memory (cognee) and a seller of agent context (Onbrand MCP) \u2014 a memory vendor's ideal design partner.",
+  "sells_to": "Mixed: prosumer and SMB self-serve (students, teachers, consultants, solo creators), an enterprise tier for corporate training/compliance teams (SLA, no-training-on-data, dedicated AM), and developers/agent builders via the API and MCP servers. Founder-led \u2014 Kevin Goedecke is CEO and also the public face (blog author, TikTok @slide.kev). LinkedIn lists a San Antonio, TX address, which is likely a registered/agent address rather than a real office given the remote team."
+ },
+ {
+  "name": "Luccid",
+  "url": "unknown",
+  "cited_by": [
+   "Cognee (Topoteretes UG) \u2014 https://cognee.ai"
+  ],
+  "quote": "Homepage and /customers testimonial: \"The team helped me build a custom knowledge base of building codes and regulations that I could upload, query, and keep updated as regulations changed.\" (Construction/AEC regulations use case. No company website is linked from the cognee site and I could not verify a domain \u2014 luccid.com is a parked domain-sale page and luccid.ai does not resolve.)",
+  "person": "Marko Lazic, CEO, Luccid",
+  "category": "Vertical AI for AEC / construction and building materials (regulatory knowledge base, then manufacturer sales & technical-support assistant)",
+  "stage": "pre-seed / accelerator- and university-program-backed; no disclosed priced round found",
+  "funding": "unknown \u2014 no funding round found. Self-described as 'backed by Science & Startups Berlin, Xpreneurs by UnternehmerTUM Munich, AI Campus Founders Heilbronn, and many more', which are accelerator/incubator and grant programs rather than named investors. Legal presence in 2024 was 'Unternehmensname: Luccid' c/o TU Berlin, Centre for Entrepreneurship \u2014 i.e. no registered GmbH/UG at that point.",
+  "headcount": "unknown, very small \u2014 likely 2-5. The 2025 About page lists only two founders (Marko Lazic CEO, Igor Dostanic CTO); the 2023 German site listed three co-founders (Marko Lazic CEO, Pascal Gula CTO, Stefan Schuessler CPO) plus one team member, so the team also turned over between eras.",
+  "accel": "Not YC. Xpreneurs (UnternehmerTUM, Munich), AI Campus Founders (Heilbronn), Science & Startups Berlin / TU Berlin Centre for Entrepreneurship (registered address in 2024)",
+  "agents": "The whole product is an agent. Earlier: a 'virtual construction law expert' chat agent that architects queried against building codes and regulations for a specific project, plus checklist and project-summary generation. Now: a branded, multilingual website chat agent for a manufacturer that answers technical product questions from its official documentation only, recommends products, walks contractors through installation steps, hands over CAD/BIM files, and feeds a real-time analytics dashboard of what customers asked and where they got stuck.",
+  "why_memory": "Per the cognee testimonial (Marko Lazic, CEO): 'The team helped me build a custom knowledge base of building codes and regulations that I could upload, query, and keep updated as regulations changed.' The hard part is a durable, incrementally updatable corpus \u2014 regulations change, manufacturer catalogs and spec sheets change ('Luccid automatically updates when you change your documentation'), and answers must stay grounded in the approved documents. A very small team with no infra staff outsourced that layer rather than building graph/vector plumbing.",
+  "sells_to": "B2B SMB \u2014 building-material manufacturers (mid-size industrial firms, largely DACH) today; earlier prosumer/SMB architects and small design studios at EUR 49-99/month self-serve"
+ },
+ {
+  "name": "Scira AI",
+  "url": "https://scira.ai",
+  "cited_by": [
+   "Supermemory"
+  ],
+  "quote": "Case study \"Why Scira AI switched from Mem0 to Supermemory\" (October 2, 2025). Pull quote: \"A thousand times better than Mem0.\" Other quotes: \"Mem0 was not great. Glad to have found supermemory\"; \"Every time it was indexing something, it wouldn't add it to the memories\"; \"I had some issues; they were fixed very quickly.\" Metrics: 37.4% lower mean retrieval latency vs. Mem0; ~32% usage growth after",
+  "person": "Zaid Mukaddam, Founder, Scira AI",
+  "category": "AI search & research (consumer/prosumer answer engine, open source)",
+  "stage": "indie / bootstrapped solo-founder project \u2014 no institutional round found",
+  "funding": "unknown, most likely none institutional. No Crunchbase/PitchBook/TechCrunch record found. Revenue is direct subscription: Free (3 searches/day), Pro $15/mo (\u20b91,390 in India), Max $60/mo (\u20b95,990) \u2014 the pricing page also displayed a $9 Pro figure, likely promotional/regional. Billing runs through Polar and DodoPayments, an indie-developer payment stack rather than an enterprise billing vendor. Non-dilutive support only: Vercel OSS Program badge, plus partner/sponsor placements from Context.dev, Exa AI and Upstash.",
+  "headcount": "1 (solo founder) plus open-source contributors. No LinkedIn company page and no named team found; terms and support both route to zaid@scira.ai, and the GitHub owner's bio reads 'founder @ scira.ai'. No formal legal entity is named anywhere \u2014 the terms say only 'the laws of the jurisdiction in which Scira AI operates'.",
+  "accel": "none found \u2014 no YC page (ycombinator.com/companies/scira and /scira-ai both 404). Vercel's OSS Program is a sponsorship, not an accelerator.",
+  "agents": "The agent IS the product. 'Agentic planning' breaks a question into sub-tasks, picks a model and source per sub-task, and executes multi-step workflows end to end. 'Extreme search' is an LLM-driven deep-research agent with multi-step planning, code execution and artifact storage in R2. 'Lookouts' are scheduled recurring research agents that monitor a topic, track changes and email updates. Plus 'Scouts', a 'Scira Agent' in limited preview on the Max tier, and 100+ MCP-connected apps the agent can call.",
+  "why_memory": "Two jobs. First, continuity: research is multi-session, so the agent must carry what a user already asked, found and rejected across sessions \u2014 Memory is a paid Pro mode ('your personal memory companion'). Second, personal corpus: Connectors let the agent search the user's own Google Drive, Notion and OneDrive alongside the live web, so the memory layer doubles as the ingestion/index path for user documents. Mem0 failed on both \u2014 high retrieval latency, indexing that silently dropped items ('every time it was indexing something, it wouldn't add it to the memories'), weak recall as user data grew, poor scaling, and no connectors. Moving to Supermemory cut mean retrieval latency 37.4%, drove ~32% usage growth after memory launched, and directly converted 10 pro subscribers who signed up for memory alone. For a one-person company, buying memory rather than operating a vector stack is the only viable option.",
+  "sells_to": "prosumer / individual \u2014 researchers, students, developers and analysts on $15-60/mo self-serve subscriptions; secondarily developers, since the whole stack is AGPL and self-hostable"
+ },
+ {
+  "name": "Flow",
+  "url": "unknown",
+  "cited_by": [
+   "Supermemory"
+  ],
+  "quote": "Case study \"The wow factor of memory: how Flow built smarter, stickier products\" (June 14, 2025). Quote: \"I'm considering changing the model to pay-first just because of how good the memory is.\" Also: \"Having a good memory layer or like having some sort of remembering system, is what I always wanted... memory was the only important part for the product to go public.\" Metrics: 40% user retention (3",
+  "person": "Daniel, Founder, Flow (first name only given)",
+  "category": "Consumer/prosumer productivity \u2014 AI note-taking and personal knowledge management",
+  "stage": "unknown \u2014 appears to be an indie/bootstrapped solo-founder product; no funding round, investor, or accelerator found",
+  "funding": "unknown \u2014 no funding announcement, Crunchbase/PitchBook entry, or press coverage found",
+  "headcount": "unknown \u2014 almost certainly very small (1-3). The case study references only 'Daniel, Founder'; a G2 listing for flowapp.so shows no LinkedIn company page, which is consistent with a solo or two-person indie build.",
+  "accel": "None found",
+  "agents": "Less an autonomous-agent product than an LLM-over-your-corpus product. AI reads across the user's whole note/PDF/video/audio library to answer questions with multi-document context, surfaces contextual suggestions live as you write, auto-extracts tasks from note text, and generates spaced-repetition quizzes. The retrieval-and-recall loop is the product; the founder's goal was that 'LLMs magically know everything about you.'",
+  "why_memory": "Memory IS the product for Flow, not an add-on: 'memory was the only important part for the product to go public.' They had built on Mem0 first and it broke under high-volume, multi-document context \u2014 the exact failure mode a note app hits when a user dumps in years of notes and PDFs \u2014 and they swapped to Supermemory in a single day. The reported payoff is retention and unit economics rather than accuracy alone: 40% of users returning 3+ consecutive days, 60% fewer backend requests, and a 50% signup jump on launch day. This is the clearest instance in this set of memory being the differentiating feature a founder would reprice the product around.",
+  "sells_to": "Prosumer \u2014 individual knowledge workers, students and writers, self-serve freemium (the founder said he was considering switching to pay-first because the memory feature was strong enough to charge for up front)"
+ },
+ {
+  "name": "Trag",
+  "url": "https://trag.ai",
+  "cited_by": [
+   "Trace (trace.so)"
+  ],
+  "quote": "50% of my workday gets done like magic with Trace \u2013 tasks, teams, and models all perfectly in sync.",
+  "person": "Hovhannes Ghevondyan, Co-Founder",
+  "category": "dev tools / AI code review (DevSecOps after acquisition)",
+  "stage": "Pre-seed / accelerator-backed. ACQUIRED by Aikido Security, August 2025 (terms undisclosed).",
+  "funding": "No priced round on record. Dealroom explicitly shows \"no known external funding.\" The only identified capital is the Berkeley SkyDeck Europe Batch 5 ticket \u2014 the nine startups in that batch shared a combined EUR 1.3M (\u2248EUR 144k average, per-company amount never disclosed). Do not treat any specific dollar figure as confirmed. Acquisition price by Aikido was not disclosed.",
+  "headcount": "2-10 (LinkedIn company page self-reported, ~360 followers). Concretely, 4 named people transferred to Aikido in the acquisition, so the working team was roughly 4-6.",
+  "accel": "Not YC. Berkeley SkyDeck Europe, Batch 5 (announced 30 Oct 2024). Also appears in Berkeley SkyDeck portfolio listings (Parsers VC, F6S).",
+  "agents": "The core product IS the agent: an LLM reads every pull request with repo-wide context and reviews it against team-authored, plain-English rules, then posts actionable PR feedback like a senior engineer rather than a pattern-matching scanner. Agents also did the earlier refactor/migration automation. Internally, the co-founder's Trace testimonial (\"50% of my workday gets done like magic with Trace \u2014 tasks, teams, and models all perfectly in sync\") describes using an agent-orchestration layer to run their own founder/ops workday, not their product.",
+  "why_memory": "A code-review agent is worthless without durable, org-specific context: the team's conventions, past review decisions, why a pattern was rejected last quarter, which parts of the repo are load-bearing. Trag's whole pitch \u2014 \"automates tribal knowledge into deterministic rules\" and repository-wide semantic context \u2014 is a memory problem stated as a product. Separately, as a ~5-person distributed startup (Yerevan/SF) they had no ops headcount, so a shared \"company brain\" that keeps tasks, people and models in sync substitutes for a coordination layer they couldn't staff. Caveat for the buyer-profile analysis: this is a lapsed data point \u2014 the company was absorbed in Aug 2025 and the testimonial predates that.",
+  "sells_to": "Developers / engineering teams \u2014 bottom-up dev tools motion (GitHub PR integration, freemium + paid tiers, Product Hunt launch). B2B SMB / startup engineering orgs rather than enterprise."
+ },
+ {
+  "name": "GodmodeHQ",
+  "url": "https://godmodehq.com",
+  "cited_by": [
+   "Trace (trace.so)"
+  ],
+  "quote": "2x the productivity across our entire department, which adds up to a full month of work saved.",
+  "person": "Mert Deveci, Founder",
+  "category": "AI SDR / agentic GTM & outbound sales automation",
+  "stage": "Pre-seed (angel + pre-seed). DEFUNCT \u2014 wound down 30 April 2025, capital returned to investors.",
+  "funding": "$2.6M pre-seed, reported Aug 2024 (Webrazzi, syndicated via Dealroom), from BITKRAFT Ventures, Delphi (Delphi Digital/Delphi Ventures) and Paribu Ventures, on top of an earlier angel round. A LinkedIn-sourced write-up says \"backed by over $2.5M+ in venture funding,\" consistent with that figure. Treat $2.6M as reported-not-primary \u2014 GodmodeHQ never issued its own funding press release that I could find.",
+  "headcount": "~5-6 at peak. The shutdown post names the entire team: Mert Deveci (founder/CEO), Bertan Teberci (CTO), Gaston Che (frontend lead), Can Cotel (frontend & design engineer), Hussein Abou Eita (GTM). They were hiring founding engineers in London in 2024. Now zero \u2014 company dissolved.",
+  "accel": "None found. Not YC. Directly VC-backed. Related entity: Troy Labs (Istanbul, founded 2022, 2-10 employees) \u2014 Mert Deveci is associated with it (\"Troy Guild\", a troylabs.io email appears in product screenshots); the Godmode site now sits under The Money Company Limited.",
+  "agents": "Agents were the entire product surface: (1) \"AI Associates\" \u2014 autonomous account executives that scoured the web nightly for intent signals, sourced and verified leads and drafted outreach, notifying the human each morning for approval; (2) user-built research agents wired to Apollo/Salesforce/HubSpot/Gmail/Outlook/web search/scrape/document extraction, invoked in natural language and publishable to coworkers or customers; (3) multi-step natural-language automations chaining research \u2192 summarize \u2192 draft \u2192 send; (4) an agent-configuration layer holding \"full context of your business and your value propositions,\" formatting rules, purpose and a document knowledge base; (5) a review inbox where every proposed agent action (e.g. \"Send email to Martin\") required human accept-and-send.",
+  "why_memory": "Their product only worked if agents carried persistent company context \u2014 ICP definition, value props, brand/formatting rules, knowledge-base documents, exclusion lists synced from the CRM, and the history of which prospects had already been touched. That is agent memory by another name, and they built a homegrown version of it (\"agent settings,\" knowledge bases, rules). Internally, a 5-person team running an agent-heavy operation is exactly the profile that buys a cross-department \"company brain\" \u2014 Mert's Trace testimonial claims \"2x the productivity across our entire department\u2026 a full month of work saved.\" Big caveat for the buyer analysis: GodmodeHQ shut down in April 2025, so this logo represents a founder-to-founder testimonial from a company that no longer exists, not a live paying account.",
+  "sells_to": "B2B SMB and mid-market sales/GTM teams \u2014 pricing tiers were explicitly framed as \"businesses with up to $1M+ revenue,\" \"$10M+,\" \"$20M+.\" They tried and failed to move upmarket into enterprise, which is the reason they gave for shutting down."
+ },
+ {
+  "name": "Mastra",
+  "url": "https://mastra.ai",
+  "cited_by": [
+   "Mem0 (mem0.ai) \u2014 Embedchain, Inc., YC S24",
+   "OpenMemory MCP (by Mem0 / Embedchain, Inc. \u2014 mem0.ai)"
+  ],
+  "quote": "AMBIGUOUS \u2014 probably an integration rather than a customer. \"Mastra Logo\" appears on the /demo, /custom-pricing and /usecase/* \"Used by 100,000+ developers From\" marquee, but Mastra is also listed on /integrations, and Mem0 publishes a competitive /compare/mem0-vs-mastra page. Treat as low-confidence.",
+  "person": "",
+  "category": "TypeScript agent framework + agent hosting/observability cloud (dev tools / AI infrastructure)",
+  "stage": "Series A",
+  "funding": "$35M total raised, including a $22M Series A. Investors: Spark Capital, Gradient, basecase, and Y Combinator. The YC company page corroborates 'Series A ($22M raised as of April 2026).' No valuation disclosed.",
+  "headcount": "~30-35. Mastra's own /about page states 35 employees, fully remote/globally distributed with a San Francisco base; the YC profile lists team size 30. Both first-party-ish, so ~30-35 is well supported.",
+  "accel": "Y Combinator, Winter 2025 batch (W25). Group partner: Gustaf Alstromer. YC is also listed among its investors.",
+  "agents": "Agents are the core primitive of the framework and the unit of billing in the cloud \u2014 customers define agents with tools and instructions, compose them into workflows, and deploy them onto Mastra's runtime with observability and evals attached. Mastra's three stated customer patterns are internal automation agents (e.g. Slack-based), customer-facing agents embedded in products, and developer-platform agents run as shared infrastructure. Documented customer workloads: automated customer support, CAD diagram generation, web scraping, medical transcription, financial document generation, and code-generation products.",
+  "why_memory": "Same pattern as CrewAI: memory is a first-party primitive, so Mastra is a substitute rather than a buyer. Mastra ships message history (on by default), working memory ('persistent, structured user data such as names, preferences, and goals' injected as system messages), semantic recall (same-thread and cross-thread), and observational memory (background agents compress older messages into 'dense observations' for long conversations), all over pluggable storage providers (LibSQL as the quickstart), with configurable memory processors for context-window pressure and per-request memory switching via RequestContext. Mastra's memory docs make no mention of Mem0 or any third-party memory vendor. Mem0's /integrations page frames the relationship as 'Use Mastra agents with Mem0 as the memory backend for cross-conversation storage and retrieval,' and Mem0 separately publishes a competitive /compare/mem0-vs-mastra page \u2014 you do not write a comparison page against your own customer. This confirms the parent's low-confidence read: integration/ecosystem listing, not a paying account. Also relevant to the buyer thesis: Mastra's real commercial wedge is hosting + observability + governance, the same 'agent control plane' territory memory vendors are expanding into.",
+  "sells_to": "Primarily developers (bottoms-up OSS adoption in the TypeScript/Node ecosystem), converting to B2B teams and enterprise via Mastra Cloud \u2014 a $250/mo Teams tier and an Enterprise tier with SSO/RBAC/audit logs/SLAs/on-prem."
+ },
+ {
+  "name": "Praktika.ai",
+  "url": "https://praktika.ai",
+  "cited_by": [
+   "Zep (Zep AI, Inc. / getzep.com) \u2014 YC W24",
+   "Zep (Graphiti)"
+  ],
+  "quote": "Logo appears in the \"Trusted By AI Teams\" logo wall, img alt=\"Praktika.ai\", asset at /customers/praktika_ai.svg. Logo-wall only \u2014 no quote or case study.",
+  "person": "",
+  "category": "consumer AI / edtech \u2014 AI voice tutors for language learning (prosumer subscription app)",
+  "stage": "Series A",
+  "funding": "~$38M total disclosed: $35.5M Series A led by Blossom Capital, announced 22 May 2024 (TechCrunch), plus a previously unannounced $2.5M seed led by Creator Ventures with Blue Wire Capital. Angels in both rounds include Carles Reina (ElevenLabs) and footballer Patrice Evra. At the time of the Series A: 1.2M monthly active users across 100 countries and nearly $20M revenue over the trailing 12 months. No later round confirmed in this session.",
+  "headcount": "unknown \u2014 not disclosed in the TechCrunch coverage and LinkedIn was not accessible in this session. Consumer-app economics and the 2024 stage suggest a small team (likely tens, not hundreds); recruiting runs through TeamTailor. Do not quote a number.",
+  "accel": "Not YC and no accelerator found. Backed by Blossom Capital (Series A lead) and Creator Ventures / Blue Wire Capital (seed). The 'YC W24' tag belongs to Zep, the vendor.",
+  "agents": "The product IS the agent: a persistent voice-based AI tutor persona that the learner talks to daily. The site explicitly says tutors 'maintain conversation context and learning history,' give real-time corrections mid-dialogue without breaking the flow, and drive personalized study plans. The CEO frames the differentiator as tone of voice and mimicking human-to-human interaction \u2014 meaning the agent's continuity and personality, not just its answers, are the product.",
+  "why_memory": "A tutor that forgets is not a tutor. The agent needs to remember which words this learner keeps mispronouncing, what grammar was drilled last week, their level, goals (exam prep vs. travel vs. work), interests to keep conversation topical, and prior corrections \u2014 so it can spaced-repeat and escalate difficulty instead of restarting every session. It also needs the relationship to feel continuous, since retention in a $8/month consumer subscription depends on the avatar feeling like it knows you. That is long-running per-user episodic memory across thousands of short sessions, at millions-of-users scale where per-session cost matters \u2014 a textbook fit for a dedicated memory layer over stuffing transcripts into context.",
+  "sells_to": "Prosumer / B2C \u2014 individual language learners on a ~$8/month subscription, with a secondary B2B program for companies training employees. Massive-consumer-scale, low-ARPU, which shapes the memory requirement."
+ },
+ {
+  "name": "AGI Inc",
+  "url": "unknown",
+  "cited_by": [
+   "Zep (Zep AI, Inc. / getzep.com) \u2014 YC W24",
+   "Zep (Graphiti)"
+  ],
+  "quote": "Logo appears in the \"Trusted By AI Teams\" logo wall, img alt=\"AGI Inc\", asset at /customers/agi_inc.svg. Logo-wall only; the logo is not hyperlinked and no domain is given, so the URL is left unknown rather than guessed.",
+  "person": "",
+  "category": "On-device / computer-use AI agents (action models + consumer assistant + OEM agent platform)",
+  "stage": "Series A, reportedly raising a growth round. Forbes reported in Nov 2025 that AGI, Inc. was in talks to raise ~$50M at a ~$500M valuation.",
+  "funding": "Conflicting sources \u2014 reporting both rather than picking one. Predecessor-entity data: ~$50M total raised, including a $20M Series A led by General Catalyst in June 2024 with Amazon participating (reported under the MultiOn name). Aggregator data for the post-rebrand entity: $8-10M seed (June 2025) from Menlo Ventures, Point72 Ventures, Anthropic's Anthology Fund and DeepMind/OpenAI angels. The company's own About page lists Menlo Ventures and Point72 Ventures as institutional investors plus angels including Charlie Songhurst (Meta board), Chris Manning and Stefano Ermon (Stanford AI Lab), Ali Rowghani (fmr. YC Managing Director, fmr. Twitter COO), Eugenia Kuyda (Replika), Nikita Shamgunov (Neon), Songyee Yoon (HP board). Forbes: in talks for ~$50M at ~$500M valuation (Nov 2025). Treat exact totals as unconfirmed.",
+  "headcount": "~15-50. RocketReach lists 47 employees; AI Market Watch lists ~15 and a 11-50 band. LinkedIn company page was not directly verifiable in this session, so no precise figure.",
+  "accel": "None confirmed \u2014 not a Y Combinator company (the YC W24 reference in the source note belongs to Zep, the vendor, not to this customer). One aggregator claims Anthropic's Anthology Fund participated, unverified. Ali Rowghani, former YC Managing Director, is an angel investor, which is the only YC-adjacent link found.",
+  "agents": "The agent IS the product. AGI-0 runs on the device, reads the screen, reasons over what it sees, and drives arbitrary third-party apps (Instacart, Uber, Spotify, Messages, calendar) without per-app integrations or APIs \u2014 a GUI/computer-use agent rather than a tool-calling chatbot. It runs offline, on wearables, and for privacy-sensitive tasks, and is also licensed to device makers so their hardware ships with an action agent on top of existing apps. The predecessor product, MultiOn, pioneered browser-based computer-use agents.",
+  "why_memory": "The core product claim is a personal agent that is proactive and improves with use: their copy says AGI-0 \"lives on the device. It learns your preferences and gets better over time\" and \"remembers what you like and takes action across apps.\" A cross-app device agent has no natural persistence layer \u2014 each app session is stateless \u2014 so the agent needs durable, per-user memory of preferences, past task outcomes, addresses/accounts, app-specific quirks and multi-step routines that carries across apps, sessions and devices. A temporal knowledge graph like Zep/Graphiti also handles facts that change over time (a moved home address, a new default payment card, a changed dietary preference), which matters when the agent is executing irreversible real-world actions like placing orders or booking rides. Their multi-month task framing (\"tennis lessons in my schedule for the next 6 months\") implies long-horizon state that must outlive any single context window.",
+  "sells_to": "Dual motion. Consumer/prosumer for the hands-free phone assistant, and B2B enterprise/OEM + developers for the licensed platform \u2014 the site's pitch is \"You ship the hardware. We ship the intelligence.\" Named partners are Qualcomm (Snapdragon optimization), Lenovo (MWC proof-of-concept with Lenovo Qira), and Visa (agentic commerce). Advisors include Rich Miner, co-founder of Android."
+ },
+ {
+  "name": "Luminary Solutions",
+  "url": "https://luminarysol.com/",
+  "cited_by": [
+   "Basic Memory (Basic Machines, https://basicmemory.com/)",
+   "Basic Memory (Basic Machines)"
+  ],
+  "quote": "Dedicated case study titled 'Cody gave his MSP a memory. Now he can ask it anything.' Cody quote: \"If you've worked in IT for very long, you know keeping your documentation up to date is critically important, You also know it rarely happens as much as it should.\" Case study details: an agent onboards a client's new hire from one instruction (creates her record, finds a free MacBook Air in the clie",
+  "person": "Cody (MSP owner-operator, Luminary Solutions; last name not published)",
+  "category": "managed IT services / MSP (SMB IT outsourcing) \u2014 an AI-adopting services business, not an AI product company",
+  "stage": "bootstrapped private small business / owner-operator practice",
+  "funding": "unknown \u2014 no funding found; a Crunchbase profile exists with location only and no funding rounds. Almost certainly self-funded.",
+  "headcount": "unknown \u2014 likely under 10. Third-party data aggregators disagree: Datanyze/ZoomInfo say 5-9 employees and $500K-$1M revenue; Seamless.ai says 11-50 and $1M-$5M (aggregator estimates are unreliable for businesses this small). The vendor's own language ('owner-operator', 'allows staff members to ask Claude') implies a founder plus a handful of techs.",
+  "accel": "none",
+  "agents": "Internal back-office automation on top of Basic Memory's markdown knowledge base, driven by Claude/Claude Code. Basic Memory's case study ('Cody gave his MSP a memory. Now he can ask it anything.', /case-studies/luminary-solutions) describes an agent that, from a single instruction, onboards a client's new hire end to end: creates the employee record, searches the client's inventory for a free MacBook Air, assigns it, updates the master asset list, links employee to device, and logs the warranty expiry and software licenses. Cody also had the agent build a filterable inventory dashboard from the same notes. Claimed outcome: at one client running it under a week, the system surfaced $36,000 in unbilled sales. Cody's quote: 'If you've worked in IT for very long, you know keeping your documentation up to date is critically important, You also know it rarely happens as much as it should.' An anonymous 'MSP owner-operator' testimonial on the same vendor pages (almost certainly Cody) calls Claude 'the back-office secretary that runs everything' and claims that without it he'd be 'working 120 hours a week to maintain that level of documentation.' Note the dual role: Luminary is listed on /partners and /customers as a 'Preferred MSP' partner (i.e. a reseller channel), while also being described as running its own practice on the product \u2014 so its testimonial carries a commercial incentive.",
+  "why_memory": "Classic MSP documentation decay: a tiny team holds per-client context (asset inventories, warranties, licenses, network quirks, billing state) across many small clients, and hand-maintained documentation always rots. Persistent, agent-readable memory turns that documentation into something the whole team can query and that agents can update as a side effect of doing work \u2014 plus it makes client-specific knowledge shareable so techs don't have to interrupt the owner. The $36K unbilled-sales anecdote is really a reconciliation win from having client records in one queryable place.",
+  "sells_to": "B2B SMB \u2014 local small businesses in and around Lawrence, KS"
+ },
+ {
+  "name": "Litmus",
+  "url": "https://litmushiring.com",
+  "cited_by": [
+   "Glen (Glen Labs Incorporated) \u2014 https://www.tryglen.com/"
+  ],
+  "quote": "Homepage logo wall under the heading \"Powering knowledge work at\" (/logos/litmus.svg, alt \"Litmus logo\"). No testimonial. Identity is confirmed by a comment embedded inside the SVG asset itself, which states the lockup was \"assembled from https://litmushiring.com/\" \u2014 so this is Litmus the hiring/capability-evaluation startup, NOT litmus.com the email-testing company. Logo-wall-only evidence: the w",
+  "person": "",
+  "category": "AI recruiting / technical assessment (HR tech for engineering hiring)",
+  "stage": "seed / accelerator (YC S26); no priced round disclosed",
+  "funding": "unknown \u2014 Y Combinator-backed, no announced round amount found on the site, LinkedIn, or elsewhere within reach",
+  "headcount": "2-10 (LinkedIn size band; 4 employees listed on the LinkedIn profile) \u2014 effectively a founding team plus 1-2 hires",
+  "accel": "Y Combinator, Summer 2026 (S26) per LinkedIn; the site confirms \"Backed by Y Combinator\" but does not print a batch. Note: ycombinator.com/companies/litmus resolves to an unrelated company (Sparkles, W26), so the YC slug for this Litmus was not located directly \u2014 batch is single-sourced to LinkedIn.",
+  "agents": "Agents appear on both sides of the product. (1) Generation: the platform ingests a customer's repos, tickets, and JDs and synthesizes a scoped, buildable assessment from them \u2014 a codebase-comprehension task. (2) Grading: configurable LLM graders score qualitative dimensions (process, architecture) alongside deterministic sandbox test harnesses. (3) Measurement: Litmus treats candidate AI-tool usage as signal rather than cheating, recording and analyzing how candidates prompt and refine with coding agents. Internally it is a ~4-person team, so day-to-day engineering is almost certainly agent-driven.",
+  "why_memory": "INFERRED \u2014 evidence is logo-wall-only. Litmus appears in Glen's \"Powering knowledge work at\" wall with no testimonial, so the wall header implies usage but Glen never labels these as paying customers. The plausible fit: Litmus's core product requires deep, repeated machine comprehension of many different customers' codebases, and its own tiny team ships that with coding agents \u2014 exactly the pattern where per-repo context has to be rebuilt every session. Glen's agent-memory and skills-distillation pitch (inject prior work into prompts, cut repeat token cost, retain the reasoning behind a change) targets that. Also notable: Litmus and Glen share a customer, Composio, which appears on both companies' walls \u2014 suggesting the same small YC-adjacent network rather than an independent enterprise sales motion.",
+  "sells_to": "B2B SMB \u2014 engineering and talent teams at startups and scale-ups (customer list skews YC-adjacent and AI-native: Mercor, Composio, Wispr Flow, Astranis). Sold to hiring managers/founders; custom contracts by volume rather than self-serve."
+ },
+ {
+  "name": "Superagent",
+  "url": "https://superagent.sh",
+  "cited_by": [
+   "Graphify Labs"
+  ],
+  "quote": "Listed on /customers under \"Teams building on Graphify\" and on the homepage logo wall \"Already building on Graphify\" (alt text \"Superagent logo\"). Full card text: \"Superagent \u2014 Security for AI-native developers \u2014 Superagent (YC W24), the security layer for AI-native developers.\" AMBIGUOUS: unlike the Rootly and HKUST cards, the Superagent card carries NO evidence link, no quote, and no description",
+  "person": "",
+  "category": "AI agent security / developer security tooling",
+  "stage": "Seed (YC W24)",
+  "funding": "unknown \u2014 no priced round has been publicly announced. Only confirmed capital is the standard Y Combinator W24 deal. Google News and the company's own blog/site surface no funding announcement. Do not assume a seed number.",
+  "headcount": "2 (Y Combinator profile team size); LinkedIn shows the 2-10 band. Very small, likely under 10.",
+  "accel": "Y Combinator, Winter 2024 batch (W24)",
+  "agents": "Agents are both the threat model and the delivery mechanism. Their scanning runs as an agent/model (SuperagentLM) over pull requests and contributor history; Runtime and Context Guardrails sit in the loop of customers' coding and production agents to bound behavior and sanitize untrusted input; they ship MCP access on every plan so customers' agents call Superagent directly; their open-source tooling (vibekit) sandboxes coding agents with data redaction.",
+  "why_memory": "Plausible on first principles rather than confirmed: Contributor Trust and the 'brin \u2014 credit score for context' repo both imply persistent, accumulating reputation state \u2014 scores for contributors, packages and context sources that only mean anything if they are retained and updated across repos and over time \u2014 which is a graph/memory-shaped problem. HEAVY CAVEAT, and this is the key finding on this logo: the Graphify customers page card for Superagent carries NO quote, NO evidence link and NO description of what Superagent actually does with Graphify, unlike the Rootly and HKUST cards which do. The only supporting claim is Graphify's own YC profile listing Superagent among engineers using it 'in production' \u2014 a pure vendor-side assertion. Nothing on Superagent's own site, blog, changelog or GitHub org mentions Graphify, knowledge graphs, or agent memory at all (checked). So: Superagent is unambiguously a real company, but its status as an agent-memory buyer is unverified and rests entirely on an unsupported logo placement.",
+  "sells_to": "Developers and small AI-native engineering teams, self-serve PLG with an open-source funnel; pricing tops out at a mid-market/Scale tier rather than true enterprise. Customer logos are other startups (Firecrawl, Mastra, Nango, Capchase, Ubicloud), which is the classic AI-startup-sells-to-AI-startups pattern."
+ },
+ {
+  "name": "Adapta",
+  "url": "unknown",
+  "cited_by": [
+   "Supermemory"
+  ],
+  "quote": "Case study \"How Adapta scaled its AI workspace to 100,000+ companies\" (June 12, 2026). Quote: \"We tested them out, and Supermemory had the best results. Even if you're building your own memory system, you should build it on top of Supermemory.\" Homepage testimonial from the same person: \"Supermemory let us scale usage without losing the thread of every conversation.\" Metrics: 100,000+ companies us",
+  "person": "Max Peters, Founder, Adapta",
+  "category": "AI workspace / horizontal AI assistant + agent builder for SMBs (per vendor description; unverified)",
+  "stage": "unknown",
+  "funding": "unknown \u2014 no funding record found; no Crunchbase, TechCrunch, or press coverage located",
+  "headcount": "unknown",
+  "accel": "unknown \u2014 no YC page found (ycombinator.com/companies/adapta returns 404)",
+  "agents": "Claimed: the product is itself an AI workspace \u2014 a general chatbot plus a tool for customers to create their own agents, plus internal AI tooling. So agents are the product surface, and the customers of Adapta are themselves building agents on top. Unverified.",
+  "why_memory": "Per the case study, Adapta was building its own memory systems in-house and found that maintaining them pulled focus from the core workspace product. Because the product spans chat, user-built agents and internal tooling, memory is cross-surface: a workspace people keep using has to remember what the user and their company have already done. They benchmarked the major memory vendors head-to-head, picked Supermemory, and now treat it as a building block \u2014 the founder's line being that even if you build your own memory system you should build it on Supermemory. The buying trigger is classic build-vs-buy fatigue at a small team, not a latency crisis.",
+  "sells_to": "B2B SMB (claimed)"
+ },
+ {
+  "name": "Cluely",
+  "url": "https://cluely.com",
+  "cited_by": [
+   "Supermemory"
+  ],
+  "quote": "Homepage hero logo ticker labelled \"Used by the best teams\" (container aria-label=\"Companies using Supermemory\"), logo file /images/customer-logos/cluely-wordmark.svg, linked to https://cluely.com. Also appears twice in the \"In production at\" logo rows of the use-cases carousel \u2014 under \"Knowledge Bases\" and under \"Realtime Knowledge\". Strong customer signal, no quote published.",
+  "person": "",
+  "category": "AI meeting assistant / real-time AI overlay (originally 'AI cheating' tooling)",
+  "stage": "Series A",
+  "funding": "$20.3M total across 2 rounds: $5.3M seed (Apr 21, 2025) co-led by Abstract Ventures and Susa Ventures, then $15M Series A (Jun 20, 2025) led by Andreessen Horowitz at a reported ~$120M post-money. Other investors named by PitchBook include Anti Fund and Karman. No later round confirmed as of Sept 2026. Revenue claims are contested: Roy Lee publicly claimed $7M ARR, then retracted it as 'a lie' and stated ~$5.2M; GetLatka lists ~$6M ARR.",
+  "headcount": "~20-70, sources disagree sharply. Tracxn reports 66 employees as of Jul 2026; a third-party analysis citing LinkedIn reports ~73 (peaking near 100); GetLatka says 22; PitchBook says 3. Wikipedia cites 16 as of 2025. Best read: on the order of several dozen, with LinkedIn-reported figures inflated by contractors/creators.",
+  "accel": "None \u2014 not YC. Venture-backed directly (Abstract Ventures, Susa Ventures, then a16z).",
+  "agents": "An always-on, real-time assistant rather than a task-executing agent: it continuously listens to the meeting audio, transcribes, and generates suggested answers and notes in an overlay on demand. Users can upload files and set custom instructions to steer what it says, and past meeting history is retained and browsable. Reporting at launch noted the raw version had 5-90s response delays and generic suggestions \u2014 precisely the quality gap that better retrieval and per-user context is meant to close.",
+  "why_memory": "Inferred, not stated \u2014 Cluely appears only as a logo on Supermemory's homepage ticker ('Used by the best teams', logo linked to cluely.com) and twice in the 'In production at' rows under Knowledge Bases and Realtime Knowledge; no quote or case study is published. The plausible fit is exact: a real-time meeting copilot must retrieve from the user's uploaded files and prior meetings within a sub-second latency budget, and its published feature set (file uploads, custom instructions, past-meeting history, cross-meeting continuity) is a knowledge base plus per-user memory. The Supermemory placement under 'Realtime Knowledge' is consistent with low-latency retrieval during live calls. Note this is a logo-wall citation, so treat the depth and current status of the relationship as unverified even though the company itself is unambiguously real and well-known.",
+  "sells_to": "Prosumer and B2B SMB \u2014 individual professionals and small sales/recruiting teams buying self-serve at $19.99-$149.99/mo. No enterprise tier is published on the pricing page."
+ },
+ {
+  "name": "Vela",
+  "url": "https://tryvela.ai",
+  "cited_by": [
+   "Supermemory"
+  ],
+  "quote": "Homepage hero logo ticker \"Used by the best teams\" (/images/customer-logos/tryvela-ai.png, data-mark=\"Vela\", linked to https://tryvela.ai). No quote published.",
+  "person": "",
+  "category": "AI scheduling/coordination agent for professional services (recruiting and executive search primary wedge)",
+  "stage": "Pre-seed / seed (YC W26 \u2014 very early)",
+  "funding": "Amount not disclosed anywhere I could verify. Backers named on their own site: Y Combinator, Pareto Holdings, Z Fellows, and angel Cory Levy. Presumably includes the standard YC deal, but no dollar figure is published \u2014 do not assume one. No Crunchbase/TechCrunch round record found.",
+  "headcount": "Small, likely 2-15, with a conflict in the sources: the YC directory profile lists team size 2 (the two cofounders), while the LinkedIn company page shows an 11-50 band with about 15 people listed. Given a Winter 2026 batch, the true full-time count is probably in the low single digits to low teens; treat 15 as an upper bound.",
+  "accel": "Y Combinator, Winter 2026 batch. Also Z Fellows and Pareto Holdings.",
+  "agents": "Vela is a single autonomous agent that owns the whole scheduling loop with no human in it: parse intent from a natural-language email or text, identify participants, read calendar state, negotiate across parties over separate channels (one participant on email, another on WhatsApp), propose and hold slots, book, confirm, remind, and re-run the entire negotiation on a cancellation. Multi-attendee and international-timezone coordination are called out as first-class cases, as are per-user meeting-type preferences.",
+  "why_memory": "Scheduling is the canonical stateful agent problem, and Vela's architecture makes it acute. A single meeting negotiation spans days, multiple channels (email plus SMS plus WhatsApp) and multiple humans, so the agent must carry one coherent thread of state across sessions and mediums \u2014 no context window survives that. It also needs durable per-principal preference memory: meeting-type defaults, buffer rules, which days a partner protects, who is a VIP worth double-booking around, how a given candidate or client prefers to be contacted, and the outcome of past coordination with that same person. In executive recruiting the same candidates and hiring managers recur across searches, so remembering prior interactions is what separates it from a booking link. Rescheduling explicitly requires recalling the original negotiation. And with a two-to-fifteen person team in their first year, buying a memory layer instead of building durable cross-channel agent state is the fastest path to shipping.",
+  "sells_to": "B2B, professional services firms \u2014 executive recruiters and search firms first, plus law firms, consultancies (LinkedIn copy references people at McKinsey and BCG) and BD teams. SMB-to-mid-market services firms rather than pure enterprise; the site name-drops end clients its customers work with (Netflix, LinkedIn, SanDisk, AWS)."
+ },
+ {
+  "name": "Fleetline",
+  "url": "https://www.fleetline.ai",
+  "cited_by": [
+   "Falconer (https://falconer.com)"
+  ],
+  "quote": "Logo-only. Appears in the hero logo strip on the homepage and /landing/ (markup: class=\"partner-logo\" aria-label=\"Fleetline\", href=https://www.fleetline.ai, background image /images/customers/fleetline-logo.svg). The strip carries no heading text such as \"trusted by\", so the customer claim is implicit \u2014 but the asset path is /images/customers/ and the same strip contains three confirmed customers ",
+  "person": "",
+  "category": "Vertical AI / freight tech \u2014 AI dispatch and fleet optimization for trucking",
+  "stage": "Seed (YC Summer 2025 batch)",
+  "funding": "unknown. No disclosed priced round, investor list, or \"backed by\" language appears anywhere on fleetline.ai, the underlying Framer site, the careers page, or the YC profile. As a YC S25 company they will have taken YC's standard deal, but I found no announced seed round and I am not going to invent a number.",
+  "headcount": "~11. The YC company profile lists team size 11; LinkedIn's band shows 2-10 employees with roughly 10 associated profiles. Small single-digit-to-low-teens team. Three roles were open at time of check: Deployments/Operations (NYC), Software Engineer (NYC/Lausanne), Algorithm Developer (NYC/Lausanne).",
+  "accel": "Y Combinator, Summer 2025 batch",
+  "agents": "AI is the product, not a feature. Two distinct layers: (a) a combinatorial optimization engine that enumerates and scores fleet-week plans, and (b) an LLM layer on top \u2014 the YC description says they combine \"advanced optimization with LLMs that can easily adapt algorithms to each fleet's needs,\" i.e. the model translates each customer's idiosyncratic constraints and preferences into the optimizer's configuration. Plus a retrieval/assistant surface: a ChatGPT-like assistant grounded in that fleet's own history and TMS data. Their own og:image alt text is \"Fleetline platform and AI dispatchers,\" so they position the software as an agentic dispatcher rather than a decision-support dashboard.",
+  "why_memory": "CAVEAT FIRST: Fleetline is a logo-only citation on Falconer \u2014 it sits in the hero logo strip (partner-logo, /images/customers/fleetline-logo.svg) with no quote, no named person, no case study, and no other mention on the site. The customer relationship is implied by the asset path and by the company it keeps, not stated. Plausible drivers, unverified: an ~11-person team split across New York City and Lausanne (a hard timezone/context split for a team this small); a product whose value depends on encoding each fleet's bespoke constraints, so per-customer configuration knowledge accumulates fast during a 65-day deployment cycle; and a deployments/ops function that has to hand context between the algorithm developers and the field. That combination \u2014 tiny distributed team, high per-customer knowledge load, LLM in the loop needing accurate internal context \u2014 is exactly the shape that buys a company brain. But treat this as inference, not evidence.",
+  "sells_to": "B2B SMB / mid-market \u2014 mid-to-large trucking fleet operators. Classic non-technical, operations-heavy buyer (dispatchers, fleet/ops managers, owner-operators scaling up), sold with an onsite-training, high-touch deployment motion rather than self-serve."
+ },
+ {
+  "name": "Seapoint",
+  "url": "https://www.seapoint.co",
+  "cited_by": [
+   "Falconer (https://falconer.com)"
+  ],
+  "quote": "Logo-only. Appears in the hero logo strip on the homepage and /landing/ (markup: class=\"partner-logo\" aria-label=\"Seapoint\", href=https://www.seapoint.co, background image /images/customers/seapoint-logo.svg). Same caveat as Fleetline: the strip has no \"trusted by\" label, so the customer claim is implicit, though the /images/customers/ asset path and the company it keeps (Payabli, Thatch, Vori) in",
+  "person": "",
+  "category": "Fintech \u2014 AI-native startup finance ops / spend + accounting automation (a European Brex/Mercury-adjacent play)",
+  "stage": "Seed",
+  "funding": "\u20ac10M raised to date, per Seapoint's own /about-us page. The headline round is a \u20ac7.5M seed led by 13books Capital, announced 2026-04-21 in the post \"We've raised \u20ac7.5M to give every startup founder financial clarity from day one.\" Other investors named: Frontline Ventures, Tapestry VC, Portfolio Ventures, Ventures Together, plus 40+ angels \u2014 including Claire Hughes Johnson (ex-COO, Stripe), Laurence Krieger (ex-COO Revolut, ex-UK CEO Tide), George Bevis (founder, Tide), and Des Traynor (co-founder, Intercom).",
+  "headcount": "~20-30. The /about-us page says \"20 People building across Europe\"; LinkedIn shows the 11-50 band with roughly 30 discoverable employee profiles. Distributed across Europe with a Dublin registered address (6 Mount Street Upper, Dublin D02 PY50) and a UK operating entity. Hiring runs through Workable (apply.workable.com/seapoint).",
+  "accel": "None found. Not a YC company; no accelerator affiliation appears on the site or LinkedIn. Backed by conventional European seed VCs instead.",
+  "agents": "AI runs the finance back office rather than sitting in a chat box. Shipped: automatic categorisation of bank transactions (they published a dedicated post, \"How Seapoint Uses AI to Categorise Your Bank Transactions\"), AI-powered invoice processing, and automated ingestion across banks, email and accounting software \u2014 email is a first-class data source, which is the interesting bit, since it means parsing unstructured founder inbox traffic into ledger events. Runway Analysis lets a founder model a decision and see the runway impact. Their positioning is explicit and unusually strong: \"We built Seapoint AI-native from day one. Not 'AI features' added to existing software, but every process designed from the ground up with AI at the core.\" Roadmap language commits to \"making your financial data work wherever you do, with agents and AI workflows\" \u2014 so discrete agents are stated as forward-looking rather than fully shipped today.",
+  "why_memory": "CAVEAT FIRST: like Fleetline, Seapoint is a logo-only citation on Falconer \u2014 hero logo strip, /images/customers/seapoint-logo.svg, no quote, no named person, no case study, no other mention on the site. Customer status is implied by the asset path and the strip's confirmed neighbours (Payabli, Thatch, Vori), not asserted. Plausible drivers, unverified: a ~20-30 person team \"building across Europe\" (distributed, so context lives in heads and Slack); an unusually wide product surface for a seed company \u2014 payroll, treasury, bookkeeping, invoice pay, business accounts, reporting, plus an integrations catalogue \u2014 each with its own rules; a regulated-fintech context where the correct answer to \"how does payroll handle X\" has compliance consequences and partner-specific constraints (Modulr, WealthKernel, Xero); and an explicitly AI-native architecture whose own automation needs trustworthy internal product knowledge as its ground truth. Note the shape of the fit: a company that has bet its whole product on AI is more likely to buy AI-context tooling for its own team.",
+  "sells_to": "B2B SMB \u2014 early-stage startups and scale-ups in the UK and Ireland. Buyer is the founder/CEO or first finance hire, not a CFO org. Self-serve signup at seapoint.app plus published pricing, so a low-touch PLG motion."
+ },
+ {
+  "name": "Ecom Nation",
+  "url": "unknown",
+  "cited_by": [
+   "Coworker (coworker.ai) - Village Platforms, Inc."
+  ],
+  "quote": "Case study \"How Ecom Nation Streamlined Meeting Intelligence with Coworker\". Described as a retail marketing agency spending 15-20 hours/week in client and internal meetings. Verbatim: \"Coworker isn't just a transcription tool - it's fundamentally changed the way we operate. Before, we'd spend hours digging through disjointed meeting notes trying to piece together client conversations. Now that in",
+  "person": "Mal Chia, Co-founder and Managing Director",
+  "category": "Marketing services \u2014 ecommerce/DTC performance marketing agency. A services business, not a software company. This is the outlier in the set: the other two Coworker logos are venture-scale software companies.",
+  "stage": "Bootstrapped, owner-operated agency. Not venture-backed; no funding stage applies.",
+  "funding": "None / not applicable. No evidence of outside investment, and none would be expected for a boutique agency of this shape.",
+  "headcount": "unknown, but small \u2014 likely under 20. Three people are named on the site: Mal Chia (Founder & Managing Director), Paul Waddy (Founder) and Casey Huth (Performance Director). The Coworker case study says the team spent 15-20 hours a week in client and internal meetings and saved \"2-3 hours per week per team member,\" which implies a team measured in single or low double digits, not hundreds. The site's \"senior strategist on every account, no juniors\" model structurally caps headcount.",
+  "accel": "None. Not applicable to a services agency.",
+  "agents": "Pure buyer, not builder \u2014 no AI in what they sell. They use Coworker as a meeting-intelligence and organizational-search layer: meetings are transcribed and summarized automatically, then the content is contextualized and connected to their other business tools, with unified search, custom reports and topic tracking on top. They replaced Fireflies with it. Mal Chia's quote makes the distinction the vendor wants: \"Coworker isn't just a transcription tool \u2014 it's fundamentally changed the way we operate. Before, we'd spend hours digging through disjointed meeting notes trying to piece together client conversations. Now that information is automatically captured, contextualized and connected to everything else.\" Reported results: 30-40% reduction in time spent searching for information, 2-3 hours/week saved per team member, and roughly 30-40% of previously wasted time redeployed into client work.",
+  "why_memory": "This is the clearest and most honest buyer profile in the set, and it is the classic small-services-firm case: billable strategist time is literally the product, so any hour spent reconstructing what a client said is margin destroyed. A senior strategist juggling many concurrent accounts has to recall months-old context per client on demand, and that context lives scattered across meeting notes, Slack and ad platforms. Chia frames it as a competitive argument rather than a productivity one: \"The difference between average agencies and exceptional ones isn't just talent \u2014 it's how effectively you deploy that talent.\" He also notes the counterintuitive outcome \u2014 \"by focusing less on documenting meetings and more on acting on them, our client communication has actually improved.\" Notably, the pain here is meeting-and-client memory, a narrower and more concrete need than the enterprise-wide knowledge-graph pitch Coworker makes to Harri, Harness and RapidSOS \u2014 which suggests the category is selling to two quite different buyers under one story.",
+  "sells_to": "B2B SMB / lower mid-market. Australian and international DTC ecommerce brands doing 7+ figures in revenue; the buyer is a founder or head of growth at a consumer brand. Selling retainer services, not software."
+ },
+ {
+  "name": "Wordware",
+  "url": "https://www.wordware.ai",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ],
+  "quote": "Logo in the homepage \"Used by developers at\" ticker (\"frontier\" group). AMBIGUOUS: developer-level claim only. No quote or case study.",
+  "person": "",
+  "category": "AI assistant / agentic knowledge-work OS (prosumer productivity); formerly AI developer tools",
+  "stage": "Seed",
+  "funding": "$30M seed led by Spark Capital with Felicis and Y Combinator; also Day One Ventures, 20SALES, SVA, Theory Forge, Friends & Family Capital, Innovation Nest, J4 Ventures. Angels include Paul Graham, Vlad Magdalin, Mathilde Collin, Jason Boehmig, Siqi Chen, Kulveer Taggar, Terrence Rohan, Ben Tossell, Azeem Azhar, Swyx, Theo (t3.gg), Soleio, Paul Daugherty. Company claims this is the largest seed round in YC history and states 70 months of runway.",
+  "headcount": "14 (stated on wordware.ai/story, current). Note: the YC company profile says ~20 \u2014 the smaller, self-reported figure is likely post-pivot and more current. LinkedIn not independently checked.",
+  "accel": "Y Combinator, Summer 2024 batch",
+  "agents": "Sauna IS the agent. It runs proactively and asynchronously \u2014 batch-processing CVs, triaging email, filing tickets \u2014 executes learned Recipes in the background while the user is away, and returns work for review. Autonomy is graduated: assist, then co-do, then propose automation. This is one of the purest 'ambient agent with earned trust' products in the market, and it lives or dies on how well it models one specific person.",
+  "why_memory": "By far the strongest fit of the three, and also the most likely to be a competitor rather than a customer. Wordware's stated product thesis is literally 'an AI assistant built for compounding context' that 'learns your taste, detects hidden patterns, augments your brain context' \u2014 persistent per-user memory of style, priorities and boundaries across email, docs and meetings is the entire moat, not a feature. That is exactly Honcho's pitch. The catch: they brand themselves an 'AI context lab' and describe building the file-system + Spaces + Recipes memory substrate in-house, which makes a build-vs-buy purchase unlikely to persist. A Honcho logo here most plausibly reflects either evaluation/experimentation, or usage during the V1 IDE era before the pivot, rather than production dependence today. Worth noting as a category signal though: the profile of company that ends up on these logo walls is 'small, well-funded, agent-native, building a personal assistant' \u2014 Wordware is the archetype.",
+  "sells_to": "Prosumer / individual knowledge workers post-pivot (the founders explicitly moved from developer infrastructure to a direct consumer-prosumer product because 'users wanted outcomes, not workflows'). Previously developers and technical domain experts. Founders: Filip Kozera (CEO) and Robert Chandler (CTO), who met studying deep learning at Cambridge."
+ },
+ {
+  "name": "Chroma",
+  "url": "https://www.trychroma.com",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ],
+  "quote": "Logo in the homepage \"Used by developers at\" ticker (\"frontier\" group). AMBIGUOUS on two counts: developer-level wording, and Chroma is a vector/search database that could be part of Honcho's own stack rather than a customer.",
+  "person": "",
+  "category": "AI infrastructure \u2014 vector/search database, retrieval layer (an adjacent-layer vendor, arguably a supplier to or peer of agent-memory companies rather than a buyer)",
+  "stage": "Seed confirmed; a later round is plausible but unverified",
+  "funding": "$18M seed announced 7 April 2023, led by Astasia Myers at Quiet Capital, with angels Naval Ravikant, Max and Jack Altman, Jordan Tigani (MotherDuck), Guillermo Rauch (Vercel), Akshay Kothari (Notion), Amjad Masad (Replit), Spencer Kimball (CockroachDB), plus angels from MongoDB, Scale, Hugging Face, Jasper, ScienceIO and Gumroad. Confirmed from Chroma's own blog post at trychroma.com/blog/seed. NO later round confirmed: their sitemap lists no Series A announcement page, and I could not verify any subsequent raise (web-search budget exhausted; a /blog/series-a URL 404s). I have an unverified recollection of a 2025 Series A but am deliberately not asserting an amount, lead or valuation. Treat post-seed funding as unknown.",
+  "headcount": "unknown \u2014 not stated on trychroma.com/careers. Indirect signal: San Francisco based, all roles on-site, 6 open roles listed as of this check (1 Account Executive, 4 engineering \u2014 database storage, distributed systems, platform, product \u2014 and 1 product designer). The shape suggests a small team (likely low tens), but no number is confirmed and none should be quoted.",
+  "accel": "none found",
+  "agents": "Chroma is the retrieval layer agents call, not an agent product itself. Its docs ship an 'Agentic Search' guide \u2014 'Build agents that iteratively search and refine results for complex queries' \u2014 and a code-search example describing 'coding agents using AST-aware chunking.' The homepage lists 'Agent' as a product offering and the company publishes 'context engineering' research on optimizing retrieval for LLM applications. Their careers page frames the mission as helping 'AI agents access context quickly with minimal infrastructure overhead.'",
+  "why_memory": "This is where the citation gets genuinely suspect, and I would flag it to whoever is building the buyer list. Chroma is not a natural BUYER of agent memory \u2014 it is a supplier of the primitive that agent-memory products are built on. Their own seed announcement pitched Chroma as the thing that lets 'LLM applications have long term memory' and lets developers 'add state and memory to their AI-enabled applications.' An agent-memory vendor like Honcho needs a vector/search store underneath its own service, so a Chroma logo on Honcho's site is at least as likely to represent a dependency, a partnership, or a co-marketing swap as a customer relationship. The parent brief's two-count ambiguity flag is well founded and I would not count Chroma as demand-side evidence for this category. (Note: I found the string 'chroma' in Honcho's docs HTML, but it is a Mintlify internal deployment field, not a stack disclosure \u2014 no evidence either way.)",
+  "sells_to": "Developers and AI engineers first (open source, bottom-up adoption), converting to Cloud usage-based revenue, with an enterprise BYOC motion up-market (Capital One and UnitedHealthcare cited). Now hiring its first-listed Account Executive, which suggests the enterprise sales motion is early."
+ },
+ {
+  "name": "Revenue Reimagined",
+  "url": "https://revenuereimagined.com",
+  "cited_by": [
+   "Papr (papr.ai / Papr AI, Papr Work + Papr Graph/Memory)"
+  ],
+  "quote": "\"Our client work starts with dozens of stakeholder interviews \u2014 each one full of context that needs to be categorized, organized, and analyzed before we can deliver meaningful recommendations. That process used to be entirely manual. With Papr Work, we built a system that ingests interviews, organizes the data, and surfaces the patterns. We spend our time on strategy, not sorting through transcrip",
+  "person": "Dale Zwizinski, Managing Partner, Revenue Reimagined",
+  "category": "B2B GTM / revenue-transformation consultancy (services firm, not a software vendor)",
+  "stage": "Bootstrapped services firm \u2014 not venture-backed. Own timeline: 2019 founders identified the \"GTM Gap\" inside VC-backed unicorns; 2021 operators left C-suite roles to form the collective; 2023 launched the \"Responsible GTM\" methodology.",
+  "funding": "unknown / none found \u2014 no VC, PE, or accelerator funding located for the firm itself. Self-funded consultancy revenue. Do not confuse with the $64.5M+ they claim to have helped *clients* raise.",
+  "headcount": "2-10 (LinkedIn self-reported company size). Named people: Adam Jay (co-founder, CEO), Dale Zwizinski (co-founder, GTM Officer \u2014 the testimonial giver, who also uses the title Managing Partner / GTM Operating Partner externally), Jake Reni (operating partner), Mariner Merrill (Operations Manager, publicly announced as their first employee hire). Realistically ~4-6 people plus a bench of contract operators.",
+  "accel": "None",
+  "agents": "AI is a layer inside a human consulting engagement, not a product they ship. Their /ai-strategy page sells a \"GTM AI Charter\" that \"identifies where AI belongs across pipeline, process, data, and execution,\" mapped to their four phases: AI distills customer interviews and call data to surface revenue-loss patterns (Stabilization), standardizes documentation and playbooks (Foundation), scores calls and enriches account data (Repeatability), prioritizes and predicts (Scalability). Dale's operator page describes \"AI-augmented execution patterns that compound revenue without bloating headcount,\" and he publicly claims he builds the AI himself rather than just having opinions about it. Their /how-to-ai guide is essentially a memory manifesto: it tells leaders to stop using one-off chats because \"the model has zero context,\" and instead build persistent AI workspaces loaded once with ICP, positioning, metrics, sales process, decks, playbooks, call notes and board updates. Explicit stance is \"AI adoption follows discipline, not hype\" and \"we fix the system before we scale it\" \u2014 no autonomous agent product, no AI SDR army.",
+  "why_memory": "Their unit of work is the stakeholder interview. Dale's Papr testimonial says client engagements start with \"dozens of stakeholder interviews \u2014 each one full of context that needs to be categorized, organized, and analyzed\" and that the sorting was entirely manual. That is a classic unstructured-corpus-to-insight problem: many transcripts per engagement, many engagements in parallel, patterns that only appear across interviews, and a 4-week sprint clock that makes manual synthesis the binding constraint on margin. A 2-10 person firm cannot add analysts, so the memory/knowledge layer is the leverage. Note the product fit: they bought Papr Work (the app/workspace surface), not the memory API \u2014 they are a no-code buyer who wants an ingest-organize-surface system, not a retrieval SDK. Their own /how-to-ai advice (persistent project context beats one-off prompts) is the buying thesis stated in their own words.",
+  "sells_to": "B2B mid-market \u2014 VC-backed startups and PE portfolio companies roughly $5M-$100M+ revenue, sold to founders/CEOs and revenue leaders; also sells into VC and PE firms as a portfolio-services partner"
+ },
+ {
+  "name": "WalkMe",
+  "url": "https://www.walkme.com",
+  "cited_by": [
+   "Tribal (gotribal.ai)"
+  ],
+  "quote": "\"Building our customer Health monitor with Tribal proved AI can deliver at enterprise scale. It runs natively in Salesforce, meets every security standard, and never exposes our data outside our trusted environment.\" (homepage + /platform/salesforce). Slightly different wording in the blog post: \"Building our customer health monitor with Tribal proved AI can deliver at enterprise scale...\" Also us",
+  "person": "Tal Carmi, Deputy CIO (listed elsewhere on the same site as CIO), WalkMe",
+  "category": "Digital adoption platform / enterprise software (SAP subsidiary) \u2014 not an agent-memory-adjacent startup; a large enterprise software buyer",
+  "stage": "Acquired \u2014 was VC-backed (Series A through G), IPO'd on NASDAQ June 2021, taken private by SAP September 2024. Now an SAP business unit.",
+  "funding": "~$307.5M in venture funding across Series A-G (2012-2019); IPO June 16, 2021 at a ~$2.56B valuation; acquired by SAP for ~$1.5B (announced June 2024, closed September 2024, a ~45% premium to the pre-announcement share price). No independent fundraising post-acquisition.",
+  "headcount": "~1,000-1,300. LinkedIn shows 1,001-5,000 with ~1,226 employees listed; Wikipedia cites 1,100; WalkMe's own About page says '900+'. Post-SAP-acquisition headcount is not separately disclosed.",
+  "accel": "None known \u2014 no accelerator affiliation; traditional Israeli/Silicon Valley VC path (Giza, Mangrove, Scale Venture Partners, Insight, Vitruvian and others across rounds).",
+  "agents": "Two distinct places. (1) In the product: WalkMe now markets 'contextual AI assistance' in three modes \u2014 Pinned AI (validation embedded in a workflow step), Proactive AI (reads screen context and surfaces the next action unprompted), and On-Demand AI (conversational Q&A inside any app). It is explicitly RAG-grounded in the customer's own documentation and policies rather than a general model, and WalkMe has announced an 'agentic WalkMe experience' where admins build adoption solutions through plain-language conversation. (2) Internally \u2014 the relevant use for this research: WalkMe's own IT org used Tribal to build a customer Health Monitor that runs natively inside Salesforce. The testimonial from Tal Carmi stresses that it 'runs natively in Salesforce, meets every security standard, and never exposes our data outside our trusted environment.' So WalkMe is an internal-IT buyer of an agent-building platform, not a buyer of agent memory for its own shipped product.",
+  "why_memory": "The stated buying trigger is data residency and enterprise-grade context, not memory per se. WalkMe's IT wanted an agent that reasons over live Salesforce customer data (health scoring across ~1,600 accounts) without that data leaving their trusted environment. Any such agent needs durable, governed context: the Salesforce object model and metadata, what 'healthy' means for their business, prior scoring rationale, and account history over time. Their own product has the same shape of need \u2014 DeepUI plus RAG over customer policy documents is effectively an organizational memory layer for guidance. The generalizable pull is: an enterprise IT function with a mature system of record wants agents grounded in company-specific context, inside the security perimeter.",
+  "sells_to": "B2B enterprise. Large and very large organizations, sold primarily to IT / CIO / digital transformation offices, then extended to HR, sales ops, customer care, and public sector. Classic top-down enterprise motion with security review, procurement, and multi-year contracts."
+ },
+ {
+  "name": "Agentplace",
+  "url": "https://agentplace.io",
+  "cited_by": [
+   "Trace (trace.so)"
+  ],
+  "quote": "Product Hunt review: \"I typed the compliance overlooking process...and it kicked out a full workflow, split up for AI agents and humans, and I could tweak everything in seconds.\"",
+  "person": "Mariam Grigoryan (Agentplace)",
+  "category": "AI agent building platform / no-code agent workspace (agent PaaS)",
+  "stage": "unknown \u2014 no announced round found; appearance is pre-seed or bootstrapped",
+  "funding": "unknown \u2014 no funding announcement anywhere on agentplace.io (checked homepage, /blog, /pricing, /llms.txt, /llms-full.txt); Crunchbase returned 403 and this session's web-search budget was exhausted, so I could not confirm or rule out a round. Do not assume zero.",
+  "headcount": "2-10 (LinkedIn company size band for linkedin.com/company/agentplace-io; 8 employees listed on the page)",
+  "accel": "none found \u2014 no YC batch, no accelerator mentioned on site, blog, LinkedIn, or Product Hunt",
+  "agents": "Agents are the entire product, not an internal efficiency tool. Agentplace sells agent infrastructure: the customer's agent is a deployed web app with its own VM, backend, and model loop. Agents appear at three layers \u2014 (1) the builder is itself an agent that writes, tests, screenshots and debugs the agent it is constructing; (2) the built agent runs a tool-calling loop with sub-agents for general work, code execution and page fetching; (3) published agents call each other agent-to-agent and expose MCP so external agents (Claude Code, Cursor) can drive them. Note: LinkedIn copy says agents 'autonomously assess task requirements and request permission to purchase necessary tools using platform credits.'",
+  "why_memory": "Genuine structural need, but note they already build their own. Their llms.txt lists memory as a first-class runtime component ('Brain: the model loop, tools, sub-agents and memory'), advertises memory shared across site and chat mode, and claims the agent 'remembers people across conversations, so a visitor does not have to repeat what they already said.' They also run per-visitor business records with server-enforced access classes \u2014 effectively scoped memory with an authorization model. So they are as much a builder of agent memory as a buyer of it; a memory vendor sells to them only as a component swap, not a greenfield need. IMPORTANT CAVEAT ON THE SOURCE: the Trace (trace.so) citation is a Product Hunt REVIEW attributed to Mariam Grigoryan, not a confirmed deployment or paid customer relationship. I could not locate the review \u2014 Product Hunt's 'trace-6' slug is an unrelated 2022 sneaker-consignment product (jointrace.co, 2 upvotes), and its reviews page reads 'No reviews yet.' Mariam Grigoryan does appear active in Agentplace's Product Hunt community discussions but is not among the four employees LinkedIn surfaces. Treat 'Agentplace is a Trace customer' as unverified marketing attribution.",
+  "sells_to": "B2B SMB and prosumer, fully self-serve ($0 / $29 / custom). Explicitly pitched to non-technical solopreneurs and small service businesses ('no code is required from the owner at any point'), with a developer-adjacent surface via GitHub sync and the auto-provisioned MCP address. A 'Business' tier gestures at enterprise but there is no enterprise sales motion visible."
+ },
+ {
+  "name": "Unpaved",
+  "url": "unknown",
+  "cited_by": [
+   "Maximem (Synap)"
+  ],
+  "quote": "AMBIGUOUS - wordmark-only entry in the homepage 'Trusted by builders at' marquee. No link, quote or case study.",
+  "person": "",
+  "category": "AI transformation / process-intelligence and operational discovery (consulting-as-software for enterprise AI readiness)",
+  "stage": "unknown - presents as pre-seed or bootstrapped; no funding round found",
+  "funding": "unknown",
+  "headcount": "unknown - the About page references two co-founders and no team page or careers page exists; likely 1-5 people",
+  "accel": "none found",
+  "agents": "Agents are the delivery mechanism for discovery, not the thing sold. The platform runs \"adaptive AI interviews\" - LLM-driven conversational agents that interview employees across an organization, follow up dynamically based on answers, and then synthesize hundreds of those interviews into a system-level work map with an evidence trail back to source responses. This is agentic research/elicitation rather than agentic execution: the site does not describe deploying autonomous agents into customer workflows, and the pitch explicitly favors interpretability and human decision-making over agent autonomy.",
+  "why_memory": "Their product IS an organizational memory problem. An interview agent talking to hundreds of employees over a 1-2 week engagement has to carry context across sessions (what department X already said, which handoff was already described, which contradiction needs probing) and progressively build a single coherent org-level model rather than N disconnected transcripts. That is exactly the structured-extraction-plus-graph-retrieval shape Maximem sells: entities (people, teams, systems, handoffs) and relationships accumulated across many conversations, retrieved mid-interview. They also need an audit-grade evidence trail linking every roadmap recommendation back to the specific interview turns that produced it - a provenance requirement a raw vector store handles poorly. Secondary need: per-account persistence, so a returning client's map updates rather than restarts.",
+  "sells_to": "B2B enterprise (operations leaders, transformation leads, COO/VP Ops buyers at large organizations)"
+ },
+ {
+  "name": "Eragon",
+  "url": "https://www.eragon.ai",
+  "cited_by": [
+   "Hyperspell"
+  ],
+  "quote": "Homepage logo marquee (img alt=\"Eragon\"). AMBIGUOUS/RECIPROCAL: a public LinkedIn post from Eragon founder Josh Sirota's \"51 weeks, 51 customers\" series features Hyperspell, with Conor Brennan-Burke saying \"Josh and Eragon have made a huge difference on our journey\" \u2014 i.e. Hyperspell is a customer of Eragon. The two may be mutual customers; Hyperspell's marquee placement is the only claim in this ",
+  "person": "",
+  "category": "company brain / AI operating system / applied AI lab (agent + memory infrastructure itself)",
+  "stage": "seed",
+  "funding": "$12M seed round (site-wide banner: \"Announcing our $12 million seed funding round\"). Backers named on their About page: Arielle Zuckerberg, Cyan Banister, Lee Jacobs, SOMA (SOMA Capital) and Axiom. Lead investor and exact date not disclosed on the site.",
+  "headcount": "11-50 (LinkedIn band); 4 open roles listed (Member of Technical Staff, ML Engineer, Applied Research Engineer, Applied AI Intern), all San Francisco. Realistically a small single-digit-to-low-teens team given a 2025 founding and a $12M seed.",
+  "accel": "unknown - no YC or accelerator affiliation found; investors are angels plus SOMA and Axiom",
+  "agents": "Agents are the product. They run across a customer's connected systems (product data, billing, revenue, CRM, underwriting, onboarding) as read-and-write operators rather than chat toys, and Eragon benchmarks each agent on accuracy, speed and value delivered against business outcomes. Customers describe replacing multi-tool lookups with a single chat query for decision-making. \"Agent isolation\" and \"automation triggers\" are named stack components, so agents run unattended, not just on demand.",
+  "why_memory": "Persistent memory is an explicitly listed layer of their own stack, so the need is structural: an AI OS that answers cross-system business questions is a retrieval-and-memory product first. Their customers' quotes are memory complaints verbatim - Slash's CEO on business data scattered across product, billing, revenue and CRM and wanting \"one place where we can read and write to all those systems.\" IMPORTANT CAVEAT ON DIRECTION: the relationship with Hyperspell appears reciprocal and possibly inverted. Eragon founder Josh Sirota's \"51 weeks, 51 customers\" LinkedIn series features Hyperspell, with Hyperspell's Conor Brennan-Burke saying Eragon made a difference to their journey - i.e. Hyperspell as Eragon's customer. Hyperspell's unlabeled homepage marquee is the only evidence in the other direction. Most likely reading: mutual customers, or a partnership/investor-network relationship rendered as a logo. Either way, Eragon is a poor archetype for \"who buys agent memory\" - it is closer to a peer building the same thing.",
+  "sells_to": "B2B - \"AI Native Companies\", i.e. venture-backed startups and scaleups in the SF network, sold top-down to founders and heads of ops/finance. Named customer testimonials on their site: Nico Laqua (CEO & Founder, Corgi), Victor Cardenas Codriansky (CEO & Co-Founder, Slash), Nicky He (Head of Operations, Staff & Finance, Labs), Michael Kim (Co-Founder), Sid Rajaram (Co-Founder). Sales motion is high-touch (\"Book a call\" only, no self-serve, no public pricing) with forward-deployed engineers."
+ },
+ {
+  "name": "Corgi Insurance",
+  "url": "https://www.corgi.insure",
+  "cited_by": [
+   "Glen (Glen Labs Incorporated) \u2014 https://www.tryglen.com/"
+  ],
+  "quote": "Homepage logo wall under the heading \"Powering knowledge work at\" (/logos/corgi.svg, alt \"Corgi Insurance logo\"). No testimonial. Alt text says \"Corgi Insurance\", matching Corgi (YC S24 AI-native startup-insurance carrier, corgi.insure) rather than the unrelated YC company Corgi Labs (payments). Logo-wall-only evidence, so slightly ambiguous as to depth of deployment.",
+  "person": "",
+  "category": "insurtech / AI-native financial infrastructure (full-stack carrier, not a brokerage)",
+  "stage": "Series B",
+  "funding": "~$268M total disclosed, all per Corgi's own site (independent press verification not obtained \u2014 web search budget was exhausted, so treat amounts as company-reported): $108M seed + Series A at a $630M valuation (2024), investors named as Y Combinator, Kindred Ventures, Oliver Jung, Leblon Capital, Contrary, and Glade Brook Capital Partners; then a $160M Series B at a $1.3B valuation (2025). No Series B lead investor named on the site.",
+  "headcount": "~250-350 and hiring hard. YC profile states team size 250; LinkedIn shows a 51-200 band but ~354 associated employee profiles; the careers page lists 60 open roles (Sales 15, Engineering 13, Finance 8, Operations 7, Marketing 7, Product 3, Design 2, Legal 1) across 16 cities including SF, NY, Boston, Dallas, Chicago, Atlanta, Austin, SLC, London, Dublin, Paris, Amsterdam, Barcelona. By far the largest of the three Glen names.",
+  "accel": "Y Combinator, Summer 2024 (S24); YC also listed as an investor in the seed/Series A. YC partner: Jared Friedman.",
+  "agents": "AI is in the operational core rather than sold as an agent product. Corgi describes itself as \"the first full-stack AI insurance carrier\": AI drives underwriting and quoting (sub-10-minute quotes, same-day binding, no broker in the loop) and is paired with human claims expertise (\"60+ years of claims experience\") for end-to-end claim ownership. The site does not detail a customer-facing agent product, named agent workflows, or agent tooling \u2014 the AI claim is about automating the carrier's own underwriting/servicing pipeline. Its ~13-person-and-growing engineering org building carrier systems in-house is where coding agents would sit.",
+  "why_memory": "INFERRED \u2014 evidence is logo-wall-only. Corgi appears in Glen's \"Powering knowledge work at\" wall with no testimonial, so depth of deployment is unknown. The rationale that fits: Corgi is the one name on the wall with real organizational scale \u2014 a few hundred people across 16 cities, 60 open roles, and a regulated domain where the reasoning behind an underwriting rule or a policy-system change is auditable and expensive to lose. That is Glen's \"company brain\" pitch (answer questions from Slack/GitHub/tickets/docs, replay why an agent made a change) rather than its token-saving agent-memory pitch. Onboarding velocity alone \u2014 60 concurrent hires \u2014 makes searchable institutional context valuable. Caveat: Corgi's YC S24 ties and its sponsorship of YC S26 founder events mean the Glen relationship could be network-driven rather than a competitive enterprise purchase.",
+  "sells_to": "B2B SMB, with an enterprise-shaped internal org. The buyer is a founder or ops/finance lead at a venture-backed startup (pre-seed through growth), sold self-serve via an instant-quote flow at $2K-$15K annual premiums \u2014 small ticket, high volume. The 15 open sales roles and 16-city footprint suggest a move upmarket and into adjacent lines (workers' comp, trucking)."
+ },
+ {
+  "name": "Payabli",
+  "url": "https://www.payabli.com",
+  "cited_by": [
+   "Falconer (https://falconer.com)"
+  ],
+  "quote": "Full case study \"How Payabli replaced Confluence with Falconer in two days\" (June 1, 2026). Profile block: Industry Fintech, Location Miami FL, Company size 125+. Pull quotes: \"I see engineers sharing Falconer links all day now. We never saw that with other tools. There's the proof.\" and \"My stress level is much lower because of Falconer.\" In-body quotes: \"Nobody actually uses Confluence... you wr",
+  "person": "Casey Smith, Director of Documentation at Payabli",
+  "category": "fintech / embedded payments infrastructure for vertical SaaS (payfac-as-a-service)",
+  "stage": "Series B",
+  "funding": "$60M total disclosed as of Jun 2025. $12M seed (Mar 2023); $20M Series A (Jun 2024, led by QED Investors with TTV Capital, Fika Ventures, Bling Capital; brought total to $32M at a nine-figure valuation); $28M Series B (Jun 17 2025, co-led by Fika Ventures and QED Investors, with existing investors TTV Capital and Bling Capital). No round announced publicly since. Reported 7x YoY revenue growth at Series B; Inc. reported 300% growth since 2023.",
+  "headcount": "~125+ (Falconer case study profile block, Jun 2026), of which ~50 engineers. For reference: 49 employees in Jun 2024 per TechCrunch, expecting ~70 by end of 2024 \u2014 so roughly 2.5x growth in two years. Fully remote. LinkedIn not directly verifiable in this session.",
+  "accel": "None found \u2014 not a YC company; venture-backed from seed by QED/TTV/Fika/Bling",
+  "agents": "Agents are a 2026 product layer on top of a 2020-founded payments platform, announced Jul 30 2026 as 'intelligence in every layer of embedded payments'. (1) Amigo AI agent suite \u2014 Amigo Insights is live: natural-language querying of live payment data (funding status, chargebacks, residuals, merchant demographics) replacing manual reporting; roadmap includes Amigo Risk (proactive transaction monitoring), Amigo Chargebacks (auto-gathers evidence and drafts dispute responses), Amigo Boarding (walks merchants through onboarding), Amigo Underwriting (risk assessment to cut manual review), Amigo Pricing & Billing (rate optimization, fee calc, residuals). (2) Agentic vendor enablement and enrichment \u2014 outbound/voice agents contact vendors during payout runs to enroll them in card acceptance and enrich vendor data, replacing manual vendor-network building. (3) Agent Skills + an MCP server so a partner's own coding agents can implement a Payabli integration, compressing integration from weeks. (4) Agentic Site-Pay, built as a pilot partner in Visa's Intelligent Commerce Connect Program: agents discover vendor sites, execute payment end-to-end, and reconcile. Internally: engineers, HR, finance and marketing use Falconer as the documentation layer, connected to Slack, Linear and GitHub.",
+  "why_memory": "~125 people and ~50 engineers, fully remote, tripled since 2023 with a documentation function of essentially one person (Casey Smith, Director of Documentation). Confluence was the sanctioned wiki but nobody used it \u2014 knowledge lived in Google Drive and Slack threads, written once to satisfy a compliance or review requirement and then never updated. In a regulated payfac, stale internal knowledge is a compliance and risk-review problem, not just an annoyance. Two compounding drivers: (a) senior engineers were the human search index and were being interrupted constantly; (b) they are now shipping customer-facing agents and an MCP/agent-skills surface, which means their own payment operations and API semantics have to be written down accurately somewhere an agent can read. Casey Smith's framing \u2014 'we're starting to develop a culture of writing and looking things up before asking someone; that's very important for scale' \u2014 is the buying trigger: scale-stage headcount growth outrunning tribal knowledge.",
+  "sells_to": "B2B \u2014 sells to software companies / vertical SaaS platforms (property management, home services, CRE, field services), which in turn onboard their own SMB merchants. Developer-led sale (APIs, MCP server, agent skills) with a partnerships/advisory motion on top. Also enterprise-adjacent via bank partnerships (Huntington, PNC) and Visa."
+ },
+ {
+  "name": "Vori",
+  "url": "https://www.vori.com",
+  "cited_by": [
+   "Falconer (https://falconer.com)"
+  ],
+  "quote": "Full case study \"How Vori uses Falconer as a librarian to automate engineering docs\" (May 22, 2026). Profile block: Industry Grocery management software, Location San Francisco CA, Company size 50-100. Pull quotes: \"It's one of the best document editors I've come across. It's one of the best AI tools I've come across in the sense that I trust it.\" and \"The amount of time that I've spent answering ",
+  "person": "Clinton Blackburn, Engineering Manager at Vori",
+  "category": "vertical SaaS \u2014 grocery retail operating system / POS + AI ops agents",
+  "stage": "Series B",
+  "funding": "$50M total. $10M Series A (Aug 2022); $22M Series B (announced May 5 2026, Fortune exclusive) led by Cherryrock Capital (Adrianna Samaniego) with Greylock (Mike Duboe) and Factory participating. Earlier backers include Y Combinator, Greylock, Factory, Village Global, Clean Ventures, plus angels Max Mullen (Instacart), Kevin Lin (Twitch), Rahul Vohra (Superhuman). Capital earmarked for engineering/product hiring and 'the next generation of AI agents for grocery'.",
+  "headcount": "50-100 (Falconer case study profile block, May 2026). The YC company profile still lists team size 29, which appears stale relative to the 2026 Series B. Best estimate ~50-80.",
+  "accel": "Y Combinator, Winter 2020 batch",
+  "agents": "Vori now markets itself as an 'AI native operating system' for grocery, but it was founded in 2019 as a grocery ordering/POS company and the agent layer is a 2025-26 repositioning \u2014 treat the AI-native claim as marketing-forward. Three customer-facing agents run on top of store data: a Pricing Agent that adjusts retail prices automatically as vendor costs change to protect margin; an Inventory Agent that generates purchase orders across vendors before stock runs out; and a Marketing Agent that sends targeted offers based on shopper purchase behavior. CEO Brandon Hill describes the roadmap as 'autonomous supermarkets'. Claimed customer outcomes: up to 7% gross-margin improvement, 9.7-22% net sales lift, 67% less time on weekly ordering. Internally, engineering uses Falconer to auto-generate and auto-update onboarding guides, API references, runbooks and internal tooling docs from Notion, Slack, Linear, GitHub and Google Docs.",
+  "why_memory": "Engineering knowledge was spread across six tools (Notion, Slack, Linear, GitHub, Google Docs) and Notion search was the specific complaint \u2014 'not great... organization was also just generally terrible.' The named buyer, Clinton Blackburn (Engineering Manager / staff engineer), was personally the bottleneck: he fielded the repeated questions, and the win he cites is that 'the amount of time that I've spent answering questions is just amazingly gone.' Note the buyer persona: he self-describes as 'the resident AI skeptic who's in charge of empowering everyone to use AI' \u2014 the purchase was justified on trust ('one of the best AI tools I've come across in the sense that I trust it') rather than on novelty. Structural driver: a hardware-plus-software company where runbooks go stale as services change, now hiring aggressively off a fresh Series B, with no dedicated docs person \u2014 so the ask is a 'librarian' that does the research and collation, not another wiki.",
+  "sells_to": "B2B SMB \u2014 independent and small-chain grocery operators (single stores up to regional multi-store groups), a classic under-digitized SMB vertical. Buyer is the store owner/operator, not a developer."
+ },
+ {
+  "name": "Thatch",
+  "url": "https://www.thatch.com",
+  "cited_by": [
+   "Falconer (https://falconer.com)"
+  ],
+  "quote": "Homepage testimonial (repeated on /pricing/, /startups/, /landing/) with the Thatch company logo: \"From day one, Falconer has felt like a superpower. It transformed our scattered documentation into a unified, living brain. As we rapidly scale our engineering team at Thatch, it gives me confidence that our velocity won't come at the cost of clarity.\" Thatch also appears in the homepage/landing logo",
+  "person": "Adam Stevenson, Co-founder, President",
+  "category": "healthtech + fintech \u2014 health benefits administration (ICHRA) with an embedded card/payments layer",
+  "stage": "Series B (last announced Apr 2025); likely later-stage now given 200+ headcount",
+  "funding": "$84.5M total raised as of Apr 2025. Seed announced Feb 2023 backed by a16z and GV; $38M Series A (Sep 5 2024); $40M Series B (Apr 3 2025) led by Index Ventures with a16z, General Catalyst, SemperVirens, PeopleTech Partners, The General Partnership and ADP Ventures \u2014 valuation undisclosed but reported at roughly 3x the Series A mark. Company site also lists Avid Ventures, Lux Capital, Quiet and Not Boring among backers. Revenue was reported growing 8x YoY at the Series B. No 2026 round found; the notable 2026 event is absorbing competitor Venteur's customers (Apr 2026).",
+  "headcount": "~200+ (thatch.com/about states '200+ team members'; 29 open roles listed as of Sep 2026). For trajectory: 72 employees in Mar 2025 per TechCrunch \u2014 so roughly 3x growth in 18 months. This is the largest and fastest-hiring of the three.",
+  "accel": "None \u2014 not a YC or accelerator company; seed-funded directly by a16z and GV",
+  "agents": "Not an AI-native company \u2014 AI is a support and compliance layer on a benefits/fintech product. The visible agent is 'Ask Thatch', described as AI-powered service available 24/7 to every employee: it answers benefits and coverage questions and handles receipt compliance and expense substantiation (the IRS-required verification that card spend was a qualified medical expense), which is the labor-heavy part of running an ICHRA at scale. Internally, Falconer is the documentation layer for a rapidly scaling engineering org \u2014 Adam Stevenson (co-founder, President) calls it a 'unified, living brain' and frames the purchase explicitly around scaling headcount without losing clarity.",
+  "why_memory": "The clearest 'scaling org' buyer of the three: ~72 to 200+ employees in about 18 months, distributed across three offices plus remote, with 29 open roles still posted. Stevenson's quote names the exact fear \u2014 'as we rapidly scale our engineering team at Thatch, it gives me confidence that our velocity won't come at the cost of clarity.' Domain-specific pressure: ICHRA is regulatory territory (IRS substantiation, state insurance rules, carrier-by-carrier plan logic) where wrong or stale internal knowledge creates compliance exposure, and where a support agent answering employee questions needs a trustworthy source of truth behind it. Note the buyer is a co-founder/President, not an engineering manager or docs lead \u2014 an exec-level, top-down purchase driven by scaling anxiety rather than a bottom-up pain fix.",
+  "sells_to": "B2B, spanning SMB to enterprise: startups and SMBs self-serve, mid-market/enterprise via a sales and broker channel (Jersey Mike's, Dave's Hot Chicken), plus a partner/distribution motion through payroll platforms (ADP, Paychex). End users are individual employees choosing plans, so there is a consumer-grade surface on top of a B2B contract."
+ },
+ {
+  "name": "Middesk",
+  "url": "unknown",
+  "cited_by": [
+   "Falconer (https://falconer.com)"
+  ],
+  "quote": "Homepage testimonial (repeated on /pricing/, /startups/, /landing/) with the Middesk company logo (img alt=\"Middesk\"): \"Falconer prevents our documentation from drifting out of sync with our codebase as engineers ship new products and features. The result is like giving every team member a senior engineer they can ask questions anytime they need help understanding our product.\" Middesk is the only",
+  "person": "Dan Hanson, Product Manager",
+  "category": "KYB / business identity verification and compliance infrastructure (fintech infra)",
+  "stage": "Series B (last disclosed round; growth stage)",
+  "funding": "$57M Series B announced 2022-07-08, co-led by Insight Partners and Canapi Ventures, with participation from existing investors Sequoia Capital and Accel plus Gaingels. Earlier rounds were raised from Sequoia and Accel (Y Combinator also an investor), but the round sizes are not disclosed on Middesk's own site and I could not verify them from a fetchable source \u2014 total raised: unknown. Do not treat any total-raised figure as confirmed.",
+  "headcount": "~130-156. Middesk's /about page states \"135\" team members; the YC company profile says team size 130; LinkedIn shows 156 employees. Call it ~140.",
+  "accel": "Y Combinator, Winter 2019 batch",
+  "agents": "Both directions, and this is the key detail. (1) INTERNALLY / IN-PRODUCT: Middesk shipped an \"Agent in the Loop\" model \u2014 specialized research agents that do OFAC false-positive resolution, address-discrepancy investigation, beneficial-ownership tracing across complex structures, litigation research, continuous merchant-risk assessment, and operating-status confirmation across SOS/web-presence/activity signals. Marketing line: \"Specialized agents. Structured findings with full evidence. Zero manual review queues.\" Reported internal results: manual review time dropped from 15-20 minutes to under 10, auto-approval rates \"trending toward 50%+\". They are explicit that the agent gathers evidence and the human analyst still decides. (2) OUTWARD: they publish an MCP server plus GraphQL API so third-party AI agents (they name Claude and Cursor) can verify businesses and query identity data autonomously \u2014 a product release literally titled \"Infrastructure for the agentic economy\". So Middesk is simultaneously an agent operator and a tool vendor to other people's agents.",
+  "why_memory": "The Falconer testimonial is from Dan Hanson, Product Manager, and states the pain directly: \"Falconer prevents our documentation from drifting out of sync with our codebase as engineers ship new products and features. The result is like giving every team member a senior engineer they can ask questions anytime they need help understanding our product.\" Structural drivers: a ~140-person company with 600+ customers and a broad, fast-moving surface area (verification, fraud, underwriting, registration, liens, international); an API-first product where docs accuracy is effectively compliance-adjacent for regulated buyers; and \u2014 most relevant to the agent-memory category \u2014 they publish an MCP server, meaning their documentation is now consumed by external agents, not just humans, so doc drift becomes an agent-correctness problem. Note their own agent blog explicitly does NOT discuss internal knowledge/context management, so the Falconer use case appears to be internal engineering/product documentation rather than powering their customer-facing agents.",
+  "sells_to": "B2B enterprise \u2014 banks, lenders, fintechs, payments companies, marketplaces, payroll providers, insurers. 500-600+ customers (site says \">600 customers\"; LinkedIn says \"over 500\"). Buyer is compliance/risk/onboarding leadership plus the engineering team integrating the API."
+ },
+ {
+  "name": "Cherry Ventures",
+  "url": "https://www.cherry.vc/",
+  "cited_by": [
+   "Zaro (zaro.ai)"
+  ],
+  "quote": "IMPORTANT CAVEAT \u2014 DUAL ROLE: Cherry Ventures is Zaro's LEAD INVESTOR (its logo is the sole entry under 'BACKED BY' on zaro.ai). As an investor it would normally be excluded per the rules. It is listed here only because Cherry separately and explicitly claims, in its own published post, to be a hands-on USER of the product with concrete deployment detail \u2014 a customer-style claim made by the 'custo",
+  "person": "Dinika Mahtani \u2014 bylined author of the Cherry Ventures post (\"Written by Dinika Mahtani\"); her job title is not stated on the page. She is a Cherry Ventures investor/partner, not an operating customer contact.",
+  "category": "venture capital / professional services firm (the buyer is the firm's own back office, not a product team)",
+  "stage": "Established firm, currently deploying Cherry V. Fund history: Cherry II \u20ac150M (2016), Cherry III \u20ac175M (2019), Cherry IV \u20ac320M (2022), Cherry V $500M (2025).",
+  "funding": "N/A \u2014 Cherry raises funds from LPs rather than taking funding. Cumulative disclosed fund commitments \u2248 \u20ac645M plus a $500M Fund V (2025). AUM not disclosed on the site.",
+  "headcount": "~28 people listed on cherry.vc/team, split across three groups: investors (~9-10, incl. Filip Dames, Christian Meermann, Dinika Mahtani, Sophia Bendz, Lutz Finger), strategic resources/platform (~6), and operations (~7). Small-firm buyer: this is an SMB-scale deployment, not an enterprise one.",
+  "accel": "none \u2014 Cherry is itself an investor, not an accelerator alum",
+  "agents": "Cherry replaced a stack of internal SaaS tools with agents running on Zaro. Per Dinika Mahtani's own post: the team were among the first users after Cherry invested; they had 'spent a year trying to solve the context problem with connectors and Zaro didn't use a single one'; they ran real work through it so 'every workflow we ran added to what the platform knew about how Cherry works'; they have since 'replaced several internal tools, ran event research, and dropped 15 tool subscriptions.' Concrete use case cited: asking for a research tool and getting one that 'already knew our portfolio.' Cherry also publishes an internal-AI content series ('The Cherry AI Transformation Playbook', Jul 2026), so AI-forward operations are part of its brand.",
+  "why_memory": "A seed VC's entire asset is accumulated context \u2014 deal history, founder relationships, portfolio knowledge, market theses \u2014 spread across email, notes, CRM and people's heads. Connector-based tools failed them because context lived in the vendor's platform, not the firm's. Their stated motivation is ownership: 'The intelligence stayed with us, rather than the platforms we'd left behind.' Small team, high knowledge-per-head, heavy research workload, and strong cost sensitivity to SaaS sprawl (15 subscriptions dropped) \u2014 a textbook profile for an agent-memory buyer.",
+  "sells_to": "N/A as a vendor. As a buyer, Cherry is a ~30-person professional-services organisation (B2B SMB profile). Its 'customers' are founders and LPs."
+ },
+ {
+  "name": "Nous Research",
+  "url": "https://nousresearch.com",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ],
+  "quote": "Strongest-evidenced name on the list. Appears in the homepage \"Used by developers at\" ticker (\"frontier\" row), AND the homepage separately advertises an integration: \"Hermes Agent \u2014 Autonomous agent with built-in Honcho memory\", installed via `curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash` then `hermes memory setup honcho`. The Honcho blog ad",
+  "person": "",
+  "category": "AI research lab + open-source agent harness / consumer-and-developer AI agent (frontier AI lab adjacent)",
+  "stage": "Series B-ish / late growth-stage private. TechCrunch (July 13, 2026) reported it was in talks to raise at least $75M at a $1.5B valuation, led by Robot Ventures with significant participation from USV.",
+  "funding": "~$70M raised prior to the mid-2026 round, from Paradigm, Robot Ventures, North Island Ventures, Delphi Ventures, OSS Capital and Balaji Srinivasan (per TechCrunch, July 2026). A new round of at least $75M at a $1.5B valuation was reported as in talks as of July 2026 \u2014 treat the new round as reported-but-unconfirmed, not closed. Exact per-round breakdown (seed vs. Series A amounts) not confirmed from primary sources in this pass.",
+  "headcount": "11-50 (LinkedIn company page). Careers page lists ~10 open roles (Forward Deployed Engineer, ML Engineer Evals, Product Analytics, Security, several Software Engineer roles incl. Hermes Cloud and Mobile, UI/UX, NYC Office Manager), so headcount is likely growing past 50.",
+  "accel": "None found. Not a YC company; began as an open-source/Discord research collective in 2023 and was funded directly by crypto-adjacent and open-source VCs (Paradigm, Robot Ventures, Delphi, OSS Capital).",
+  "agents": "Agents ARE the product. Hermes Agent is an autonomous agent harness with an explicit closed learning loop: it creates skills from experience and improves them during use, nudges itself to persist knowledge, searches its own past conversations (FTS5 full-text search with LLM summarization for cross-session recall), and \"builds a deepening model of who you are across sessions.\" It runs long-lived across chat platforms with a unified context, spawns parallel subagents, and executes in isolated sandboxes. The GitHub README explicitly names Honcho for dialectic user modeling \u2014 i.e., Honcho is wired in as a memory/user-model backend so the agent can understand user patterns over time. Honcho's own homepage advertises this back: \"Hermes Agent \u2014 Autonomous agent with built-in Honcho memory.\"",
+  "why_memory": "Structurally the most memory-dependent buyer profile in this category. Hermes Agent's core differentiation is persistence \u2014 same agent, same user, across Telegram/Discord/Slack/WhatsApp/CLI, over months. That requires cross-surface identity, a durable user model, and cross-session recall that a context window cannot provide, so a user-modeling layer is a first-class dependency rather than a nice-to-have. Note the relationship is as much partnership/integration as pure purchase: Nous ships Honcho as a bundled memory backend inside an MIT-licensed open-source product, which is distribution for Honcho and a build-vs-buy shortcut for Nous. That mutual interest should be discounted when reading it as a customer proof point \u2014 though it is still the strongest-evidenced name on the list, corroborated in three independent places (Honcho homepage integration copy, Honcho's blog, and the Hermes Agent README itself).",
+  "sells_to": "Developers primarily, plus prosumer \u2014 open-source agent harness (MIT-licensed) with a paid hosted cloud tier at $20\u2013$200/month, and open-weight models consumed by the broader AI developer community. Not an enterprise-seat B2B motion."
+ },
+ {
+  "name": "RubyPlay",
+  "url": "https://www.rubyplay.com",
+  "cited_by": [
+   "Jedify"
+  ],
+  "quote": "\"Jedify has become our go-to for tracking game performance. Our executives can now independently access real-time KPIs without having to go through the data team for every question, significantly shortening our time to decision. Instead of pulling analysts into endless deep dives on player retention and monetization, our teams explore the data on their own and get clear answers instantly.\" \u2014 RubyP",
+  "person": "Avi Baruch, VP of Data, Analytics & Digital Platforms (billed on the webinar page as VP Data and Business Applications @ RubyPlay)",
+  "category": "iGaming \u2014 B2B online casino game studio and content/engagement supplier. (Buyer of the agent-context category, not a vendor.)",
+  "stage": "Private, no disclosed institutional venture rounds. Behaves as a self-funded/profitable acquirer rather than a fundraising startup.",
+  "funding": "unknown \u2014 no venture rounds, investors or amounts found in any accessible source. Do not assume bootstrapped either; ownership is simply not public. The one hard signal is the reverse: RubyPlay is an acquirer (Splash Tech, July 2026), which suggests balance-sheet strength.",
+  "headcount": "~200\u2013500. LinkedIn shows the 201\u2013500 band with roughly 200 listed profiles. HQ Valletta/Gzira, Malta (14 SOHO Office Space, Triq I-Imsida, Il-Gzira GZR 1401), with a Kyiv, Ukraine presence and a remote-first, distributed international workforce per the careers page.",
+  "accel": "None",
+  "agents": "No AI agents in the product at all. The games are slot titles built on proprietary math engines; the 'Analytical' and 'Performance Driven' language on the About page is conventional data-driven product development ('It's a numbers game... the answers are all in the numbers'), not AI. The agent usage is entirely INTERNAL and is the clearest pure-BI case of the three: Avi Baruch, VP of Data, Analytics & Digital Platforms (billed on Jedify's webinar as 'VP Data and Business Applications'), uses Jedify so executives independently pull real-time game KPIs instead of queuing behind the data team, and so teams explore player retention and monetization themselves rather than commissioning analyst deep dives. RubyPlay is Jedify's most active reference customer \u2014 beyond the homepage logo (RubyPlay.svg, confirmed in page source) and testimonial, Baruch co-hosts a Jedify webinar built around 'the question every prospect asks him: how long did it actually take to get to accurate.'",
+  "why_memory": "Game telemetry at real scale across many titles, five studios, dozens of operators and multiple regulated jurisdictions. The metrics that matter \u2014 player retention, monetization, RTP behavior, per-operator and per-market performance \u2014 are domain-specific enough that a generic LLM over raw tables will confidently produce wrong answers, and in a regulated gambling context wrong numbers are expensive. A context graph encodes those definitions once so every executive question resolves the same way. The Splash Tech acquisition adds jackpot and free-to-play telemetry that has to be folded into the same model. Note their own emphasis is not on agent autonomy but on 'time to accurate' \u2014 the buying criterion is trust and speed of correct answers, not automation.",
+  "sells_to": "B2B enterprise \u2014 licensed online casino and sportsbook operators in regulated jurisdictions (e.g. Stoiximan in Greece), sold jurisdiction by jurisdiction"
+ },
+ {
+  "name": "Geotab",
+  "url": "https://www.geotab.com",
+  "cited_by": [
+   "Graphify Labs"
+  ],
+  "quote": "From the Graphify Labs YC company profile (vendor-written): \"The open-source engine has 105K+ GitHub stars and ~5M downloads, and is used in production by engineers at Rootly, Geotab, Tweddle Group, and Superagent.\" NOTE: Geotab appears ONLY on the YC profile \u2014 it is absent from graphify.com entirely (not on the homepage logo wall, not on /customers). No quote, no named person, no case study, no e",
+  "person": "",
+  "category": "Fleet telematics / connected operations SaaS + hardware (vertical enterprise software, NOT an AI-native startup)",
+  "stage": "Mature private company, founder-owned and bootstrapped \u2014 not venture-backed",
+  "funding": "No disclosed outside funding. Wikipedia and public reporting indicate founder/CEO Neil Cawse remains sole owner with no outside investors. Revenue is not publicly disclosed. Do not treat as VC-funded.",
+  "headcount": "~2,700 (company's own /about page) to ~3,204 (LinkedIn company page) \u2014 call it roughly 2,700-3,200",
+  "accel": "None",
+  "agents": "Three visible surfaces. (1) Geotab Ace \u2014 a natural-language AI assistant built directly into MyGeotab, included with subscription and available globally to customers; users ask plain-language fleet questions and get cited, data-backed answers, with anomaly spotting on idling and fuel usage, predictive safety/operations insights, and step-by-step platform guidance. Its pitch depends on understanding fleet-specific metrics and terminology. (2) GO Focus Plus \u2014 an AI dash cam giving drivers instant in-cab voice feedback. (3) A Geotab MCP Connector, promoted on their site, letting customers connect their fleet intelligence to any AI platform \u2014 i.e. exposing their telematics data model to third-party agents. Their blog shows no engineering content on knowledge graphs, agent memory, or LLM internals.",
+  "why_memory": "Plausible fit: an NL assistant over a 100-billion-datapoints-per-day telematics schema, spanning 100k+ tenants each with their own fleet vocabulary, needs durable semantic grounding \u2014 a persistent map of entities (vehicles, drivers, devices, rules, exceptions) and per-customer terminology \u2014 rather than stateless RAG over docs. An MCP connector exposing that model to outside agents raises the same need. BUT: treat this as inference, not evidence. The Graphify claim appears ONLY on Graphify Labs' vendor-written YC profile ('used in production by engineers at Rootly, Geotab, Tweddle Group, and Superagent'), is absent from graphify.com entirely (no logo wall, no /customers entry, no quote, no named person, no case study, no evidence link), and describes individual ENGINEERS using an open-source engine \u2014 not a company purchase. For buyer-persona purposes this is a bottom-up open-source adoption signal at a large non-AI-native enterprise, not a proven enterprise deal.",
+  "sells_to": "B2B enterprise and public sector primarily (Fortune 500 fleets, US federal agencies, municipal fleets), plus mid-market and small fleets. Also sells indirectly through 700+ resellers/partners. Has a developer-facing surface (SDK, APIs, Marketplace, MCP connector) but developers are not the buyer."
+ },
+ {
+  "name": "Inkle",
+  "url": "https://inkle.io",
+  "cited_by": [
+   "Poth Labs"
+  ],
+  "quote": "Logo-wall only, no quote or case study. Appears in the 'Trusted by teams at' wall on the homepage, repeated identically on /ask-poth and /surveys. Markup: <span title=\"Inkle\"><img src=\"/logos/inkle-logo.png\" alt=\"Inkle\"></span>. Not linked. I downloaded the logo file and confirmed it is the purple Inkle wordmark matching inkle.io (Inkle - Accounting & Tax Automation for US Startups, a YC company).",
+  "person": "",
+  "category": "fintech / accounting and tax automation for startups (SMB vertical SaaS + managed service). NOT an AI-agent company.",
+  "stage": "seed",
+  "funding": "$1.5M raised (self-reported on their About Us page) from Saison Capital, Picus Capital and Force Ventures. No later round found. Not independently verified against Crunchbase/PitchBook \u2014 both returned 403.",
+  "headcount": "~50+ (self-reported on inkle.ai/about-us as '50+ team members'). LinkedIn not fetchable, so unverified.",
+  "accel": "NOT a YC company \u2014 correction to the source note. I downloaded the full Y Combinator company dataset (yc-oss API, 6,203 companies, batches through Summer 2026/Winter 2027) and found no 'Inkle' entry by name or website. The 'YC company' impression almost certainly comes from Inkle's own marketing line that 'over 5% of YC companies' USE Inkle \u2014 they sell to YC startups rather than being one. Backers Saison Capital, Picus Capital and Force Ventures are traditional VCs, not accelerators.",
+  "agents": "Weak and mostly cosmetic. Inkle's product uses AI as feature-level assistance inside a human-in-the-loop service: AI-suggested transaction categorization, AI-enabled receipt matching, 'Smart Reconcile' AI matching for Stripe, and a mentioned 'LLM integration.' Licensed human CPAs still do the actual tax work, and their own case-study pages contain no mention of AI agents at all. There is no evidence Inkle runs an autonomous agent fleet or builds agentic products. Their appearance in this dataset is as a CUSTOMER of Poth Labs \u2014 an AI customer-intelligence tool that finds gaps in a company's customer evidence and runs adaptive AI surveys to fill them, storing responses back against customer accounts. So Inkle is a buyer of an agent-flavored SaaS tool for go-to-market/customer research, not a builder of agents.",
+  "why_memory": "Weaker case than the other two, and worth flagging to the parent as a likely false positive for the 'agent memory buyer' thesis. The plausible pull is customer-account knowledge accumulation: Inkle serves 500+ small startups over multi-year compliance relationships where entity structure, filing history, jurisdictions and founder residency status must persist and compound \u2014 and Poth Labs' pitch is precisely an evolving per-account knowledge base assembled from evidence plus survey responses. But this is a GTM/customer-research use case, not core-product agent memory. Note also the citation quality: this is a logo-wall placement only \u2014 no quote, no case study, not listed as an integration \u2014 so it is unverified whether Inkle is a paying customer, a design partner, or a friendly logo (both are early-stage companies and Composio, another Poth logo, is also India-linked, suggesting a shared network rather than an enterprise sales motion).",
+  "sells_to": "B2B SMB \u2014 early-stage, US-incorporated startups (pre-seed through Series A/B), with an especially strong niche among Indian-founder companies running a Delaware C-corp plus an Indian entity. Buyer is the founder or a lean one-person finance function, not a CFO org. Price points ($30-$99/mo) confirm the low end of the market."
+ },
+ {
+  "name": "UnCircuit",
+  "url": "https://uncircuit.com",
+  "cited_by": [
+   "Poth Labs"
+  ],
+  "quote": "Logo-wall only, no quote or case study. In the 'Trusted by teams at' wall on the homepage, repeated on /ask-poth and /surveys. Rendered as logo mark + text label 'UnCircuit'. Not linked. URL verified by pixel-comparing /logos/uncircuit-logo.png against https://uncircuit.com/logo.webp - the blue/teal broken-circle gradient mark is an exact match. uncircuit.com is a game-based candidate assessment/h",
+  "person": "",
+  "category": "hiring / candidate assessment (HR tech)",
+  "stage": "seed-stage / accelerator-stage (YC S26 cohort); no priced round found",
+  "funding": "unknown - no announced round, no Crunchbase/TechCrunch/press-release coverage found. Presumably the YC standard deal only.",
+  "headcount": "~2-5. Two co-founders publicly identified (Sophia Tatar, Alexander Ren) plus at least one summer 2026 intern (Kanishk Krishna). LinkedIn company page exists (linkedin.com/company/uncircuit) but no employee-count band was retrievable.",
+  "accel": "Y Combinator S26 - attested by both founders' LinkedIn headlines ('Co-founder & CEO @ UnCircuit (YC S26)', 'Co-founder & CTO @ UnCircuit (YC S26)') and by third-party LinkedIn posts congratulating 'the entire UnCircuit team on launching with YC S26'. Their site header carries a 'Backed by YC' badge. CAVEAT: I could NOT find a public YC directory page - ycombinator.com/companies/uncircuit returns 404, 'site:ycombinator.com uncircuit' returns zero results, and UnCircuit is absent from the yc-oss YC company dataset even though that dataset contains 235 Summer 2026 companies. Note also that the 'YC F25' text on uncircuit.com is a caption on a customer logo (Prox), not their own batch.",
+  "agents": "Not disclosed, and notably absent. The homepage, privacy policy and terms contain ZERO occurrences of 'AI', 'agent', 'model' or 'LLM' - I grepped the full HTML. Product copy describes human-designed games plus real-time behavioral measurement ('We build a short scenario', 'We watch how they think', 'Score, pace, trade-offs, and integrity signals as they happen'). For a 2026 YC company it is plausible that LLMs generate the per-candidate evidence reports and possibly the game scaffolding, but nothing public says so. Treat as unverified.",
+  "why_memory": "They are a Poth Labs customer, and Poth sells a persistent, citation-backed customer-knowledge layer rather than an agent-memory SDK - so the fit is operational, not in-product. UnCircuit's entire sales motion is bespoke: every deal starts as a long founder-led call where a hiring manager describes an 'ideal hire' and the traits that matter, and each game is then custom-built from that brief. That knowledge lives in call recordings, role briefs and per-customer report feedback, scattered and re-discovered each time. A persistent customer-evidence map lets a two-person team answer 'which traits do customers keep asking for', 'why did this deal stall', and 'what did this hiring team actually say' without re-interviewing. This is the clearest example in this set of a NON-agent-native buyer of the category.",
+  "sells_to": "B2B SMB - recruiting and hiring teams, in practice early-stage startups and small organizations (their own logo wall is YC-flavored: Prox (YC F25), International Math Bowl, Acor, Y Combinator)"
+ },
+ {
+  "name": "Th\u00fcga Aktiengesellschaft",
+  "url": "https://www.thuega.de",
+  "cited_by": [
+   "Interloom (interloom.com) \u2014 Interloom Technologies GmbH, Munich"
+  ],
+  "quote": "\"We needed a way to give our subsidiaries consistent process quality without forcing them into a one-size-fits-all system. Interloom gave us exactly that balance.\" \u2014 Case study 'Th\u00fcga Streamlines Operations Across Regional Energy Subsidiaries' (Nov 15, 2025). Claimed metrics: 48% less time on routine case handling, 2 subsidiaries running live workflows, 6-week end-to-end deployment cycle. Th\u00fcga is",
+  "person": "Director of Digital Operations, Th\u00fcga Aktiengesellschaft (title only \u2014 individual not named by Interloom)",
+  "category": "energy utility holding / municipal utility network (buyer of back-office AI, not an AI vendor)",
+  "stage": "Established privately held corporate (municipally owned, not venture-backed). ~159 years old.",
+  "funding": "Not venture-funded. Municipally owned via Th\u00fcga Holding GmbH & Co. KGaA; revenue \u20ac5.83bn (2024). No Crunchbase/PitchBook-style funding rounds exist for this entity.",
+  "headcount": "1,013 employees at Th\u00fcga AG level (2024). The wider Th\u00fcga group of ~100 partner utilities employs tens of thousands, but Th\u00fcga AG itself is ~1,000.",
+  "accel": "none",
+  "agents": "UNVERIFIED AT SOURCE. Interloom's claimed case study ('Th\u00fcga Streamlines Operations Across Regional Energy Subsidiaries', Nov 15 2025; 48% less time on routine case handling, 2 subsidiaries live, 6-week deployment) could NOT be found anywhere on interloom.com as of Sept 2026 \u2014 no case study page, no logo, no mention. Interloom's own press page names only Zurich Insurance, Fiege and Volkswagen Group Services as customers, and no 'thuega' tenant subdomain appears in the Wayback archive of interloom.com (unlike vomberg, comdirect, commerzbank, adecco, jll, lenze, ruinart, vwgs, leipzigerstadtwerke and others, which all have archived single-tenant stacks). What IS verifiable from Th\u00fcga's own site: a digitalization agenda run through Th\u00fcga SmartService, a data strategy/governance program, and a sales platform called PACE described as using artificial intelligence. If the Interloom deployment is real, the shape implied is back-office case handling (billing disputes, meter faults, outage/customer cases) orchestrated across subsidiary utilities \u2014 which matches Interloom's own 'Energy: Billing & Outage Cases' solution page describing intake agents, billing/SCADA integrations and field-coordinator escalation. Treat the Th\u00fcga reference as unconfirmed.",
+  "why_memory": "Structurally, Th\u00fcga is close to the archetypal buyer for a 'company brain': it must deliver consistent process quality across ~100 legally independent municipal utilities that each run their own CRM, billing and dispatch stack, without being able to force them onto one shared system (exactly the tension in the quoted testimonial). Process knowledge lives in the heads of long-tenured staff at each Stadtwerk, the workforce is ageing, and the same edge cases (tariff adjustments, meter faults, regulatory changes, grid-connection requests) get re-decided independently in dozens of places. A precedent/memory layer that captures how a case was resolved at one subsidiary and makes it reusable at the next is the only way to get shared process quality without a shared ERP. Regulated environment also means decisions need an audit trail, which favors a memory system that cites its precedent.",
+  "sells_to": "B2B enterprise \u2014 specifically municipal utilities (Stadtwerke) and regional energy/water suppliers, which are themselves mid-sized regulated enterprises. Indirectly serves ~9m end consumers through its holdings."
+ },
+ {
+  "name": "AllVoices",
+  "url": "https://www.allvoices.co",
+  "cited_by": [
+   "Coworker (coworker.ai) - Village Platforms, Inc."
+  ],
+  "quote": "Logo on the homepage \"Trusted by\" marquee (alt=\"AllVoices\", file allvoices.png). Logo-wall only - no quote, named person, or case study.",
+  "person": "",
+  "category": "HR tech / employee relations and HR case management (compliance-adjacent)",
+  "stage": "seed (no round disclosed since 2020; likely revenue-financed growth since)",
+  "funding": "$3M seed announced Feb 2020 (Crosscut, Greycroft, Halogen Ventures, Vitalize VC and others). No later round confirmed \u2014 total disclosed funding remains ~$3M; unknown whether unannounced rounds exist.",
+  "headcount": "~33 employees (Built In profile); The Org lists the 11-50 band. Call it 30-50.",
+  "accel": "none found",
+  "agents": "They ship an in-product AI agent called Vera, launched Feb 2023 as \"the first AI copilot for Employee Relations teams\" and since repositioned as an agent embedded in every workflow step rather than a chat sidebar. Vera structures raw intake into a case, drafts investigation plans and interview questions, summarizes evidence across documents, screenshots, audio, video and interview notes, assembles the final investigation report, and surfaces trend analysis. Two explicit memory layers: uploaded policy handbooks that Vera references on every case, and case precedent \u2014 \"how your team handled similar cases before.\" All output is editable, human-approved, and the vendor states no LLM training on customer data; AI can be switched off entirely. Their own internal use of Coworker is unattested (logo wall only).",
+  "why_memory": "They are a small (~35-person) team selling a compliance-grade product to enterprise HR, legal and security buyers \u2014 high security-questionnaire and audit load, deep institutional knowledge about policy nuance, and a long tail of customer-specific configuration held by few people. A cross-tool org memory reduces the bus factor. Note the strategic angle too: precedent-and-policy memory is literally their own product's differentiator, so they are a sophisticated, self-aware buyer of the category rather than a naive one.",
+  "sells_to": "B2B mid-market to enterprise \u2014 buyers are HR/employee relations, compliance, legal and security teams at multi-thousand-employee companies across tech, retail, food & beverage, financial services, healthcare and manufacturing"
+ },
+ {
+  "name": "The Weather Company",
+  "url": "https://www.weathercompany.com",
+  "cited_by": [
+   "Jedify"
+  ],
+  "quote": "\"Enterprise AI agents can't reason accurately from stitched-together connectors and warehouses alone. Jedify's context layer gives our agents and analysts the business context they need to operate at Weather Company scale. The missing infrastructure for agentic workflows, and a faster path to answers for our teams.\" \u2014 A shortened version of this quote was also carried in Series A press coverage: \"",
+  "person": "Matthew Drooker, CTO at The Weather Company",
+  "category": "Weather data / forecasting + ad-supported consumer media; enterprise data APIs. NOT an AI-native startup \u2014 a PE-owned data & media incumbent.",
+  "stage": "Private equity owned (Francisco Partners portfolio company). No venture stage \u2014 not applicable.",
+  "funding": "No VC rounds. Acquired by Francisco Partners in February 2024 for ~$1.1B ($750M cash + $100M deferred over seven years + $250M contingent consideration). Ownership history: Landmark Communications 1980\u20132008; NBCUniversal/Bain Capital/Blackstone consortium 2008\u20132016; IBM 2016\u20132024 (inside Watson & Cloud Platform); Francisco Partners 2024\u2013present.",
+  "headcount": "unknown \u2014 not disclosed. Careers page lists offices in Atlanta GA, Andover MA and New York NY, and notes nearly half of employees have 10+ years tenure. Historically reported in the low thousands under IBM, but I could not confirm a current figure and am not guessing one.",
+  "accel": "none",
+  "agents": "Two distinct layers. (a) Internal/agentic \u2014 this is what Jedify is for: CTO Matthew Drooker's testimonial describes \"enterprise AI agents\" plus human analysts querying business data, and explicitly says agents \"can't reason accurately from stitched-together connectors and warehouses alone,\" i.e. LLM agents over the company's own warehouse/CRM/ad/telemetry estate for analytics and agentic workflows. (b) In-product AI \u2014 mostly non-agentic ML/automation: the Max Engage \"decision engine\" that auto-evaluates and re-sequences broadcast content, AI-driven ad targeting signals, an Nvidia partnership for AI forecasting (2024), and AI-generated \"smart NOTAMs\" for pilots (Sept 2025). Their own marketing language is \"augmented intelligence,\" and their AI pages make no mention of LLMs or agentic workflows \u2014 the agent story lives on the internal data side, not the product side.",
+  "why_memory": "Enormous, heterogeneous data estate accumulated over 40+ years and three owners: consumer app telemetry at hundreds of millions of users, ad-tech data, aviation/enterprise contracts, forecast model output, plus whatever schema sprawl survived the IBM-to-Francisco-Partners carve-out. The CTO's stated pain is precisely the agent-memory pitch: connectors + warehouse tables carry no business meaning, so agents hallucinate or produce answers analysts can't trust. They need a persistent, governed semantic/context layer so agents and humans resolve the same metric the same way \"at Weather Company scale.\"",
+  "sells_to": "Mixed: B2B enterprise (airlines, broadcasters, government/defense, energy, retail, insurance, media buyers) plus a large ad-supported consumer app business. The Jedify buyer is the internal engineering/data org, headed by the CTO."
+ },
+ {
+  "name": "Mission Inbox",
+  "url": "https://missioninbox.com",
+  "cited_by": [
+   "Agently (https://agently.dev) \u2014 \"AI Work OS\" / Agently Brain, founded by Omar Ghandour (CEO) and Ahmad Hajj"
+  ],
+  "quote": "Verbatim launch text on agently.dev/live: \"High-volume email campaigns suffer when shared infrastructure tanks your deliverability. Mission Inbox provides isolated sending environments and dedicated IPs so your inbox placement stays pristine regardless of what others are doing on the network. @agently_ai\" Posted 2026-07-30. Note the post itself tags @agently_ai, suggesting the customer publicly ac",
+  "person": "",
+  "category": "email infrastructure / deliverability (dev tools and GTM infrastructure)",
+  "stage": "unknown \u2014 most likely seed-stage or bootstrapped. No funding announcement, investor, or round found in any accessible source.",
+  "funding": "unknown \u2014 no disclosed rounds found. Crunchbase (403) and Tracxn (404) were inaccessible and the web search budget was exhausted, so absence of evidence here is soft. The company did fund at least one acquisition (CeyMail), terms undisclosed.",
+  "headcount": "~13. LinkedIn shows a '2-10 employees' self-reported size band with approximately 13 employee profiles listed.",
+  "accel": "none found",
+  "agents": "Two distinct places, and the product-side one is the notable one. First, AI agents are an explicitly targeted customer segment: missioninbox.com/ai-agents is a dedicated product page offering 'email infrastructure for AI agents,' giving an agent a dedicated inbox it 'owns and operates on its own' via REST API, SMTP, IMAP, or SDKs \u2014 no human Gmail account required \u2014 plus inbound routing to the right agent or workflow, attachment handling into processing pipelines, reply threading to preserve conversation context, and webhooks that trigger agent actions on arrival, reply, or bounce. The page enumerates six agent archetypes it sells to: browser agents receiving OTPs and verification codes for automated signup, AI SDR agents doing outbound at scale, AI support agents, operations agents sending bookings/invoices/reminders, document-processing agents parsing inbound invoices and forms, and marketplace agents managing isolated inboxes per counterparty. Second, internally in the product, MI Shield is described as an AI-powered pre-send classifier that blocks risky messages before they are delivered. So Mission Inbox is picks-and-shovels for the agent economy rather than an agent company itself.",
+  "why_memory": "Strong fit, better than the other two. Deliverability is a domain where the value is almost entirely undocumented operational knowledge: IP warmup schedules, per-ESP quirks (what Google tolerates that Outlook does not), DNS/SPF/DKIM/DMARC failure patterns, which content signals trip filters, and per-client sending configurations. A ~13-person team supporting agencies that each run 20+ client campaigns cannot scale that by memory \u2014 Practical Prospecting alone migrated 20+ client campaigns off three other platforms in a day. The team also publishes heavy SEO content (23+ blog posts, 9 comparison pages, 9 integration pages, industry pages) largely under a single author, plus a growing docs surface in six languages, which is a content operation that benefits from a shared knowledge base. And as a company selling infrastructure to agent builders, it is culturally predisposed to adopt agent tooling in its own stack. CAVEAT ON THE VENDOR LINK: the Agently attribution is better than AppSumo's \u2014 the launch post reportedly tags @agently_ai, suggesting mutual acknowledgment \u2014 but I could not reproduce it. When I loaded agently.dev/live it showed only a rolling 4-item window of recent joins (Yarrow Field, Roamwell, Sagelight Health, Petrel & Co) with no Mission Inbox entry, and those names plus the 'shipped to X' entries look like generated placeholders. So the company is real and a plausible buyer; the confirmed purchase is not.",
+  "sells_to": "B2B SMB and developers primarily \u2014 outbound sales teams, lead-gen agencies, recruiters, and RevOps, plus developers embedding transactional and programmatic email. Some enterprise reach (Unit21 is a named enterprise case study, where the use case was isolating cold outbound off the primary corporate domain)."
+ },
+ {
+  "name": "AppSumo",
+  "url": "https://appsumo.com",
+  "cited_by": [
+   "Agently (https://agently.dev) \u2014 \"AI Work OS\" / Agently Brain, founded by Omar Ghandour (CEO) and Ahmad Hajj"
+  ],
+  "quote": "Announced by Agently's own @JarvisAgently account and served on agently.dev/live under the heading \"New companies on Agently\" with a \"joined\" chip. Verbatim: \"Building a software stack shouldn't require shopping across a dozen marketplaces. AppSumo connects business owners with discounted SaaS tools in one place, turning fragmented deal hunting into streamlined procurement.\" Posted 2026-07-31. AMB",
+  "person": "",
+  "category": "SaaS deals marketplace / e-commerce for software (not an AI category)",
+  "stage": "bootstrapped, privately held, mature (16 years old)",
+  "funding": "No disclosed venture rounds found. Widely described as bootstrapped and founder-owned; Wikipedia lists Noah Kagan as owner and the entity as Sumo Group, Inc. Crunchbase was inaccessible (403). Do not assume a funding number \u2014 none was confirmed.",
+  "headcount": "~88-150. LinkedIn lists approximately 88 employee profiles under a stale '11-50 employees' size band; AppSumo's own about page claims '150+ employees' in Austin.",
+  "accel": "none",
+  "agents": "No public evidence of AI agents inside AppSumo's own operations. Its relationship to AI is as a channel: it curates and merchandises other companies' AI products to its entrepreneur audience. If the Agently workspace is genuine, the plausible internal use is ops-side \u2014 a small merchandising and partner team running recurring deal vetting, vendor onboarding, support, and content workflows across tools like HubSpot, Gmail, and Notion, which is the surface Agently's connectors target. This is inference, not something AppSumo has stated.",
+  "why_memory": "The credible pull is operational rather than product-side. AppSumo's core loop is repetitive and precedent-heavy: evaluating inbound vendor applications against the same quality and refund-risk criteria, negotiating comparable deal terms, onboarding each new partner through the same launch checklist, and fielding support on a 60-day guarantee across thousands of SKUs. That institutional knowledge \u2014 why a past deal was rejected, what terms a category normally gets, which vendors caused refund spikes \u2014 is exactly what a company-brain product claims to hold. Weighing against it: this is a 16-year-old bootstrapped commerce company with established internal systems, not a greenfield AI-native buyer, so it is not the archetypal customer for this category.",
+  "sells_to": "Prosumer and B2B SMB on the demand side \u2014 solo founders, entrepreneurs, small business owners buying discounted tools. Also B2B on the supply side, selling launch distribution to SaaS vendors."
+ },
+ {
+  "name": "Tweddle Group",
+  "url": "https://tweddle.com",
+  "cited_by": [
+   "Graphify Labs"
+  ],
+  "quote": "From the Graphify Labs YC company profile (vendor-written): \"...used in production by engineers at Rootly, Geotab, Tweddle Group, and Superagent.\" NOTE: Tweddle Group appears ONLY on the YC profile \u2014 it is absent from graphify.com entirely (not on the homepage logo wall, not on /customers). No quote, no named person, no case study, no evidence link.",
+  "person": "",
+  "category": "Technical content / product-support services and software for OEMs (BPO + vertical software; NOT AI-native)",
+  "stage": "Mature private company \u2014 no venture stage; not a startup",
+  "funding": "unknown. Privately held with no disclosed venture or growth funding, no Crunchbase/TechCrunch funding events surfaced. Do not assume PE ownership \u2014 it is simply not published.",
+  "headcount": "501-1,000 (LinkedIn size band). Offices across 6 countries \u2014 US, Belgium, Italy, and India named on the site.",
+  "accel": "None",
+  "agents": "Retrofitting AI onto a legacy content business. Three named surfaces: (1) AVA \u2014 an AI-based in-vehicle assistant with CAN bus integration and real-time OEM alerts, i.e. an assistant that answers owner/technician questions grounded in live vehicle signals plus the OEM's technical content; (2) AI CONTENT CREATION 'with expert human oversight,' pitched as author-once/publish-everywhere across channels; (3) AI DIAGNOSTICS layered onto TRACER/TRACER-X. Headquarters HQ Clinton Township, Michigan; LinkedIn also cites 3D animated technical videos and AI-powered service solutions.",
+  "why_memory": "Strong structural fit on paper: their core asset is a vast, highly structured, versioned corpus \u2014 every part, procedure, fault code, and variant across model years, trims, and 190 markets, per OEM client. An in-vehicle assistant like AVA cannot answer from flat retrieval; it needs an entity-and-relationship model (this fault code on this trim in this market implies this procedure and these parts) that persists and gets corrected over time, and it must be tenant-isolated per OEM. That is squarely the 'company brain' pitch. BUT the evidence is weak: Tweddle appears ONLY on Graphify Labs' vendor-written YC profile, is entirely absent from graphify.com (no logo wall, no /customers card, no quote, no named person, no case study, no evidence link), and the claim is about individual engineers using the open-source engine in production \u2014 not a signed enterprise customer. Nothing on tweddle.com mentions Graphify, knowledge graphs, or agent memory.",
+  "sells_to": "B2B enterprise \u2014 global OEMs in automotive, heavy equipment, aerospace, and defense. Long-cycle, services-heavy, relationship-driven contracts. Not developers, not prosumer."
+ },
+ {
+  "name": "Upbound",
+  "url": "https://www.upbound.io",
+  "cited_by": [
+   "Coworker (coworker.ai) - Village Platforms, Inc."
+  ],
+  "quote": "Logo on the homepage \"Trusted by\" marquee (alt=\"Upbound\", file upbound.png). Logo-wall only - no quote, named person, or case study.",
+  "person": "",
+  "category": "dev tools / platform engineering / cloud infrastructure control planes",
+  "stage": "Series B (last announced round Nov 2021; no later round found)",
+  "funding": "$69M total per LinkedIn. Confirmed rounds: $9M Series A (May 2018, TechCrunch) and $60M Series B (Nov 2021, TechCrunch). Named investors: GV (Google Ventures), Altimeter Capital, Intel Capital. Series B lead not confirmed from a primary source - the TechCrunch article URL 404'd on fetch and only the search-listing headline was readable.",
+  "headcount": "51-200 (LinkedIn band); globally distributed, remote-first, no offices named. Careers page currently shows no open roles, which suggests they are at the flat/lean end of that band.",
+  "accel": "none - traditional VC path; the company is the commercial spinout of the Rook/Crossplane open-source lineage",
+  "agents": "Agents are central to the current product positioning, not just internal tooling. The homepage tagline is 'Humans govern. Agents consume. Machines execute.' The platform page states that engineers and AI agents work through one API and one view, and that Hub's central index gives 'agents a single access point to your infrastructure' under the same governance and policy path a human operation takes. Marketing calls Crossplane 2.0 'The AI-Native Control Plane for the Agentic Era' (Aug 2025). Internally they are heavy AI-coding users: the blog has a CEO post 'Anthropic is subsidizing our AI coding at 13x. How long will it last?' (Jul 2026) and 'Converting Monolithic Crossplane Providers to Family Scoped Providers With Claude' (Oct 2025). No MCP server was mentioned on the platform or blog pages fetched.",
+  "why_memory": "Two distinct pulls. Internally: a small, fully remote team running a large open-source project plus an enterprise product, with knowledge spread across GitHub issues, Slack, docs and customer threads - classic company-brain territory, and they already run AI coding agents at volume. Strategically: their whole pitch is that agents will act on infrastructure and need a governed, indexed view of what exists; a company that sells 'context and governance for agents on infra' is a natural early adopter of 'context and governance for agents on company knowledge.' The Coworker citation is logo-only, so the specific internal use case is unconfirmed.",
+  "sells_to": "B2B enterprise, sold to platform engineering and infrastructure teams; developer-led adoption through open-source Crossplane"
+ },
+ {
+  "name": "U.S. Department of Defense",
+  "url": "https://www.defense.gov",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ],
+  "quote": "Seal shown in the homepage \"Used by developers at\" ticker (\"institutional\" group; asset us-department-of-defense-seal.png). AMBIGUOUS: developer-level claim only, no contract or program named.",
+  "person": "",
+  "category": "government / defense (public sector end-user, not a vendor)",
+  "stage": "N/A \u2014 cabinet-level federal executive department, established 1947/1949",
+  "funding": "N/A \u2014 funded by congressional appropriation, not investment. Budget was $842B for FY2024 per the source I read; FY2026/FY2027 appropriated figures were NOT verified in this session (defense.gov, war.gov and ai.mil all returned HTTP 403 to automated fetch). Do not treat any single budget number here as current.",
+  "headcount": "~2,845,386 total as of June 30, 2024: 1,294,191 active-duty military, 789,594 civilian, 761,601 National Guard and Reserve. Largest employer in the world. Current 2026 figures not verified.",
+  "accel": "N/A. (It runs its own innovation units \u2014 DIU, AFWERX, DARPA \u2014 which fund startups rather than being accelerated by one.)",
+  "agents": "DoD has an active, funded LLM/agent program, though I could not verify specifics against defense.gov this session (all .gov/.mil hosts blocked automated fetch with 403). From prior knowledge, directionally: the Chief Digital and Artificial Intelligence Office (CDAO) is the central body; Advana is the enterprise data platform; service-level LLM deployments include NIPRGPT (Air Force) and CamoGPT (Army), plus Ask Sage as an accredited multi-model gateway. In July 2025 CDAO announced agreements with ceilings reported around $200M each to Anthropic, Google, OpenAI and xAI for frontier-AI agentic workflows. Treat these details as unverified-in-session and re-check before citing.",
+  "why_memory": "IMPORTANT CAVEAT \u2014 NOT A VERIFIED CUSTOMER, AND THE WEAKEST OF THE THREE. Honcho's page bundle shows the entry literally as name 'U.S. Department of Defense' with src /logos/used-by/institutional/us-department-of-defense-seal.png under the heading 'Used by developers at.' No contract, program, quote, or case study is named anywhere on the page, and there is no disclaimer. Since Honcho distributes as developer-installed plugins and a self-serve API key, the most plausible explanation is one or more .mil-domain signups. Displaying a federal agency seal to imply endorsement is also legally sensitive (DoD seal use is restricted under 10 U.S.C. 1544 / DoDI 5535.09 and generally requires authorization), which further suggests this is a signup-domain artifact rather than an approved reference. Substantively, DoD is a poor near-term ICP for a seed-stage memory startup: procurement requires FedRAMP High/IL5, ATO, and typically a prime or an OTA vehicle, none of which Honcho advertises. Real DoD demand for persistent agent context exists, but it flows to accredited platforms (Ask Sage, Advana, Palantir, the CDAO frontier-model agreements), not to an unaccredited self-serve API. Do NOT count this as category demand evidence.",
+  "sells_to": "N/A \u2014 does not sell. It is a buyer/end-user, procuring through FAR-based contracting, OTAs, GSA schedules, SBIR/DIU CSOs. Buying requires FedRAMP/IL4-IL6 authorization, and typically CMMC and ITAR posture for anything touching controlled data."
+ },
+ {
+  "name": "Red Hat",
+  "url": "https://www.redhat.com",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ],
+  "quote": "Logo in the homepage \"Used by developers at\" ticker (\"institutional\" group). AMBIGUOUS: developer-level claim only. No quote or case study.",
+  "person": "",
+  "category": "enterprise infrastructure / open-source platform software \u2014 increasingly an AI and agent *platform* vendor",
+  "stage": "Wholly-owned but independently-run subsidiary of IBM. IPO'd Aug 1999; acquired by IBM for $34B, deal closed July 9, 2019.",
+  "funding": "N/A \u2014 not venture-funded. Acquired by IBM for $34B (2019). Last standalone revenue disclosures: $1.13B (2012, first billion-dollar open-source company), >$2B (2015), ~$3B (early 2018); revenue now consolidated into IBM's Software segment.",
+  "headcount": "~19,000-19,500 (LinkedIn lists 19,495; Red Hat's own materials cite ~19,000)",
+  "accel": "None",
+  "agents": "Red Hat's role is enabler/substrate rather than agent product builder. Red Hat AI 3.x markets 'agentic flexibility and efficiency', invites customers to 'bring your own agents' and deploy them with governance, and positions **AgentOps** as evolving 'the AI experience from conversation to autonomous execution.' It also markets 'connecting data to models and agents.' The inference layer (vLLM, llm-d) is what other people's agents run on. Ansible Automation Platform is the natural home for agentic IT remediation. Notably, Red Hat's public AI pages do NOT describe any memory or state-management architecture for agents \u2014 that is a visible gap in the stack. CAVEAT: as with Block, the Honcho citation is a logo in a 'Used by developers at' ticker \u2014 no quote, no case study. Red Hat employs ~19,000 people including a very large population of open-source engineers who sign up for OSS-adjacent dev tools constantly.",
+  "why_memory": "Two distinct theories, both weak as a *purchase* signal. (1) Platform theory: if Red Hat AI hosts customer agents under 'bring your own agents' / AgentOps, persistent context and state is an unfilled layer \u2014 but Red Hat's pattern is to adopt or fork an upstream open-source project into its portfolio, not to buy a hosted SaaS memory API. (2) Individual theory (far more likely): a Red Hat engineer with a redhat.com email tried Honcho's free tier, which is enough to put the logo in a ticker. Honcho being open-source-flavored makes it exactly the kind of thing Red Hat engineers try. Do not model Red Hat as a category buyer on this evidence.",
+  "sells_to": "B2B enterprise (large regulated enterprises, government, telco) and developers. Very much an enterprise-procurement motion with long sales cycles \u2014 the polar opposite of a self-serve agent-memory signup."
+ },
+ {
+  "name": "Raycast",
+  "url": "https://www.raycast.com",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ],
+  "quote": "Logo in the homepage \"Used by developers at\" ticker (\"frontier\" group). AMBIGUOUS: developer-level claim only. No quote or case study.",
+  "person": "",
+  "category": "developer/prosumer productivity software; AI-assistant surface layered on a launcher",
+  "stage": "Series B",
+  "funding": "~$45M+ disclosed. Seed announced October 2020 (Accel). $15M Series A announced 30 November 2021, led by Accel and Coatue (Accel doubling down on its seed), with angels including Koen Bok (Framer), Karri Saarinen (Linear) and David Cramer (Sentry). $30M Series B announced 25 September 2024 to fund Windows and iOS expansion \u2014 their own announcement post does not name the lead investor, and I could not verify it independently. All figures from Raycast's own blog posts.",
+  "headcount": "40 employees \u2014 stated directly on raycast.com/careers ('40 people, 17 countries, 4 timezones, 2 continents', 100% remote). Currently no open positions listed. This is a directly sourced number, not an estimate.",
+  "accel": "none found \u2014 Accel-backed from seed onward",
+  "agents": "Deep and first-party. Raycast AI ships: Agents (persistent, reusable AI personas that carry a system prompt, a chosen model, an icon and a scoped tool set across conversations \u2014 a built-in 'Deep Research' agent ships as a template, and agents can be shared across an org); AI Extensions (natural-language commands that drive OS functions and third-party apps as tools); Skills (reusable instructions and knowledge auto-discovered based on message content); MCP server support for connecting external tools; Screen Awareness (ask AI about what is on screen); Quick AI; 30+ AI Commands; and access to 30+ models across OpenAI, Anthropic, Google, Perplexity and DeepSeek, plus local models and bring-your-own-keys. Notably, their docs describe Agents as scoped conversation personas rather than autonomous long-running workers \u2014 memory is described as within-chat, not persistent across agent runs.",
+  "why_memory": "Strongest category fit of the three \u2014 but with a large caveat: they already built it themselves. Raycast Pro explicitly ships 'Memory' and 'Profile' as personalization features. Per manual.raycast.com/ai/personalization, Profile is manually curated user context (role, coding preferences, communication style) and Memory is described as 'A summary that Raycast AI automatically builds from your conversations over time' \u2014 a background job that collects recent AI Chat and Quick AI conversations every few hours, sends them to a model, and writes an updated user summary that is user-viewable, user-editable, disableable, encrypted at rest via Cloud Sync, and never used for training. That is precisely the product an agent-memory vendor sells. So Raycast is the archetypal buyer profile (multi-session AI assistant, per-user personalization, cross-device sync, privacy constraints, enterprise governance needs) and simultaneously the archetypal build-not-buy risk. A Honcho logo here reads much more like an individual Raycast developer trying Honcho than like Raycast outsourcing its memory layer.",
+  "sells_to": "Prosumer and developer-first, expanding into B2B. Individuals (free / $10 Pro), teams ($15/user Pro), and enterprise (custom, with SAML and admin governance). Buyers are engineers, designers and knowledge workers; enterprise motion is bottom-up from individual adoption."
+ },
+ {
+  "name": "Stanford University",
+  "url": "https://www.stanford.edu",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ],
+  "quote": "Wordmark in the homepage \"Used by developers at\" ticker (internal group key: \"research\"). AMBIGUOUS: an academic-usage claim about individual researchers/developers, not an institutional customer.",
+  "person": "",
+  "category": "Higher education / academic research institution \u2014 NOT an AI startup and not a software vendor. Belongs in an 'academic / research logo' bucket, not a customer bucket.",
+  "stage": "n/a \u2014 140-year-old private non-profit university, no venture stage",
+  "funding": "n/a \u2014 not venture-funded. Funded by endowment, tuition and sponsored research; Stanford reports 7,500+ externally sponsored research projects (facts.stanford.edu). Exact endowment and annual research-expenditure figures were NOT verified in this pass (the finances sub-page 404'd and the web-search budget was exhausted), so I am deliberately not quoting a number.",
+  "headcount": "2,402 faculty (verified, facts.stanford.edu) plus 17,314 students. Total employee headcount (staff + faculty) unknown \u2014 not verified; LinkedIn could not be checked because the session's web-search budget was exhausted. Order of magnitude is tens of thousands, but I am not asserting a figure.",
+  "accel": "n/a \u2014 no accelerator. (Stanford is affiliated with the StartX accelerator, but that is a separate entity and irrelevant to this buying claim.)",
+  "agents": "Two distinct layers. (1) Central IT: uit.stanford.edu/ai lists an approved AI stack \u2014 AI Playground (multi-model OpenAI/Google/Anthropic access, approved for high-risk data), Claude for Education, Gemini Enterprise, ChatGPT Edu, Microsoft/GitHub Copilot, an AI API Gateway for building custom applications, an 'AI Catalyst' custom-implementation service, and published 'Responsible Agentic AI' guidance for units building agents. (2) Research: Stanford HAI (co-directed by Fei-Fei Li and John Etchemendy) plus CS/NLP labs, where agent and LLM-personalization work happens at the individual-researcher level. The Honcho usage almost certainly sits in layer 2 (a researcher or student pip-installing an SDK), not layer 1.",
+  "why_memory": "Genuine underlying need exists but is mostly research-shaped: agent-memory / user-modeling SDKs are used by NLP and HCI researchers building personalization, simulated-agent and tutoring experiments, where longitudinal per-user representation is the object of study rather than a production requirement. A real institutional need would only appear in the campus stack \u2014 persistent per-student context in AI Playground / ChatGPT Edu style deployments and in agents built on the AI API Gateway \u2014 and that procurement runs through University IT with data-classification review, not through an SDK signup. Nothing found indicates Stanford has bought agent memory at that level.",
+  "sells_to": "n/a \u2014 Stanford is a buyer/user, not a vendor. The relevant buying units are individual research labs, course staff and PhD students (credit-card / free-tier scale), plus Stanford University IT for campus-wide site licenses (enterprise scale). These two are completely different sales motions."
+ },
+ {
+  "name": "Yale University",
+  "url": "https://www.yale.edu",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ],
+  "quote": "Wordmark in the homepage \"Used by developers at\" ticker (\"research\" group). AMBIGUOUS: academic developer-level claim, not an institutional customer.",
+  "person": "",
+  "category": "Higher education / academic research institution \u2014 with a genuine central-IT agent platform, which makes it the most plausible of the three as an eventual institutional buyer even though the cited evidence is not institutional.",
+  "stage": "n/a \u2014 university chartered in 1701, no venture stage",
+  "funding": "n/a \u2014 not venture-funded. Verified figure: $1.52B+ spent on research and innovation in FY24 (yale.edu facts page). Endowment value was NOT verified in this pass and is deliberately omitted rather than guessed.",
+  "headcount": "~18,000 employees \u2014 5,842 faculty plus ~12,000 staff university-wide, both verified on yale.edu/about-yale/yale-facts (excludes the separately-operated Yale New Haven Health System). LinkedIn headcount not checked (web-search budget exhausted).",
+  "accel": "n/a \u2014 no accelerator (Yale runs its own Tsai CITY innovation center, but that is Yale as operator, not participant).",
+  "agents": "Yale operates Clarity, an institutional AI chatbot platform 'to support teaching, learning, and research with advanced generative AI', which has expanded to self-service Custom Agents and includes chatbots approved for handling ePHI in health contexts. It also runs an 'Ask AI at Yale' site chatbot and publishes a Health Sciences AI Toolkit, a Student AI Toolkit, an AI Research Resource Map and an AI Review Framework. So agents at Yale exist at two levels: sanctioned custom agents built by staff/faculty on Clarity, and unsanctioned/experimental agents built by individual researchers \u2014 the latter being the likely source of the Honcho wordmark.",
+  "why_memory": "The Clarity custom-agent program is the one place where a real agent-memory requirement appears: agents shared across a course, lab or clinical workflow need durable per-user context, and the ePHI-approved deployments need that context governed, auditable and deletable. That is a compliance-gated buy, not an SDK buy. On the research side the need is the usual academic one \u2014 user modeling and personalization as a subject of study. Nothing found shows Yale purchasing an external memory layer; a university that has already built its own platform is more likely to build or buy inside its existing vendor stack.",
+  "sells_to": "n/a \u2014 buyer/user, not a vendor. The credible institutional buyer is Yale's central AI organisation ('AI at Yale' / Yale Digital), which already procures and operates a platform and applies an AI Review Framework covering fairness, transparency, data privacy and human oversight \u2014 a real, slow, compliance-heavy enterprise motion. The Honcho-style signup, by contrast, is individual researchers and students."
+ },
+ {
+  "name": "Cornell University",
+  "url": "https://www.cornell.edu",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ],
+  "quote": "Wordmark in the homepage \"Used by developers at\" ticker (\"research\" group). AMBIGUOUS: academic developer-level claim, not an institutional customer.",
+  "person": "",
+  "category": "Not an AI company \u2014 private research university with land-grant mission / higher education. An academic-developer logo, not a commercial buyer.",
+  "stage": "n/a \u2014 non-profit chartered university, not a venture-backed company",
+  "funding": "unknown \u2014 endowment and research expenditures not verified (Cornell's factbook figures sit behind interactive Tableau dashboards that did not render as text). No venture funding; the concept does not apply.",
+  "headcount": "3,025 faculty (verified). Total employees/staff unknown \u2014 not obtained from Cornell's published pages. Students: 26,561 (16,138 undergraduate + 10,423 graduate/professional).",
+  "accel": "none \u2014 Cornell is not an accelerator alum (it runs its own programs, e.g. eLab and Cornell Tech's Runway Startup Postdoc program)",
+  "agents": "Not confirmed at any institutional level, but Cornell has the most directly agent-relevant research posture of the three. Cornell Bowers College of Computing and Information Science organizes research around 'Purposeful and Responsible AI'; it participates in Empire AI, a state AI computing center launched April 2024 as a partnership among New York's leading universities; and it hosts the Cornell AI Security Initiative, established through an Amazon partnership specifically 'to develop safety protocols for AI agents.' Its Information Science department studies people\u2013technology interaction computationally. Any Honcho usage is most plausibly individual researchers or students on a free/self-serve tier with a .edu email \u2014 agent-safety and agent-evaluation work is exactly the kind that would spin up a memory backend for a prototype.",
+  "why_memory": "At the researcher level the fit is real: agent-safety evaluation, longitudinal human-AI interaction studies, and user-modeling research all need persistent per-user/per-agent state, and Honcho's 'peer' abstraction (users, agents, NPCs, groups) suits multi-agent experiment setups. At the institutional level there is no identified need or evidence of a purchase \u2014 a university does not centrally procure agent-memory infrastructure.",
+  "sells_to": "n/a \u2014 does not sell software. Constituents are students, research sponsors, New York State, and donors."
+ },
+ {
+  "name": "Brown University",
+  "url": "https://www.brown.edu",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ],
+  "quote": "Wordmark in the homepage \"Used by developers at\" ticker (\"research\" group). AMBIGUOUS: academic developer-level claim, not an institutional customer.",
+  "person": "",
+  "category": "Not an AI company \u2014 private research university / higher education. An academic-developer logo, not a commercial buyer.",
+  "stage": "n/a \u2014 non-profit chartered university, not a venture-backed company",
+  "funding": "unknown \u2014 endowment and annual research expenditures not published on the pages fetched. No venture funding; the concept does not apply.",
+  "headcount": "889 regular faculty (verified). Total employees/staff unknown \u2014 not published on Brown's public facts pages. Students: 11,164.",
+  "accel": "none \u2014 Brown is not an accelerator alum (it runs its own Nelson Center for Entrepreneurship programs)",
+  "agents": "Not confirmed at any institutional level. Brown CS hosts research groups whose work touches the agent-memory problem: BLLIP (Brown Laboratory for Linguistic Information Processing, NLP), the Humans to Robots Laboratory (human-robot interaction), the Interactive 3D Vision and Learning Lab, Visual Computing, HCI, Computing Education Research, and the CODE Lab, alongside affiliated centers including the Brain Science Program. Brown CS did not surface a dedicated LLM-agent center. The realistic read is identical to Penn and Cornell: individual researchers or students on Honcho's free/self-serve tier with a .edu email, prototyping an agent or personalization system \u2014 not a deployment.",
+  "why_memory": "At the researcher level, persistent user modeling is relevant to Brown's NLP, HCI, human-robot interaction, and computing-education work \u2014 e.g. an AI tutor or a robot that must remember a specific person across sessions, which is precisely Honcho's pitch (identity modeling, continual learning, cognitive-science framing; note Honcho's own origin as an AI tutoring product). At the institutional level there is no identified need and no evidence of a purchase.",
+  "sells_to": "n/a \u2014 does not sell software. Constituents are students, research sponsors, and donors."
+ },
+ {
+  "name": "University of Chicago",
+  "url": "https://www.uchicago.edu",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ],
+  "quote": "Wordmark in the homepage \"Used by developers at\" ticker (\"research\" group). AMBIGUOUS: academic developer-level claim, not an institutional customer.",
+  "person": "",
+  "category": "Higher education / private research university (NOT an AI vendor; logo-wall entry in an agent-memory vendor's 'used by developers at' ticker)",
+  "stage": "not applicable - private university founded 1890, no venture stage",
+  "funding": "Not venture-funded. Endowment $10.9B (2026) per Wikipedia infobox; operating budget and annual research expenditures not verified this session. Any Honcho usage would be lab- or individual-scale, not an institutional contract.",
+  "headcount": "~26,600 employees on the figures I could verify (3,418 academic staff, 2023; 23,217 administrative staff, 2023 - the latter figure likely includes UChicago Medicine). Enrollment 18,732 (2025). Realistic developer population for an agent-memory tool: CS department, Data Science Institute, and Booth/social-science computational groups - likely dozens to low hundreds of people.",
+  "accel": "None as an institution. Runs its own venture and accelerator programs through the Polsky Center for Entrepreneurship and Innovation.",
+  "agents": "Unverified specifically for Honcho. Consistent with the vendor's framing, the plausible usage is individual researchers and students in CS, the Data Science Institute, or computational social science building agent prototypes - UChicago's strength in economics and behavioural social science makes LLM-agent simulation of human subjects a natural fit. I found no public description of an actual Honcho deployment.",
+  "why_memory": "Honcho's differentiator is a persistent, continually-updated model of the individual user rather than plain document retrieval. That maps onto research agents that must track the same subject across many sessions - longitudinal experiments, tutoring, and agent-based social simulation. Institutional adoption, by contrast, would run through IT security review and data-governance approval, and there is no sign that happened.",
+  "sells_to": "Does not sell software. The effective 'buyer' behind this logo is an individual academic developer or lab, not a central procurement function."
+ },
+ {
+  "name": "New York University (NYU)",
+  "url": "https://www.nyu.edu",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ],
+  "quote": "Logo in the homepage \"Used by developers at\" ticker (\"research\" group). AMBIGUOUS: academic developer-level claim, not an institutional customer.",
+  "person": "",
+  "category": "Higher education / research university. Not a company, not a vendor, and not an 'AI-native' buyer \u2014 it is an institution whose individual researchers and students build AI systems.",
+  "stage": "Not applicable \u2014 private nonprofit university, chartered 1831.",
+  "funding": "No venture funding. Endowment $7.28B (2025); operating budget $18.8B including NYU Langone, $4.3B excluding it (2025). Funded by tuition, federal and philanthropic research grants, and health-system revenue.",
+  "headcount": "~5,094 faculty and ~2,242 administrative staff (fall 2023), i.e. roughly 7,300 in the university proper, plus tens of thousands more across NYU Langone Health. Student body 61,890 (29,760 undergraduate, 27,578 postgraduate).",
+  "accel": "None (NYU itself runs startup accelerators such as the Endless Frontier Labs and the Leslie eLab, but is not an accelerator participant)",
+  "agents": "AI work at NYU is research- and coursework-driven, not a product. CDS (30+ interdisciplinary faculty, ~650 undergrads, 330+ MS, ~60 PhD students) runs groups including CILVR, ML2, MaD, and Minds/Brains/Machines, with published work on language-model predictions vs. human reading comprehension, confirmation bias in LLMs, and AI's influence on hiring. Courant and Tandon add systems and ML depth. Agent-building here happens at the individual lab, PhD student, and class-project level \u2014 which is precisely the granularity of a 'used by developers at' logo. I found no institutional deployment of an agent-memory platform.",
+  "why_memory": "The honest answer for the category: NYU is not a buyer, it is a source of individual users. The plausible pull is (a) researchers studying user modeling, personalization, and persona simulation who want an off-the-shelf memory layer rather than building one, (b) students prototyping companion or tutoring agents where a learner model that persists across sessions is the whole point, and (c) HCI/education groups needing longitudinal user state. Economically these are free-tier or small-spend accounts. The one path to real institutional spend would be an AI tutoring or advising system procured centrally, and nothing indicates that has happened.",
+  "sells_to": "Not a seller. As a buyer it procures enterprise software centrally through NYU IT; individual labs and researchers buy or sign up for tools on grant funds and departmental cards."
+ },
+ {
+  "name": "Nexus Venture Partners",
+  "url": "https://nexusvp.com",
+  "cited_by": [
+   "Maximem (Synap)"
+  ],
+  "quote": "AMBIGUOUS and likely NOT a customer. Appears in the 'Trusted by builders at' marquee, but Nexus Venture Partners is a venture capital firm - almost certainly an investor relationship placed in the customer wall. Flagged per the exclude-investors rule; included only because the vendor itself put it in the trust wall.",
+  "person": "",
+  "category": "venture capital (seed / Series A; AI + India digital)",
+  "stage": "not applicable \u2014 an operating VC firm, 20 years old, not itself venture-backed",
+  "funding": "not applicable as a startup; ~$3.2B capital under management across its funds (firm's own /about page)",
+  "headcount": "LinkedIn lists the 11-50 employee band while showing 183 associated profiles (the larger number typically includes portfolio-company staff who tag the firm). Realistically a few dozen investment and platform staff across four offices; exact figure unknown.",
+  "accel": "none / not applicable (it is itself an investor)",
+  "agents": "No evidence of a product use case, because there is no product. Any real usage would be internal VC ops \u2014 deal sourcing, inbound triage, CRM/company enrichment, portfolio and market research \u2014 which is a plausible but unconfirmed pattern. The stronger reading is that this logo does not represent institutional adoption at all: Maximem's wall is headed \"Trusted by builders at,\" and the full list I pulled from maximem.ai reads NVIDIA, IIT Delhi, Loopdesk, Razorpay, Aiden, Warrant, Omnidimension, TruCommerce, Praxel, UC Santa Cruz, IIT Roorkee, Uncypher, Agno, BITS Pilani, ByteDance, Mindloop, ClearVUE, HandaUncle, Supatest, Nexus Venture Partners, helllo, Hector AI, Unpaved. That mix \u2014 three universities, two hyperscale-adjacent giants, a VC firm, and a tail of tiny startups \u2014 is the signature of a wall built from the self-reported employers/affiliations of individual signups, not from signed accounts. Nexus is also an India-centric fund and Maximem appears India-linked, so an investor or scout relationship is at least as likely as a usage relationship.",
+  "why_memory": "Weak and largely hypothetical. A fund could want persistent context across founder conversations, diligence notes, and portfolio history so an internal assistant recalls prior interactions \u2014 but nothing on either site substantiates that, and this entry should be treated as an investor/affiliation artifact and excluded from a genuine customer list.",
+  "sells_to": "not applicable \u2014 a VC sells to LPs and competes for founders; it does not sell a product"
+ },
+ {
+  "name": "Ring (Amazon)",
+  "url": "https://ring.com/",
+  "cited_by": [
+   "Memories.ai"
+  ],
+  "quote": "AMBIGUOUS \u2014 this is a distribution/app-marketplace integration, i.e. Memories.ai is a vendor ON Ring's platform, not Ring buying from Memories.ai. Ring logo ('ring.svg') is in the homepage logo wall; /about lists Ring among 'partners that include...'. Post: 'Memories.ai is now available in the Ring Appstore, bringing our visual memory technology to Ring cameras used in homes and businesses around ",
+  "person": "",
+  "category": "consumer IoT / smart home security \u2014 NOT a customer; Ring is the app-store platform Memories.ai distributes on",
+  "stage": "Wholly-owned Amazon subsidiary since April 2018 (previously VC-backed)",
+  "funding": "Acquired by Amazon April 12, 2018 for ~$839M (some sources say ~$1.15B). Pre-acquisition VC rounds existed but I could not verify totals this session \u2014 treat as unknown.",
+  "headcount": "~1,300 as of 2018; current headcount unknown \u2014 Amazon does not break Ring out separately",
+  "accel": "none",
+  "agents": "Ring ships first-party AI directly in the product: 'Video Descriptions' generate text explanations of what triggered a motion alert; 'Familiar Faces' (launched Sept 2025) does opt-in face recognition to suppress noise notifications; 'Search Party' (Oct 2025) uses object recognition across the Neighbors network to find lost pets; 'Active Warnings' produce automatic spoken alerts. Strategically more important: Ring has opened a developer platform \u2014 the Ring Appstore, live at ring.com/appstore in limited availability, framed as turning 'Ring data into actionable intelligence,' with launch categories for business intelligence and operations, home analytics, elderly care monitoring, and pet wellness. That is Ring exposing its camera fleet as a substrate for third-party AI apps.",
+  "why_memory": "IMPORTANT CORRECTION TO THE PREMISE: Ring is not buying agent memory from Memories.ai \u2014 the direction is the reverse. Memories.ai's own post states 'Memories.ai is now available in the Ring Appstore, bringing our visual memory technology to Ring cameras used in homes and businesses around the world' (authored by Shawn Shen, Memories.ai co-founder/CEO). There are no quotes from any Ring or Amazon employee in that post, and memories.ai is not named on the public Ring Appstore page. Memories.ai's homepage stat '100M+ cameras powered by partner integrations' is derived from Ring's installed base, not from a Ring purchase order. TechCrunch coverage of the Ring app-store launch listed memories.ai as one launch app, a risk/security detection app for fires, smoke, falls and leaks. Ring does have the exact problem the category solves \u2014 continuous video that must become searchable, persistent, pattern-aware memory rather than raw clips \u2014 but it builds that in-house (Video Descriptions, Familiar Faces) and lets third parties fill gaps through the app store. As a go-to-market signal, Ring is a distribution channel, not an ICP.",
+  "sells_to": "Consumer / prosumer households, plus B2B SMB via Ring for Business; and now third-party developers via the Ring Appstore"
+ }
+]

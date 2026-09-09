@@ -1,0 +1,586 @@
+[
+ {
+  "name": "Hyperspell",
+  "url": "https://www.hyperspell.com/",
+  "yc_batch": "W25",
+  "one_liner": "Confirmed live; tagline is now \"A brain for your company\" \u2014 connects enterprise data sources into a permission-aware knowledge graph agents query as a filesystem.",
+  "category": "company-brain",
+  "evidence": "https://www.hyperspell.com/ ; https://www.ycombinator.com/companies/hyperspell ; https://www.naboo.ai/alternatives/ ; https://gyld.ai/blog/best-company-brain-software-in-2026-9-tools-that-give-ai-real-business-context"
+ },
+ {
+  "name": "Memory Store",
+  "url": "https://memory.store",
+  "yc_batch": "Spring 2026",
+  "one_liner": "Confirmed: \"One shared memory for your teammates, and agents\" \u2014 synthesizes Slack/Gmail/Granola transcripts into shared company memory plus self-updating \"Briefs\".",
+  "category": "company-brain",
+  "evidence": "https://www.ycombinator.com/companies/memory-store ; https://memory.store ; https://colrows.com/blogs/yc-company-brain-rfs/"
+ },
+ {
+  "name": "Hyper",
+  "url": "https://heyhyper.ai",
+  "yc_batch": "Spring 2026",
+  "one_liner": "Confirmed: \"The self-driving company brain\" \u2014 aggregates email, Slack, docs, calendar and GitHub into a knowledge graph powering AI employees.",
+  "category": "company-brain",
+  "evidence": "https://www.ycombinator.com/companies/hyper-4 ; https://heyhyper.ai ; https://colrows.com/blogs/yc-company-brain-rfs/"
+ },
+ {
+  "name": "Cerenovus",
+  "url": "https://cerenovus.ai",
+  "yc_batch": "S26",
+  "one_liner": "Confirmed live; positions as \"Institutional intelligence and decision infrastructure\" \u2014 markdown-based knowledge graph over docs/email/Slack that maps operations and infers inefficiencies.",
+  "category": "company-brain",
+  "evidence": "https://cerenovus.ai ; https://www.ycombinator.com/companies/cerenovus ; https://colrows.com/blogs/yc-company-brain-rfs/"
+ },
+ {
+  "name": "Savant",
+  "url": "https://heysavant.com/",
+  "yc_batch": "Spring 2026",
+  "one_liner": "Confirmed: \"The Operational Memory Layer\" \u2014 captures undocumented procedures and decision logic, turning them into structured context and agent skills (legal entity Bledger, Inc.).",
+  "category": "company-brain",
+  "evidence": "https://heysavant.com/ ; https://www.ycombinator.com/companies/savant ; https://colrows.com/blogs/yc-company-brain-rfs/"
+ },
+ {
+  "name": "Glen",
+  "url": "https://www.tryglen.com/",
+  "yc_batch": "YC (company page exists; batch not stated on page)",
+  "one_liner": "Confirmed: \"Agents that get smarter as your company works\" \u2014 institutional learning layer that pulls Claude Code/Codex/Cursor sessions plus Slack, GitHub, tickets and docs, and injects prior context into new agent runs.",
+  "category": "company-brain",
+  "evidence": "https://www.tryglen.com/ ; https://www.ycombinator.com/companies/glen"
+ },
+ {
+  "name": "GBrain",
+  "url": "https://github.com/garrytan/gbrain",
+  "yc_batch": "not YC (open-source project by YC CEO Garry Tan)",
+  "one_liner": "Open-source long-term memory layer that turns plain Markdown into a self-assembling knowledge graph for agents; ~74 tools over MCP, hybrid vector+BM25 retrieval.",
+  "category": "agent-memory-infra",
+  "evidence": "https://github.com/garrytan/gbrain ; https://colrows.com/blogs/yc-company-brain-rfs/ ; https://x.com/garrytan/status/2055670533451366479"
+ },
+ {
+  "name": "Colrows",
+  "url": "https://colrows.com",
+  "yc_batch": "not YC",
+  "one_liner": "Author of the reference article; a semantic execution layer that compiles business definitions into governed SQL for enterprise AI \u2014 adjacent (semantic/metrics layer) rather than a document-memory company brain.",
+  "category": "company-brain",
+  "evidence": "https://colrows.com/blogs/yc-company-brain-rfs/"
+ },
+ {
+  "name": "Sentra",
+  "url": "https://www.sentra.app",
+  "yc_batch": "not YC (a16z speedrun)",
+  "one_liner": "Governed org-wide memory layer with bi-temporal tracking (when a fact was recorded vs. when it was true), commitment tracking and contradiction detection; served to humans and agents over REST/MCP.",
+  "category": "company-brain",
+  "evidence": "https://www.sentra.app/articles/what-is-a-company-brain ; https://www.sentra.app/articles/best-company-brain-platforms ; https://gyld.ai/blog/best-company-brain-software-in-2026-9-tools-that-give-ai-real-business-context"
+ },
+ {
+  "name": "Gyld",
+  "url": "https://gyld.ai",
+  "yc_batch": "not YC",
+  "one_liner": "Confirmed: \"Business context for your AI agents\" \u2014 managed company brain that ingests Gmail, Slack, QuickBooks, Notion, Drive and exposes company knowledge as MCP servers.",
+  "category": "company-brain",
+  "evidence": "https://gyld.ai/company-brain ; https://gyld.ai/blog/best-company-brain-software-in-2026-9-tools-that-give-ai-real-business-context"
+ },
+ {
+  "name": "Naboo",
+  "url": "https://www.naboo.ai/",
+  "yc_batch": "not YC",
+  "one_liner": "Confirmed: \"The Reasoning Layer for Enterprise AI Agents\" \u2014 builds a queryable Decision Graph across tickets, PRs, code and chat; on-prem/VPC, RBAC, forward-deployed-agent delivery model.",
+  "category": "company-brain",
+  "evidence": "https://www.naboo.ai/ ; https://www.naboo.ai/alternatives/"
+ },
+ {
+  "name": "Saphenia",
+  "url": "https://saphenia.com/",
+  "yc_batch": "not YC",
+  "one_liner": "\"Context graphs for agents\" \u2014 teaches agents how an organization decides, aimed at high-regulation enterprise (financial services, pharma).",
+  "category": "company-brain",
+  "evidence": "https://saphenia.com/ ; https://www.naboo.ai/alternatives/"
+ },
+ {
+  "name": "Modern Relay (Omnigraph)",
+  "url": "https://modernrelay.com/",
+  "yc_batch": "not YC",
+  "one_liner": "Confirmed: \"Context infra that helps AI coordinate knowledge\" \u2014 enterprise context graph plus open-source Omnigraph, a git-style versioned graph DB where agents branch/propose/merge knowledge; raised ~$3M led by Point Nine (Apr 2026).",
+  "category": "company-brain",
+  "evidence": "https://modernrelay.com/ ; https://tech.eu/2026/04/14/modern-relay-raises-3m-to-build-shared-infrastructure-layer-for-ai-agents-in-the-enterprise/ ; https://www.naboo.ai/alternatives/"
+ },
+ {
+  "name": "Pensieve",
+  "url": "https://pensieve.uk/",
+  "yc_batch": "not YC",
+  "one_liner": "\"Full company context for every AI agent\" \u2014 connects Slack, Notion, Drive, GitHub into a living relational model of people/projects/decisions/customers; free, BYO model keys. (Site returned 403 to automated fetch but is live per Product Hunt.)",
+  "category": "company-brain",
+  "evidence": "https://www.producthunt.com/products/pensieve-5 ; https://pensieve.uk/"
+ },
+ {
+  "name": "Compendium",
+  "url": "https://www.producthunt.com/products/compendium-2",
+  "yc_batch": "unknown",
+  "one_liner": "\"Keeping your team, agents, and data on one page\" \u2014 company brain where all agents share one memory, plus multiplayer sessions letting teammates drive one Claude together; aimed at AI-native startups.",
+  "category": "company-brain",
+  "evidence": "https://www.producthunt.com/products/compendium-2"
+ },
+ {
+  "name": "Company Brain",
+  "url": "https://company-brain.ai",
+  "yc_batch": "not YC",
+  "one_liner": "Confirmed but early access/waitlist only: lightweight MCP connector that loads persistent business context into Claude, ChatGPT and Copilot sessions.",
+  "category": "company-brain",
+  "evidence": "https://company-brain.ai ; https://gyld.ai/blog/best-company-brain-software-in-2026-9-tools-that-give-ai-real-business-context"
+ },
+ {
+  "name": "Lore",
+  "url": "https://www.uselore.io/",
+  "yc_batch": "not YC",
+  "one_liner": "AI knowledge base / \"AI intranet\" positioned as an enterprise brain, with a native MCP server so Claude, ChatGPT and Cursor can query company knowledge; spun out of Brewster Consulting Group.",
+  "category": "company-brain",
+  "evidence": "https://www.uselore.io/ ; https://gyld.ai/blog/best-company-brain-software-in-2026-9-tools-that-give-ai-real-business-context ; https://coworker.ai/blog/knowledge-management-tools"
+ },
+ {
+  "name": "Coworker AI",
+  "url": "https://coworker.ai",
+  "yc_batch": "not YC",
+  "one_liner": "Positions as an \"active company brain\" \u2014 connects 50+ sources, verifies and re-checks facts, pushes approved updates with an audit trail.",
+  "category": "company-brain",
+  "evidence": "https://coworker.ai/compare ; https://www.sentra.app/articles/best-company-brain-platforms"
+ },
+ {
+  "name": "Agently",
+  "url": "https://agently.dev",
+  "yc_batch": "not YC",
+  "one_liner": "\"Agently Brain\" built continuously from uploaded docs, Slack, Gmail, HubSpot, Linear, GitHub and 25+ other sources.",
+  "category": "company-brain",
+  "evidence": "https://agently.dev/blog/best-ai-agent-memory-2026"
+ },
+ {
+  "name": "Vectorize",
+  "url": "https://vectorize.io",
+  "yc_batch": "not YC",
+  "one_liner": "RAG/vector pipeline platform publishing \"how to build a company brain for AI agents\" \u2014 a build-it-yourself context pipeline rather than a packaged company brain.",
+  "category": "agent-memory-infra",
+  "evidence": "https://vectorize.io/articles/how-to-build-company-brain ; https://vectorize.io/articles/best-ai-agent-memory-systems"
+ },
+ {
+  "name": "Mem0",
+  "url": "https://mem0.ai/",
+  "yc_batch": "S24",
+  "one_liner": "Confirmed: \"AI memory that persists across sessions and agents\" \u2014 the category's most-cited memory layer (vector + graph + KV), but scoped per-user/per-agent rather than org-wide.",
+  "category": "agent-memory-infra",
+  "evidence": "https://mem0.ai/ ; https://techsy.io/en/blog/best-ai-agent-memory-tools ; https://www.braintrust.dev/articles/best-ai-agent-memory-tools-2026"
+ },
+ {
+  "name": "Zep (Graphiti)",
+  "url": "https://www.getzep.com/",
+  "yc_batch": "not YC",
+  "one_liner": "Confirmed: \"Agent memory, at enterprise scale\" \u2014 temporal knowledge graph (open-source Graphiti engine) with fact-validity windows and sub-200ms retrieval; supports user, agent, org and domain graphs.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.getzep.com/ ; https://www.braintrust.dev/articles/best-ai-agent-memory-tools-2026 ; https://www.naboo.ai/alternatives/"
+ },
+ {
+  "name": "Letta (formerly MemGPT)",
+  "url": "https://www.letta.com/",
+  "yc_batch": "not YC (no batch; YC participated as an investor in the $10M seed led by Felicis)",
+  "one_liner": "Confirmed: \"Machines that learn\" \u2014 OS-inspired tiered memory (core/recall/archival) that the agent edits itself via tool calls; open source.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.letta.com/ ; https://www.digitalapplied.com/blog/open-source-agent-memory-mem0-letta-zep-compared ; https://forum.letta.com/t/agent-memory-letta-vs-mem0-vs-zep-vs-cognee/88"
+ },
+ {
+  "name": "Supermemory",
+  "url": "https://supermemory.ai/",
+  "yc_batch": "not YC (raised ~$2.6M seed co-led by Susa Ventures, Browder Capital, SF1.vc; angels incl. Jeff Dean, Dane Knecht)",
+  "one_liner": "Confirmed: \"The memory layer for AI agents\" \u2014 context-engineering platform with enterprise APIs, MCP-native connectors (Gmail, Drive, Notion, GitHub, OneDrive) and a consumer second-brain app.",
+  "category": "agent-memory-infra",
+  "evidence": "https://supermemory.ai/ ; https://www.producthunt.com/categories/llm-memory ; https://atlan.com/know/best-ai-agent-memory-frameworks-2026/"
+ },
+ {
+  "name": "Cognee",
+  "url": "https://www.cognee.ai/",
+  "yc_batch": "not YC (backed by Pebblebed, Vermillion Cliffs, 42 Cap, Combination VC, Angel Invest; part of Berkeley Xcelerator)",
+  "one_liner": "Confirmed: \"Open Source Memory Platform for Agents\" \u2014 the closest OSS analogue to a company brain, connecting Slack, GitHub and Linear into one queryable graph+vector memory.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.cognee.ai/ ; https://www.naboo.ai/alternatives/ ; https://fountaincity.tech/resources/blog/agent-memory-knowledge-systems-compared/"
+ },
+ {
+  "name": "Honcho (Plastic Labs)",
+  "url": "https://github.com/plastic-labs/honcho",
+  "yc_batch": "not YC",
+  "one_liner": "Open-source \"reasoning-first\" memory for stateful agents with a peer-centric model (users, agents, groups, projects all first-class); managed cloud at api.honcho.dev; strong 2026 benchmark results.",
+  "category": "agent-memory-infra",
+  "evidence": "https://github.com/plastic-labs/honcho ; https://andrew.ooo/posts/honcho-plastic-labs-agent-memory-review/"
+ },
+ {
+  "name": "Graphlit",
+  "url": "https://www.graphlit.com/",
+  "yc_batch": "not YC (~$3.56M raised; investors incl. Feld Ventures, 8VC, Vectura Ventures)",
+  "one_liner": "Confirmed live: positions directly as a \"Context layer for AI agents\" \u2014 managed ingestion/knowledge-graph API for unstructured content.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.graphlit.com/"
+ },
+ {
+  "name": "Papr",
+  "url": "https://www.papr.ai/",
+  "yc_batch": "not YC",
+  "one_liner": "Caution: the main site now reads \"AI apps that run GTM work\", so the company appears to have pivoted toward GTM agents; the memory product survives as open-source Papr Memory (MongoDB+Qdrant+Neo4j predictive memory layer).",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.papr.ai/ ; https://github.com/Papr-ai/memory-opensource"
+ },
+ {
+  "name": "Basic Memory",
+  "url": "https://basicmemory.com/",
+  "yc_batch": "not YC",
+  "one_liner": "Open-source local-first knowledge graph written in plain Markdown, exposed to Claude/other assistants over MCP (search_notes, read_note, write_note); individual/small-team scope rather than org-wide.",
+  "category": "agent-memory-infra",
+  "evidence": "https://basicmemory.com/ ; https://docs.basicmemory.com/start-here/what-is-basic-memory ; https://github.com/basicmachines-co/basic-memory"
+ },
+ {
+  "name": "LangMem (LangChain)",
+  "url": "https://langchain-ai.github.io/langmem/",
+  "yc_batch": "not YC",
+  "one_liner": "LangChain's open-source memory SDK for extracting, consolidating, updating and searching long-term memory inside LangGraph agents.",
+  "category": "agent-memory-infra",
+  "evidence": "https://techsy.io/en/blog/best-ai-agent-memory-tools ; https://www.braintrust.dev/articles/best-ai-agent-memory-tools-2026 ; https://atlan.com/know/best-ai-agent-memory-frameworks-2026/"
+ },
+ {
+  "name": "Evermind (EverOS)",
+  "url": "https://evermind.ai",
+  "yc_batch": "not YC",
+  "one_liner": "Local-first, Markdown-native, user-owned portable memory layer with self-evolving skills and multimodal ingestion; public beta April 2026. Note: also publishes its own \"Mem0 alternatives\" listicles, so treat its rankings as vendor content.",
+  "category": "agent-memory-infra",
+  "evidence": "https://evermind.ai/blogs/mem0-alternative ; https://github.com/EverMind-AI/EverOS"
+ },
+ {
+  "name": "Maximem (Synap)",
+  "url": "https://www.maximem.ai/",
+  "yc_batch": "not YC",
+  "one_liner": "Memory and context management for AI agents; markets Synap on latency (~15ms P50) and LongMemEval scores. Note: all comparison pages found are Maximem's own vendor-run content.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.maximem.ai/ ; https://www.maximem.ai/compare/maximem-synap-vs-mem0-vs-zep-vs-letta-vs-supermemory-vs-cognee-vs-evermind"
+ },
+ {
+  "name": "Hindsight",
+  "url": "unknown",
+  "yc_batch": "not YC",
+  "one_liner": "Named repeatedly in 2026 memory round-ups as an institutional-memory system (what an agent did, what went wrong, what humans corrected) \u2014 closest adjacent to the company-brain thesis, but I could not confirm a primary marketing site.",
+  "category": "agent-memory-infra",
+  "evidence": "https://blog.devgenius.io/ai-agent-memory-systems-in-2026-mem0-zep-hindsight-memvid-and-everything-in-between-compared-96e35b818da8 ; https://evermind.ai/blogs/best-open-source-agent-memory-frameworks-2026"
+ },
+ {
+  "name": "Memvid",
+  "url": "unknown",
+  "yc_batch": "not YC",
+  "one_liner": "Single-file memory layer combining lexical and semantic search for persistent agent context; founded 2025, Tennessee. Primary site not confirmed via fetch.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.cbinsights.com/company/memvid ; https://blog.devgenius.io/ai-agent-memory-systems-in-2026-mem0-zep-hindsight-memvid-and-everything-in-between-compared-96e35b818da8"
+ },
+ {
+  "name": "Cloudflare Agent Memory",
+  "url": "https://blog.cloudflare.com/introducing-agent-memory/",
+  "yc_batch": "not YC",
+  "one_liner": "Managed agent memory service with typed memory categories (Facts/Events/Instructions/Tasks) and shared-profile support \u2014 a hyperscaler entering the memory layer.",
+  "category": "agent-memory-infra",
+  "evidence": "https://fountaincity.tech/resources/blog/agent-memory-knowledge-systems-compared/ ; https://blog.cloudflare.com/introducing-agent-memory/"
+ },
+ {
+  "name": "OpenMemory MCP",
+  "url": "https://www.producthunt.com/categories/llm-memory",
+  "yc_batch": "not YC",
+  "one_liner": "\"Memory for your AI Tools\" \u2014 MCP-server memory shared across AI clients; listed in Product Hunt's LLM Memory category.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.producthunt.com/categories/llm-memory"
+ },
+ {
+  "name": "MemSync",
+  "url": "https://www.producthunt.com/categories/llm-memory",
+  "yc_batch": "not YC",
+  "one_liner": "\"Unified Memory for all of your apps\" \u2014 cross-app memory layer, Product Hunt LLM Memory category.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.producthunt.com/categories/llm-memory"
+ },
+ {
+  "name": "Actx0",
+  "url": "https://www.producthunt.com/categories/llm-memory",
+  "yc_batch": "not YC",
+  "one_liner": "\"Memory infrastructure for AI agents\" \u2014 Product Hunt LLM Memory launch.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.producthunt.com/categories/llm-memory"
+ },
+ {
+  "name": "Memori",
+  "url": "https://www.producthunt.com/categories/llm-memory",
+  "yc_batch": "not YC",
+  "one_liner": "\"Persistent memory from agent trace, not just conversation\" \u2014 distinctive angle of learning from execution traces rather than chat logs.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.producthunt.com/categories/llm-memory"
+ },
+ {
+  "name": "RoryPlans",
+  "url": "https://www.producthunt.com/categories/llm-memory",
+  "yc_batch": "not YC",
+  "one_liner": "\"A shared brain for your agents and team\" \u2014 team-scoped shared memory, one of the few Product Hunt LLM-memory launches with an org rather than personal scope.",
+  "category": "company-brain",
+  "evidence": "https://www.producthunt.com/categories/llm-memory"
+ },
+ {
+  "name": "Atlaso",
+  "url": "https://www.producthunt.com/categories/llm-memory",
+  "yc_batch": "not YC",
+  "one_liner": "\"One memory for every AI you use\" \u2014 cross-assistant personal memory layer; personal rather than company scope.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.producthunt.com/categories/llm-memory"
+ },
+ {
+  "name": "Liminary",
+  "url": "https://www.producthunt.com/categories/llm-memory",
+  "yc_batch": "not YC",
+  "one_liner": "\"Ground your AI in saved knowledge as you work\" \u2014 knowledge-grounding memory layer, Product Hunt LLM Memory category.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.producthunt.com/categories/llm-memory"
+ },
+ {
+  "name": "screenpipe",
+  "url": "https://www.producthunt.com/categories/llm-memory",
+  "yc_batch": "S26",
+  "one_liner": "\"AI that records your computer work to power agents\" \u2014 capture-layer feeding agent memory; YC S26, adjacent input source rather than a company brain itself.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.producthunt.com/categories/llm-memory"
+ },
+ {
+  "name": "LlamaIndex",
+  "url": "https://www.llamaindex.ai/",
+  "yc_batch": "not YC",
+  "one_liner": "Open-source data framework for connecting custom data to LLMs with end-to-end RAG pipelines and memory modules \u2014 the build-your-own substrate under many company brains.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.naboo.ai/alternatives/ ; https://fountaincity.tech/resources/blog/agent-memory-knowledge-systems-compared/"
+ },
+ {
+  "name": "Zep AI",
+  "url": "https://www.getzep.com",
+  "yc_batch": "W24",
+  "one_liner": "\"Agent memory, at enterprise scale.\" \u2014 builds temporal context graphs from chat history + business data with sub-200ms retrieval; open-source engine is Graphiti, product itself is now cloud-only. YC page tagline: \"Agent Context Is Hard. We Fixed It.\"",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.getzep.com ; https://www.ycombinator.com/companies/zep-ai ; https://x.com/ycombinator/status/1805684186264879417"
+ },
+ {
+  "name": "Memobase",
+  "url": "https://memobase.io",
+  "yc_batch": "not YC",
+  "one_liner": "\"User Profile-Based Long-Term Memory for AI Chatbot Applications\" \u2014 evolving user profiles plus timestamped event timeline, FastAPI/Postgres/Redis, Python/Node/Go SDKs, Apache-2.0. CAVEAT: memobase.io returned 404 to my fetches (bot-block or outage); GitHub repo is active (~2.9k stars, 467 commits) and lists memobase.io as the site.",
+  "category": "agent-memory-infra",
+  "evidence": "https://github.com/memodb-io/memobase ; https://github.com/memodb-io/memobase/blob/main/readme.md"
+ },
+ {
+  "name": "Basic Memory (Basic Machines)",
+  "url": "https://basicmemory.com",
+  "yc_batch": "not YC",
+  "one_liner": "\"One place for your notes, decisions, and workflows. For you, your AI tools, and your team.\" \u2014 MCP server that builds a persistent knowledge graph from plain Markdown files on disk; local free, cloud $15/mo. Local-first, Obsidian-compatible.",
+  "category": "agent-memory-infra",
+  "evidence": "https://basicmemory.com ; https://github.com/basicmachines-co/basic-memory ; https://docs.basicmemory.com/start-here/what-is-basic-memory"
+ },
+ {
+  "name": "Hindsight (Vectorize.io)",
+  "url": "https://vectorize.io",
+  "yc_batch": "not YC",
+  "one_liner": "\"Agent Memory That Learns\" \u2014 MIT-licensed retain/recall/reflect memory system with observations, mental models and knowledge pages; 25+ LLM providers, Python/Node/Go/CLI SDKs, self-host or Hindsight Cloud. NEW FIND, not on your seed list.",
+  "category": "agent-memory-infra",
+  "evidence": "https://github.com/vectorize-io/hindsight ; https://vectorize.io/articles/what-is-gbrain"
+ },
+ {
+  "name": "Memori (MemoriLabs / GibsonAI)",
+  "url": "https://memorilabs.ai",
+  "yc_batch": "not YC (no YC affiliation found)",
+  "one_liner": "\"Agent-native memory infrastructure\" \u2014 LLM-agnostic layer turning agent execution and conversation into structured persistent state; dual-mode (conscious working memory + auto DB search), runs on your existing Postgres/MySQL, deploys cloud/VPC/on-prem. NEW FIND.",
+  "category": "agent-memory-infra",
+  "evidence": "https://memorilabs.ai ; https://github.com/GibsonAI/Memori"
+ },
+ {
+  "name": "memU (NevaMind-AI)",
+  "url": "https://memu.so",
+  "yc_batch": "not YC",
+  "one_liner": "\"The memory harness for proactive AI agents \u2014 structured storage, intent capture, 10x token reduction\" \u2014 agentic memory framework for 24/7 always-on agents, multimodal ingest, RAG + LLM retrieval; hosted at memu.so, OSS on GitHub. NEW FIND. (memu.so homepage is JS-rendered and returned no text to my fetcher; GitHub confirms.)",
+  "category": "agent-memory-infra",
+  "evidence": "https://github.com/NevaMind-AI/memU ; https://github.com/NevaMind-AI/memU/blob/main/README.md"
+ },
+ {
+  "name": "MIRIX",
+  "url": "https://mirix.io",
+  "yc_batch": "not YC",
+  "one_liner": "\"Advanced Memory System for LLM Agents\" \u2014 multi-agent assistant that captures screen/visual data and converts it into structured multi-type memories for QA. NEW FIND; smaller/research-flavored, weakest commercial signal of the set.",
+  "category": "agent-memory-infra",
+  "evidence": "https://mirix.io ; https://github.com/Mirix-AI/MIRIX"
+ },
+ {
+  "name": "Wato (Wato Labs)",
+  "url": "https://www.watolabs.com/",
+  "yc_batch": "Spring 2026",
+  "one_liner": "\"The control point for AI agents at work\" \u2014 a shared, permissioned AI workspace giving agents shared memory, reusable published skills, connected MCP tools and living artifacts so work compounds across a team; works with Codex, Claude Code/Desktop, Cursor and other MCP environments.",
+  "category": "company-brain",
+  "evidence": "https://www.ycombinator.com/companies/wato ; https://www.ycombinator.com/launches/Qet-wato-a-shared-ai-workspace-for-teams"
+ },
+ {
+  "name": "Almanac",
+  "url": "https://usealmanac.com",
+  "yc_batch": "S26 (Summer 2026)",
+  "one_liner": "\"The agent with a company brain\" \u2014 bets that the AI context layer takes the shape of a wiki: compiles Slack, Gmail, GitHub and Calendar into a self-updating, browsable wiki with every claim source-linked, which its always-on agent reads before acting. Founders Kushagra Chitkara, Rohan Sharma, Divit Sheth; waitlist stage.",
+  "category": "company-brain",
+  "evidence": "https://www.ycombinator.com/companies/almanac ; https://www.ycombinator.com/launches/Rdq-almanac-the-agent-with-a-company-brain ; https://usealmanac.com (fetched, live, waitlist)"
+ },
+ {
+  "name": "Sylph",
+  "url": "https://github.com/getnao/sylph",
+  "yc_batch": "not YC (built by nao Labs, YC X25)",
+  "one_liner": "Open-source company brain shipped as a Git repo you fork \u2014 hosts company context, builds skills and agents with self-learning, agent-agnostic across Claude Code, Codex and Cursor, no vendor lock-in. Built by Claire at nao Labs to run her own YC startup; the credible open-source/DIY substitute for a paid company brain.",
+  "category": "company-brain",
+  "evidence": "https://news.ycombinator.com/item?id=48232533 (Show HN: Sylph \u2013 the open-source company brain behind my YC startup)"
+ },
+ {
+  "name": "Slite",
+  "url": "https://slite.com",
+  "yc_batch": "not YC",
+  "one_liner": "Incumbent knowledge-base vendor repositioning as a \"managed company brain\" \u2014 pairs a human-verified knowledge base with an AI agent connected to team tools, so the brain stays in sync with reality for both humans and agents. Notable as the non-YC/incumbent flank of the category.",
+  "category": "company-brain",
+  "evidence": "https://slite.com/learn/company-brain (Slite's own \"What is a Company Brain\" guide, naming Supermemory and GBrain alongside itself)"
+ },
+ {
+  "name": "Mosaic",
+  "url": "https://mosaic.inc",
+  "yc_batch": "S26 (Summer 2026)",
+  "one_liner": "\"Shared memory for your team's agents\" \u2014 syncs every coding-agent session (Claude Code, Codex, Cursor + 11 more) into one shared read-only drive preserving what was attempted, changed and why. Thesis directly overlaps company-brain: \"the real unit isn't the agent, it's one shared context store every agent reads from and writes to.\" ~2,000 installs, 37 orgs syncing.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.ycombinator.com/companies/mosaic-inc ; https://www.ycombinator.com/launches/T3K-mosaic-shared-memory-for-your-team-s-agents"
+ },
+ {
+  "name": "Graphify Labs",
+  "url": "https://www.graphify.com/",
+  "yc_batch": "S26 (Summer 2026)",
+  "one_liner": "On-device/on-prem knowledge graph engine giving humans and agents \"one shared, always-current knowledge graph of your whole codebase, across every language and every repo, plus its docs and tickets\"; adds formal PR verification. ~105K-108K GitHub stars (first YC company to cross 100K mid-batch); CEO Safi Shamsi authored \"The Memory Layer.\" Codebase-scoped rather than whole-company.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.ycombinator.com/companies/graphify-labs ; https://www.ycombinator.com/launches/SvA-graphify-labs-knowledge-graph-engine-for-enterprises"
+ },
+ {
+  "name": "Blume (blume.codes)",
+  "url": "https://blume.codes/",
+  "yc_batch": "S26 (Summer 2026) \u2014 reported by one source, NOT confirmed on the company's own site or a YC profile",
+  "one_liner": "Local desktop sidecar beside Claude Code, Codex and Cursor that clusters repeated corrections and frustration signals into durable rules, hooks and skills \u2014 agent memory formed from correction rather than ingestion. CAUTION: distinct from Blume Benefits (YC W24, health-insurance broker AI) which owns the ycombinator.com/companies/blume slug; treat the S26 batch claim as unverified.",
+  "category": "agent-memory-infra",
+  "evidence": "https://blume.codes/ (fetched \u2014 live, no YC mention) ; https://www.producthunt.com/products/blume-codes ; YC S26 claim only from https://www.getreadyforagents.com/news/enterprise-context-memory-infrastructure-agents/"
+ },
+ {
+  "name": "Letta",
+  "url": "https://www.letta.com",
+  "yc_batch": "not YC as a batch company (YC participated as an investor)",
+  "one_liner": "From the MemGPT team \u2014 treats the LLM as an operating system where the agent calls tools to page facts in and out of its own context window and rewrites its own memory; ~$10M seed. Domain not independently fetched in this sweep (commonly letta.com); verify before citing.",
+  "category": "agent-memory-infra",
+  "evidence": "https://forum.letta.com/t/agent-memory-letta-vs-mem0-vs-zep-vs-cognee/88 ; https://theaiengineer.substack.com/p/cognee-vs-zep-vs-mem0-vs-letta"
+ },
+ {
+  "name": "Engram",
+  "url": "https://engram.com",
+  "yc_batch": "not YC",
+  "one_liner": "Learned memory layer that trains a compact, continuously-improving per-customer memory so models 'actually know your organization' \u2014 claims frontier-model parity at up to 100x fewer tokens. FUNDING: $98M launch/stealth-exit round at a $600M valuation, announced 23 Jun 2026, from General Catalyst, Kleiner Perkins, Sequoia, Factory, Modern, Amplify Partners, Neo; angels Assaf Rappaport (Wiz), Andrej Karpathy, Pieter Abbeel. Founded Oct 2025, SF, 13 employees. Founders Dan Biderman (CEO), Sabri Eyuboglu (CTO), Jessy Lin, Jack Morris, Scott Linderman, Chris R\u00e9. Customers: Microsoft, Notion, Harvey. Largest round in the category by far.",
+  "category": "company-brain",
+  "evidence": "https://www.prnewswire.com/news-releases/engram-launches-with-98m-to-build-ai-that-actually-knows-your-organization-302807126.html ; https://www.cnbc.com/2026/06/23/ai-memory-startup-focused-on-cutting-token-costs-raises-98-million.html ; https://www.calcalistech.com/ctechnews/article/skoqbrumze ; site fetched: https://engram.com (live, 'AI That Learns From You')"
+ },
+ {
+  "name": "Jedify",
+  "url": "https://www.jedify.com",
+  "yc_batch": "not YC",
+  "one_liner": "'The Context Graph for Enterprise AI' \u2014 connects databases, warehouses, SaaS apps, BI tools and unstructured docs/meeting recordings via APIs into a 'Semantic Fusion' context graph capturing relationships across entities, data, people, permissions and customers, with access controls preserved. FUNDING: $24M Series A led by Norwest, announced 10 Jun 2026, with S Capital, Cerca Partners, Oceans Ventures and Snowflake Ventures (strategic); ~$33M total raised. New York. CEO/co-founder Assaf Henkin. 10-20 early customers incl. Kiteworks and The Weather Company. Claims 75% token reduction vs metadata approaches.",
+  "category": "company-brain",
+  "evidence": "https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/ ; site fetched: https://www.jedify.com (live, 'Give agents full context. Not metadata.')"
+ },
+ {
+  "name": "Zaro",
+  "url": "https://zaro.ai",
+  "yc_batch": "not YC",
+  "one_liner": "Shared memory / context layer for AI agents, positioning the company itself as the hub so 'every agent reads from and writes to it at once, like a document the whole team edits live' \u2014 explicitly so knowledge compounds for the customer, not the software vendor. FUNDING: $5.1M pre-seed led by Cherry Ventures, announced ~9-19 Jun 2026; angels Thomas Wolf (Hugging Face co-founder), Thomas Dohmke (ex-GitHub CEO), Mandeep Singh, Charlie Songhurst, and Convergence founders Marvin Purtorab and Andy Toulis. London, UK; founded 2025 by Michael Bajwa and Qian Zheng, both ex-Convergence (acquired by Salesforce). Site returned HTTP 403 to my fetcher but is confirmed live and real via investor and trade press.",
+  "category": "company-brain",
+  "evidence": "https://cherry.vc/news/shared-memory-for-ai-agents ; https://tech.eu/2026/06/09/zaro-lands-51m-to-build-the-next-layer-of-enterprise-ai/ ; https://theaiinsider.tech/2026/06/19/zaro-ai-secures-5-1m-to-unify-enterprise-ai-agents-data-and-applications-in-a-single-context-layer/"
+ },
+ {
+  "name": "Trace",
+  "url": "https://trace.so",
+  "yc_batch": "YC S25 (2025 summer cohort)",
+  "one_liner": "Builds a knowledge graph of a company from email, Slack, Airtable and similar tools, then turns high-level tasks into step-by-step workflows, delegating some steps to agents and others to humans with the right context attached; framed by founders as 'from prompt engineering to context engineering'. FUNDING: $3M seed announced 26 Feb 2026, led by Y Combinator with Zeno Ventures, Transpose Platform Management, Goodwater Capital, Formosa Capital, WeFunder; angels Benjamin Bryant, Kevin Moore. London, UK. Founders Tim Cherkasov (CEO) and Artur Romanov (CTO). Positions against Anthropic enterprise agents and Atlassian Jira agents.",
+  "category": "company-brain",
+  "evidence": "https://techcrunch.com/2026/02/26/trace-raises-3-million-to-solve-the-agent-adoption-problem/"
+ },
+ {
+  "name": "Falconer",
+  "url": "https://falconer.com",
+  "yc_batch": "not YC",
+  "one_liner": "\"The source of truth for high-speed teams\" \u2014 self-updating engineering docs grounded in the codebase, exposed to coding agents via Falconer MCP; markets itself as running \"context engineering at company scale.\" Backed by BoxGroup and The General Partnership.",
+  "category": "company-brain",
+  "evidence": "https://falconer.com (fetched); https://falconer.com/guides/how-to-build-company-brain/; https://www.producthunt.com/products/falconer"
+ },
+ {
+  "name": "Sentra (Dynamis Labs)",
+  "url": "https://www.sentra.app/",
+  "yc_batch": "not YC",
+  "one_liner": "\"The Company Brain for your team and AI agents\" \u2014 a governed organizational memory layer capturing decisions and commitments with bi-temporal tracking, queryable via one API/MCP. Backed by a16z Speedrun and Together Fund. (Distinct from sentra.io, the data-security company.)",
+  "category": "company-brain",
+  "evidence": "https://www.sentra.app/ (fetched); https://www.sentra.app/articles/best-company-brain-platforms"
+ },
+ {
+  "name": "In Parallel",
+  "url": "https://www.in-parallel.com/",
+  "yc_batch": "not YC",
+  "one_liner": "\"The Shared Context Layer for Enterprise AI\" \u2014 joins meetings, captures decisions and commitments as they happen, and serves permission-scoped, cited org context to Claude/ChatGPT/Copilot over MCP (agents can also write back). Helsinki-based, EU-hosted, \u20ac29/user/mo.",
+  "category": "company-brain",
+  "evidence": "https://www.in-parallel.com/ (fetched); https://www.in-parallel.com/build/; https://www.producthunt.com/products/in-parallel"
+ },
+ {
+  "name": "Interloom",
+  "url": "https://www.interloom.com/",
+  "yc_batch": "not YC",
+  "one_liner": "Munich-based enterprise operations workspace that delegates work across teams and AI agents while building a context graph (\"MemoryRank\") of cases, decisions and outcomes \u2014 positioned as turning expert operational knowledge into permanent agent memory. \u20ac14.2M/$16.5M seed led by DN Capital.",
+  "category": "company-brain",
+  "evidence": "https://www.interloom.com/ (fetched); https://interloom.com/en/blog/seed-announcement/; https://www.eu-startups.com/2026/03/german-startup-interloom-lands-e14-2-million-seed-funding-for-ai-agent-knowledge-infrastructure/"
+ },
+ {
+  "name": "Webair AI",
+  "url": "https://www.webair.ai/company-brain",
+  "yc_batch": "not YC",
+  "one_liner": "\"The Company Brain for your business\" \u2014 a private company brain reachable by SMS or web, built on its Cortyx routing-and-memory engine that layers business, personal and operational knowledge and acts as a privacy shim to model providers. NY-based; SMB/prosumer positioning rather than agent infrastructure.",
+  "category": "company-brain",
+  "evidence": "https://www.webair.ai/company-brain; https://www.webair.ai/about; https://finance.yahoo.com/technology/ai/articles/webair-ai-turns-business-knowledge-172300117.html"
+ },
+ {
+  "name": "Memori (Memori Labs)",
+  "url": "https://memorilabs.ai/",
+  "yc_batch": "not YC",
+  "one_liner": "\"Agent-native memory infrastructure\" \u2014 an LLM-agnostic layer that turns agent execution traces (not just conversation) into structured, persistent state; markets a \"company brain\" use case.",
+  "category": "agent-memory-infra",
+  "evidence": "https://memorilabs.ai/ (fetched); https://memorilabs.ai/use-cases/company-brain/"
+ },
+ {
+  "name": "xmemory",
+  "url": "https://xmemory.ai/",
+  "yc_batch": "not YC",
+  "one_liner": "\"Schema-grounded agent-first memory engine\" \u2014 structures memory on the write path with schemas, types, constraints and dedup so agent memory can be trusted like data infrastructure. London-based, $4M/\u00a33M pre-seed led by Fly Ventures; closed beta.",
+  "category": "agent-memory-infra",
+  "evidence": "https://xmemory.ai/ (fetched); https://www.finsmes.com/2026/03/xmemory-raises-4m-in-pre-seed-funding.html; https://www.uktechnews.info/2026/03/20/xmemory-secures-3-million-pre-seed-investment-led-by-fly-ventures/"
+ },
+ {
+  "name": "ByteRover",
+  "url": "https://www.byterover.dev/",
+  "yc_batch": "not YC",
+  "one_liner": "\"Share the right context across your agents and team. You control what crosses.\" \u2014 local-first, file-based memory for coding agents with selective team sharing; claims >92% retrieval accuracy.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.byterover.dev/ (fetched); https://www.producthunt.com/categories/llm-memory (fetched)"
+ },
+ {
+  "name": "MemoryLake",
+  "url": "https://www.memorylake.ai/",
+  "yc_batch": "not YC",
+  "one_liner": "\"The memory lake for every AI\" \u2014 multimodal memory infrastructure storing conversations and documents with end-to-end encryption so agents keep persistent context across sessions; free tier plus premium plans.",
+  "category": "agent-memory-infra",
+  "evidence": "https://www.memorylake.ai/ (fetched); https://www.memorylake.ai/en/blogs/best-shared-memory-solutions-for-multi-agent-systems"
+ },
+ {
+  "name": "Graphon AI",
+  "url": "https://graphon.ai/",
+  "yc_batch": "not YC",
+  "one_liner": "\"The Intelligence Infrastructure across physical and digital worlds\" \u2014 a \"pre-model intelligence layer\" turning video, audio, images, docs and databases into persistent relational memory agents reason over at petabyte scale. SF-based, $8.3M seed led by Novera Ventures.",
+  "category": "agent-memory-infra",
+  "evidence": "https://graphon.ai/ (fetched); https://siliconangle.com/2026/05/14/graphon-reels-8-3m-persistent-relational-memory-platform/; https://www.businesswire.com/news/home/20260514783447/en/"
+ }
+]

@@ -1,0 +1,1116 @@
+<title>Company Brain Playbook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap">
+
+<style>
+  :root{
+    --ground:#F2F3F5;
+    --surface:#FFFFFF;
+    --surface-2:#FAFAFB;
+    --ink:#14171C;
+    --ink-soft:#545C6A;
+    --ink-faint:#8A93A1;
+    --line:#DFE2E7;
+    --line-strong:#C6CBD3;
+    --accent:#8C2F39;
+    --accent-ink:#8C2F39;
+    --accent-wash:#F5E7E8;
+    --good:#2E6B4F;
+    --good-wash:#E4EFE9;
+    --warn:#8A6A1F;
+    --warn-wash:#F3EBD9;
+    --shadow:0 1px 2px rgba(20,23,28,.05), 0 8px 24px -16px rgba(20,23,28,.25);
+
+    --sans:"Archivo","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --serif:"Newsreader",Georgia,"Times New Roman",serif;
+
+    --measure:64ch;
+    --pad:clamp(20px,4vw,56px);
+  }
+
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ground:#101317;
+      --surface:#171B21;
+      --surface-2:#1C2129;
+      --ink:#EDEFF2;
+      --ink-soft:#A3ACB9;
+      --ink-faint:#6E7885;
+      --line:#2A313A;
+      --line-strong:#3A434F;
+      --accent:#D9737A;
+      --accent-ink:#E89298;
+      --accent-wash:#2B1B1E;
+      --good:#6FBF95;
+      --good-wash:#16261F;
+      --warn:#D6AF62;
+      --warn-wash:#26200F;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.8);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#101317;
+    --surface:#171B21;
+    --surface-2:#1C2129;
+    --ink:#EDEFF2;
+    --ink-soft:#A3ACB9;
+    --ink-faint:#6E7885;
+    --line:#2A313A;
+    --line-strong:#3A434F;
+    --accent:#D9737A;
+    --accent-ink:#E89298;
+    --accent-wash:#2B1B1E;
+    --good:#6FBF95;
+    --good-wash:#16261F;
+    --warn:#D6AF62;
+    --warn-wash:#26200F;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.8);
+  }
+
+  *{box-sizing:border-box}
+
+  body{
+    background:var(--ground);
+    color:var(--ink);
+    font-family:var(--serif);
+    font-size:17px;
+    line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .wrap{
+    max-width:900px;
+    margin:0 auto;
+    padding:0 var(--pad) 96px;
+  }
+
+  /* ---------- masthead ---------- */
+  .mast{
+    padding:clamp(40px,7vw,80px) 0 0;
+  }
+  .eyebrow{
+    font-family:var(--sans);
+    font-size:11.5px;
+    font-weight:600;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    margin:0 0 18px;
+  }
+  h1{
+    font-family:var(--sans);
+    font-weight:700;
+    font-size:clamp(34px,6.2vw,54px);
+    line-height:1.04;
+    letter-spacing:-.022em;
+    text-wrap:balance;
+    margin:0 0 20px;
+  }
+  .standfirst{
+    font-size:clamp(18px,2.3vw,21px);
+    line-height:1.55;
+    color:var(--ink-soft);
+    max-width:58ch;
+    margin:0 0 34px;
+  }
+  .standfirst strong{color:var(--ink);font-weight:600}
+
+  .facts{
+    display:flex;
+    flex-wrap:wrap;
+    gap:0;
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+    margin:0 0 44px;
+  }
+  .fact{
+    flex:1 1 150px;
+    padding:16px 20px 16px 0;
+    border-right:1px solid var(--line);
+  }
+  .fact:last-child{border-right:0}
+  .fact dt{
+    font-family:var(--sans);
+    font-size:10.5px;
+    font-weight:600;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    margin:0 0 5px;
+  }
+  .fact dd{
+    margin:0;
+    font-family:var(--sans);
+    font-weight:700;
+    font-size:24px;
+    letter-spacing:-.01em;
+    font-variant-numeric:tabular-nums;
+  }
+  .fact dd span{
+    font-family:var(--serif);
+    font-weight:400;
+    font-size:14px;
+    color:var(--ink-soft);
+    letter-spacing:0;
+    display:block;
+    margin-top:1px;
+  }
+
+  /* ---------- opener box ---------- */
+  .opener{
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-left:3px solid var(--accent);
+    border-radius:3px;
+    padding:clamp(22px,3.4vw,32px);
+    margin:0 0 20px;
+    box-shadow:var(--shadow);
+  }
+  .opener h2{
+    font-family:var(--sans);
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.13em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    margin:0 0 14px;
+  }
+  .opener p{
+    margin:0 0 14px;
+    max-width:var(--measure);
+    font-size:18.5px;
+  }
+  .opener p:last-child{margin-bottom:0}
+
+  .howto{
+    font-family:var(--sans);
+    font-size:14px;
+    line-height:1.6;
+    color:var(--ink-soft);
+    background:var(--surface-2);
+    border:1px dashed var(--line-strong);
+    border-radius:3px;
+    padding:16px 18px;
+    margin:0 0 56px;
+    max-width:var(--measure);
+  }
+  .howto b{color:var(--ink);font-weight:600}
+
+  /* ---------- section heads ---------- */
+  .sec-head{
+    margin:0 0 8px;
+    padding-top:8px;
+  }
+  .sec-head h2{
+    font-family:var(--sans);
+    font-size:clamp(22px,3.4vw,30px);
+    font-weight:700;
+    letter-spacing:-.018em;
+    margin:0 0 8px;
+    text-wrap:balance;
+  }
+  .sec-head p{
+    margin:0;
+    color:var(--ink-soft);
+    max-width:var(--measure);
+    font-size:16.5px;
+  }
+  .rule{
+    height:1px;
+    background:var(--line);
+    border:0;
+    margin:26px 0 0;
+  }
+
+  /* ---------- plays ---------- */
+  .plays{margin:0;padding:0;list-style:none}
+
+  .play{
+    display:grid;
+    grid-template-columns:64px 1fr;
+    gap:0 24px;
+    padding:38px 0 34px;
+    border-bottom:1px solid var(--line);
+  }
+  .play:last-child{border-bottom:0}
+
+  .rank{
+    font-family:var(--sans);
+    font-weight:700;
+    font-size:38px;
+    line-height:1;
+    letter-spacing:-.04em;
+    color:var(--accent-ink);
+    font-variant-numeric:tabular-nums;
+    padding-top:2px;
+  }
+  .rank small{
+    display:block;
+    font-size:9.5px;
+    letter-spacing:.12em;
+    color:var(--ink-faint);
+    font-weight:600;
+    margin-top:7px;
+  }
+
+  .play h3{
+    font-family:var(--sans);
+    font-size:clamp(20px,2.9vw,25px);
+    font-weight:700;
+    letter-spacing:-.017em;
+    line-height:1.22;
+    margin:0 0 12px;
+    text-wrap:balance;
+  }
+
+  .tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:7px;
+    margin:0 0 16px;
+  }
+  .tag{
+    font-family:var(--sans);
+    font-size:10px;
+    font-weight:600;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    padding:4px 9px;
+    border-radius:2px;
+    border:1px solid var(--line-strong);
+    color:var(--ink-soft);
+    white-space:nowrap;
+  }
+  .tag b{font-weight:700;color:var(--ink)}
+  .tag.hi{background:var(--good-wash);border-color:transparent;color:var(--good)}
+  .tag.hi b{color:var(--good)}
+  .tag.mid{background:var(--warn-wash);border-color:transparent;color:var(--warn)}
+  .tag.mid b{color:var(--warn)}
+
+  .play p{margin:0 0 15px;max-width:var(--measure)}
+  .play p:last-child{margin-bottom:0}
+
+  .field{
+    margin:0 0 15px;
+    max-width:var(--measure);
+  }
+  .field .lab{
+    font-family:var(--sans);
+    font-size:10.5px;
+    font-weight:700;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    display:block;
+    margin:0 0 4px;
+  }
+  .field p{margin:0}
+
+  .proof{
+    font-family:var(--sans);
+    font-size:14.5px;
+    line-height:1.55;
+    color:var(--ink-soft);
+    background:var(--surface-2);
+    border:1px solid var(--line);
+    border-radius:3px;
+    padding:13px 16px;
+    margin:0 0 16px;
+    max-width:var(--measure);
+  }
+  .proof b{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+  .proof .lab{
+    font-size:10px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--ink-faint);display:block;margin:0 0 5px;
+  }
+
+  blockquote.say{
+    margin:18px 0 0;
+    padding:16px 20px;
+    background:var(--accent-wash);
+    border-left:3px solid var(--accent);
+    border-radius:0 3px 3px 0;
+    max-width:var(--measure);
+  }
+  blockquote.say .lab{
+    font-family:var(--sans);
+    font-size:10px;
+    font-weight:700;
+    letter-spacing:.13em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    display:block;
+    margin:0 0 7px;
+  }
+  blockquote.say p{
+    margin:0;
+    font-style:italic;
+    font-size:18px;
+    line-height:1.55;
+    color:var(--ink);
+  }
+  blockquote.say p + p{margin-top:11px}
+
+  .co{
+    font-family:var(--sans);
+    font-weight:600;
+    font-size:.92em;
+    font-style:normal;
+    letter-spacing:-.005em;
+  }
+
+  /* ---------- mistakes ---------- */
+  .miss{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:0;
+    border:1px solid var(--line);
+    border-radius:3px;
+    background:var(--surface);
+    overflow:hidden;
+    box-shadow:var(--shadow);
+  }
+  .miss-item{
+    padding:22px clamp(18px,2.6vw,26px);
+    border-bottom:1px solid var(--line);
+  }
+  .miss-item:last-child{border-bottom:0}
+  .miss-item h3{
+    font-family:var(--sans);
+    font-size:17px;
+    font-weight:700;
+    letter-spacing:-.012em;
+    margin:0 0 8px;
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+  }
+  .miss-item h3::before{
+    content:"×";
+    font-size:19px;
+    color:var(--accent-ink);
+    font-weight:700;
+    line-height:1;
+    flex:none;
+  }
+  .miss-item p{margin:0;max-width:var(--measure);font-size:16.5px;color:var(--ink-soft)}
+  .miss-item p b{color:var(--ink);font-weight:600}
+
+  /* ---------- glossary ---------- */
+  .gloss{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+    gap:0 34px;
+    margin:0;
+  }
+  .gloss div{
+    padding:15px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .gloss dt{
+    font-family:var(--sans);
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:-.005em;
+    margin:0 0 3px;
+  }
+  .gloss dd{
+    margin:0;
+    font-size:15.5px;
+    line-height:1.55;
+    color:var(--ink-soft);
+  }
+
+  /* ---------- footer ---------- */
+  .foot{
+    margin-top:56px;
+    padding-top:22px;
+    border-top:1px solid var(--line);
+    font-family:var(--sans);
+    font-size:13px;
+    line-height:1.65;
+    color:var(--ink-faint);
+    max-width:var(--measure);
+  }
+  .foot b{color:var(--ink-soft);font-weight:600}
+
+  .spacer{height:clamp(44px,6vw,64px)}
+
+  @media (max-width:560px){
+    body{font-size:16.5px}
+    .play{grid-template-columns:1fr;gap:0}
+    .rank{
+      font-size:15px;
+      display:flex;
+      align-items:baseline;
+      gap:9px;
+      margin-bottom:10px;
+      padding-top:0;
+    }
+    .rank small{margin-top:0;display:inline}
+    .fact{flex:1 1 100%;border-right:0;border-bottom:1px solid var(--line);padding-right:0}
+    .fact:last-child{border-bottom:0}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none !important;transition:none !important}
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="mast">
+    <p class="eyebrow">Competitor research · Company brain &amp; agent memory · September 2026</p>
+    <h1>How our competitors actually win customers</h1>
+    <p class="standfirst">
+      We looked at <strong>91 companies</strong> selling some version of a “brain” or “memory” for AI.
+      We read their websites, their customer logos and their testimonials, and we worked out what they
+      are each doing to get customers. This page ranks those moves — <strong>best first</strong>.
+    </p>
+
+    <dl class="facts">
+      <div class="fact"><dt>Companies studied</dt><dd>91<span>16 are Y Combinator startups</span></dd></div>
+      <div class="fact"><dt>Customers we found</dt><dd>403<span>scraped from their own sites</span></dd></div>
+      <div class="fact"><dt>Researched in depth</dt><dd>37<span>the ones that fit our buyer</span></dd></div>
+      <div class="fact"><dt>Show no customers</dt><dd>25<span>out of the 91 — a real signal</span></dd></div>
+    </dl>
+  </header>
+
+  <section class="opener">
+    <h2>If you only say one thing</h2>
+    <p>
+      There are two completely different markets here, and almost everyone confuses them. The big,
+      established players — <span class="co">Notion</span>, <span class="co">Guru</span>,
+      <span class="co">Glean</span>, <span class="co">Atlan</span> — put big corporate logos on their
+      websites. The new startups put <em>other tiny startups</em> on theirs.
+    </p>
+    <p>
+      That means a young company cannot win by selling to big corporations. It wins by selling to other
+      small, fast-moving AI companies — the ones building AI assistants of their own, who feel the pain
+      today and can decide to buy in a week instead of a year.
+    </p>
+  </section>
+
+  <p class="howto">
+    <b>How to use this page.</b> Each play below has four parts: what it means in plain words, who is
+    actually doing it, the evidence we found, and a sentence you can say out loud. Read the top four
+    properly — those are the ones worth talking about. The rest are useful if the conversation goes deeper.
+  </p>
+
+  <div class="sec-head">
+    <h2>The ten plays, ranked by value</h2>
+    <p>
+      Ranked by how much they matter for a company at our stage: how much new business the move brings in,
+      set against how hard it is to pull off.
+    </p>
+    <hr class="rule">
+  </div>
+
+  <ol class="plays">
+
+    <!-- 1 -->
+    <li class="play">
+      <div class="rank">01<small>RANK</small></div>
+      <div>
+        <h3>Sell to the startups sitting next to you</h3>
+        <div class="tags">
+          <span class="tag hi"><b>Impact</b> · Very high</span>
+          <span class="tag hi"><b>Effort</b> · Low</span>
+          <span class="tag">Works immediately</span>
+        </div>
+
+        <div class="field">
+          <span class="lab">What it means</span>
+          <p>
+            Don’t start by chasing big companies. Start by selling to the startups you already have access
+            to — the ones in your accelerator batch, your investor’s portfolio, your group chats. They
+            trust you, they reply to your messages, and they can say yes without a procurement process.
+          </p>
+        </div>
+
+        <div class="field">
+          <span class="lab">Who is doing it</span>
+          <p>
+            <span class="co">Hyperspell</span> is the clearest example. Nearly every customer on its
+            website is another small AI startup — <span class="co">AgentMail</span>,
+            <span class="co">Hobbes</span>, <span class="co">Scale Agentic</span>,
+            <span class="co">Corgi</span>, <span class="co">Eragon</span>,
+            <span class="co">Smallest</span>, <span class="co">FinalRoundAI</span>. Not one large
+            corporation. <span class="co">Falconer</span> and <span class="co">Glen</span> do the same thing.
+          </p>
+        </div>
+
+        <div class="proof">
+          <span class="lab">The evidence</span>
+          Of the <b>37</b> customers we researched properly, almost all are <b>seed-stage</b> AI companies of
+          roughly <b>10–200 people</b>. The huge corporate names only ever appear on the websites of the old,
+          established tools — never on the websites of the new startups.
+        </div>
+
+        <blockquote class="say">
+          <span class="lab">Say it like this</span>
+          <p>
+            “I looked at who these companies actually put on their websites. The new ones sell almost
+            entirely to other small AI startups. So the fastest route to revenue isn’t enterprise sales —
+            it’s the network we’re already inside.”
+          </p>
+        </blockquote>
+      </div>
+    </li>
+
+    <!-- 2 -->
+    <li class="play">
+      <div class="rank">02<small>RANK</small></div>
+      <div>
+        <h3>Solve one painful job, and name the tool you’re replacing</h3>
+        <div class="tags">
+          <span class="tag hi"><b>Impact</b> · Very high</span>
+          <span class="tag mid"><b>Effort</b> · Medium</span>
+          <span class="tag">Biggest differentiator</span>
+        </div>
+
+        <div class="field">
+          <span class="lab">What it means</span>
+          <p>
+            “We’re a company brain” is not something anyone has a budget for. But “your engineering docs
+            are out of date and it’s costing your team hours every week — rip out Confluence” is a problem
+            someone will pay to fix today. Pick one narrow, annoying, obvious job. Then name the specific
+            product you’re replacing, so the buyer instantly understands what changes.
+          </p>
+        </div>
+
+        <div class="field">
+          <span class="lab">Who is doing it</span>
+          <p>
+            <span class="co">Falconer</span> does this best. It sells one thing — engineering documentation
+            that drifts out of sync with the actual code — and it openly positions against
+            <span class="co">Confluence</span> and <span class="co">Notion</span>. Compare that with
+            <span class="co">Glen</span>, which calls itself an “institutional learning layer.” Nobody
+            wakes up wanting to buy an institutional learning layer.
+          </p>
+        </div>
+
+        <div class="proof">
+          <span class="lab">The evidence</span>
+          <span class="co">Falconer</span> alone accounts for <b>6</b> of our <b>37</b> researched customers
+          and <b>4</b> of the <b>18</b> testimonials that carry a real person’s name and job title — and its
+          case studies are the only ones that state the customer’s industry, location and company size.
+          <span class="co">Glen</span> has a similar number of customers but its quotes are vague, like
+          <i>“It just works and works well.”</i> That tells you nothing about what problem was solved.
+        </div>
+
+        <blockquote class="say">
+          <span class="lab">Say it like this</span>
+          <p>
+            “The companies with the strongest customer proof are the ones selling a specific, boring,
+            painful job — not a vision. Falconer sells ‘your docs are stale, replace Confluence’ and gets
+            detailed case studies. The ones selling a ‘learning layer’ get vague one-liners, because
+            there’s no budget line for a learning layer.”
+          </p>
+        </blockquote>
+      </div>
+    </li>
+
+    <!-- 3 -->
+    <li class="play">
+      <div class="rank">03<small>RANK</small></div>
+      <div>
+        <h3>Put a real name, face and job title on every testimonial</h3>
+        <div class="tags">
+          <span class="tag hi"><b>Impact</b> · High</span>
+          <span class="tag hi"><b>Effort</b> · Very low</span>
+          <span class="tag">Cheapest win here</span>
+        </div>
+
+        <div class="field">
+          <span class="lab">What it means</span>
+          <p>
+            A logo on a website proves almost nothing — anyone can add a logo. A named person, with their
+            job title, saying what specifically got better, is worth ten logos. It is also the single
+            cheapest thing on this whole list: you already have the customers, you just have to ask them.
+          </p>
+        </div>
+
+        <div class="field">
+          <span class="lab">Who is doing it</span>
+          <p>
+            <span class="co">Hyperspell</span> quotes Adi Singh, Founder of <span class="co">AgentMail</span>:
+            <i>“one shared source of truth across our whole team and agents has let us automate most of our
+            internal operations.”</i> <span class="co">Mem0</span> quotes Abhi Arya of
+            <span class="co">OpenNote</span>: <i>“Mem0 turned our AI tutors into true learning companions —
+            tracking each student’s struggles, strengths, and learning style.”</i> Both name the person and
+            the result.
+          </p>
+        </div>
+
+        <div class="proof">
+          <span class="lab">The evidence</span>
+          <b>25 of the 91</b> companies we studied show <b>no customers at all</b> on their websites — including
+          well-funded ones. Only <b>18</b> testimonials across the whole market carry a real name and title.
+          It is a wide-open gap, and it costs nothing to close.
+        </div>
+
+        <blockquote class="say">
+          <span class="lab">Say it like this</span>
+          <p>
+            “A quarter of this market shows no customer proof at all, and only eighteen testimonials in the
+            entire category have a real name and job title attached. That’s the cheapest possible advantage —
+            we just have to ask our users for a sentence about what actually changed.”
+          </p>
+        </blockquote>
+      </div>
+    </li>
+
+    <!-- 4 -->
+    <li class="play">
+      <div class="rank">04<small>RANK</small></div>
+      <div>
+        <h3>Give the code away free, charge for the hosted version</h3>
+        <div class="tags">
+          <span class="tag hi"><b>Impact</b> · High</span>
+          <span class="tag mid"><b>Effort</b> · High</span>
+          <span class="tag">Slow, then compounding</span>
+        </div>
+
+        <div class="field">
+          <span class="lab">What it means</span>
+          <p>
+            Publish your core software free and open on GitHub so any developer can download and try it
+            without talking to sales. Most will run it themselves — that’s fine, they become your marketing.
+            The ones who don’t want the hassle of running it pay you to host it for them. You get reach
+            first and revenue second.
+          </p>
+        </div>
+
+        <div class="field">
+          <span class="lab">Who is doing it</span>
+          <p>
+            This is the standard playbook for the technical half of the market:
+            <span class="co">Mem0</span>, <span class="co">Zep</span>, <span class="co">Letta</span>,
+            <span class="co">Supermemory</span>, <span class="co">Cognee</span>,
+            <span class="co">Honcho</span>, <span class="co">Papr</span> and
+            <span class="co">Basic Memory</span> all do it.
+          </p>
+        </div>
+
+        <div class="proof">
+          <span class="lab">The evidence</span>
+          <b>24</b> of the 91 companies lead with an open-source product. It works, but note the trade-off:
+          it takes a long time, and it mostly wins developers rather than teams. It suits a company selling
+          building blocks to engineers, not a finished product a whole team logs into.
+        </div>
+
+        <blockquote class="say">
+          <span class="lab">Say it like this</span>
+          <p>
+            “Roughly a quarter of the market is open source — Mem0, Zep, Letta, Supermemory. It buys real
+            reach with developers, but it’s slow and it wins individual engineers rather than teams. It’s
+            the right move if you’re selling a building block, not a finished product.”
+          </p>
+        </blockquote>
+      </div>
+    </li>
+
+    <!-- 5 -->
+    <li class="play">
+      <div class="rank">05<small>RANK</small></div>
+      <div>
+        <h3>Go after teams who already built this themselves</h3>
+        <div class="tags">
+          <span class="tag hi"><b>Impact</b> · High</span>
+          <span class="tag hi"><b>Effort</b> · Low</span>
+          <span class="tag">Underused</span>
+        </div>
+
+        <div class="field">
+          <span class="lab">What it means</span>
+          <p>
+            The best customer isn’t someone who’s never heard of the problem. It’s someone who hit the
+            problem, built their own patchy solution, and is now quietly sick of maintaining it. They
+            don’t need convincing that the problem is real — they’ve already paid for it in engineering
+            time. You just have to show up.
+          </p>
+        </div>
+
+        <div class="field">
+          <span class="lab">Who is doing it</span>
+          <p>
+            Almost nobody is targeting this deliberately, which is exactly why it’s an opening. But the
+            proof that these buyers exist is in the data: <span class="co">Adapta</span>,
+            <span class="co">Flow</span> and <span class="co">Scira</span> all built their own memory
+            systems and then switched to a vendor.
+          </p>
+        </div>
+
+        <div class="proof">
+          <span class="lab">The evidence</span>
+          About <b>8 of the 37</b> researched customers had already built memory in-house — roughly
+          <b>one in five</b>. That cuts both ways: it’s a ready-made list of warm prospects, but it also means
+          a fifth of any target list may decide to build rather than buy. Worth naming that risk out loud.
+        </div>
+
+        <blockquote class="say">
+          <span class="lab">Say it like this</span>
+          <p>
+            “About one in five of these customers had already built their own memory system before buying
+            one. That’s our warmest possible audience — they’ve proven they want it and they’re tired of
+            maintaining it. It’s also our biggest risk, and I’d rather we name it than pretend it isn’t there.”
+          </p>
+        </blockquote>
+      </div>
+    </li>
+
+    <!-- 6 -->
+    <li class="play">
+      <div class="rank">06<small>RANK</small></div>
+      <div>
+        <h3>Sell memory your customer can resell to their own users</h3>
+        <div class="tags">
+          <span class="tag hi"><b>Impact</b> · High</span>
+          <span class="tag mid"><b>Effort</b> · Medium</span>
+          <span class="tag">Changes the price</span>
+        </div>
+
+        <div class="field">
+          <span class="lab">What it means</span>
+          <p>
+            There’s a big difference between selling a tool a company uses internally and selling a piece
+            they build into the product they sell. Internal tools are a cost — buyers push the price down.
+            But if your memory becomes a feature <em>their</em> customers pay for, it turns into part of how
+            they make money. People pay far more for that, and they don’t churn easily.
+          </p>
+        </div>
+
+        <div class="field">
+          <span class="lab">Who is doing it</span>
+          <p>
+            Only <span class="co">Hyperspell</span> and <span class="co">Cognee</span> show real evidence of
+            winning this. Yet the demand is obvious in the data — <span class="co">Hobbes</span>,
+            <span class="co">Luccid</span>, <span class="co">SlideSpeak</span> and
+            <span class="co">Adapta</span> all need memory that is separated per end-customer.
+          </p>
+        </div>
+
+        <div class="proof">
+          <span class="lab">The evidence</span>
+          Four of the researched customers need this and only two vendors visibly serve it. That’s a gap
+          between what buyers need and what the market currently offers.
+        </div>
+
+        <blockquote class="say">
+          <span class="lab">Say it like this</span>
+          <p>
+            “The most valuable version of this isn’t a tool a company uses internally — it’s memory they
+            build into the product they sell. That stops being a cost line and starts being part of their
+            revenue, which completely changes what they’ll pay. Four of the customers I looked at need it
+            and only two vendors serve it.”
+          </p>
+        </blockquote>
+      </div>
+    </li>
+
+    <!-- 7 -->
+    <li class="play">
+      <div class="rank">07<small>RANK</small></div>
+      <div>
+        <h3>Plug into other people’s AI tools instead of asking people to visit yours</h3>
+        <div class="tags">
+          <span class="tag mid"><b>Impact</b> · Medium</span>
+          <span class="tag hi"><b>Effort</b> · Low</span>
+          <span class="tag">Fast distribution</span>
+        </div>
+
+        <div class="field">
+          <span class="lab">What it means</span>
+          <p>
+            There is now a common standard — <strong>MCP</strong> — that lets any AI assistant connect to
+            outside tools. If you support it, your product shows up <em>inside</em> whatever AI tool someone
+            already uses, instead of being another website they have to remember to open. You borrow
+            someone else’s daily habit rather than trying to build a new one.
+          </p>
+        </div>
+
+        <div class="field">
+          <span class="lab">Who is doing it</span>
+          <p>
+            <span class="co">Memory Store</span> makes it the whole pitch — any AI assistant that supports
+            the standard can connect straight to your company’s memory. <span class="co">Mem0</span> shipped
+            a dedicated version called OpenMemory. <span class="co">Supermemory</span>,
+            <span class="co">Falconer</span>, <span class="co">Sentra</span> and
+            <span class="co">Wato</span> all do it too.
+          </p>
+        </div>
+
+        <div class="proof">
+          <span class="lab">The evidence</span>
+          <b>14</b> of the 91 companies now lead with this. It is quick to build and gets you in front of
+          people cheaply — but because it’s quick for everyone, it won’t stay a differentiator for long.
+          Treat it as table stakes, not a strategy.
+        </div>
+
+        <blockquote class="say">
+          <span class="lab">Say it like this</span>
+          <p>
+            “Fourteen of these companies now ship an MCP connector, so their product appears inside whatever
+            AI tool the customer already uses. It’s cheap distribution and we should absolutely have it — but
+            it’s becoming table stakes, so I wouldn’t build the positioning on it.”
+          </p>
+        </blockquote>
+      </div>
+    </li>
+
+    <!-- 8 -->
+    <li class="play">
+      <div class="rank">08<small>RANK</small></div>
+      <div>
+        <h3>Aim at developers using AI coding tools</h3>
+        <div class="tags">
+          <span class="tag mid"><b>Impact</b> · Medium</span>
+          <span class="tag mid"><b>Effort</b> · Medium</span>
+          <span class="tag">Filling up fast</span>
+        </div>
+
+        <div class="field">
+          <span class="lab">What it means</span>
+          <p>
+            Developers using AI coding assistants hit the memory problem harder than anyone: the assistant
+            forgets the earlier decisions, so they explain the same context again every session. It’s a
+            sharp, daily, obvious pain — which makes it easy to sell into.
+          </p>
+        </div>
+
+        <div class="field">
+          <span class="lab">Who is doing it</span>
+          <p>
+            <span class="co">Glen</span>, <span class="co">Mosaic</span>, <span class="co">ByteRover</span>,
+            <span class="co">Blume</span>, <span class="co">Sylph</span> and
+            <span class="co">Falconer</span> are all aimed here.
+          </p>
+        </div>
+
+        <div class="proof">
+          <span class="lab">The evidence</span>
+          <b>10</b> of the 91 target this specific group. The pain is genuine, but the lane is crowding
+          quickly — it’s a good beachhead, not a long-term moat.
+        </div>
+
+        <blockquote class="say">
+          <span class="lab">Say it like this</span>
+          <p>
+            “Ten companies are chasing developers who use AI coding tools, because that group re-explains
+            the same context every day. Real pain, easy to sell — but it’s crowding fast, so I’d treat it
+            as a way in rather than the whole plan.”
+          </p>
+        </blockquote>
+      </div>
+    </li>
+
+    <!-- 9 -->
+    <li class="play">
+      <div class="rank">09<small>RANK</small></div>
+      <div>
+        <h3>Write “alternatives to [competitor]” pages</h3>
+        <div class="tags">
+          <span class="tag mid"><b>Impact</b> · Medium</span>
+          <span class="tag hi"><b>Effort</b> · Low</span>
+          <span class="tag">Slow burn</span>
+        </div>
+
+        <div class="field">
+          <span class="lab">What it means</span>
+          <p>
+            When someone is unhappy with a tool, they search for alternatives to it by name. If you’ve
+            written the page that answers that search, you meet a buyer at the exact moment they’ve
+            decided to switch. It costs one afternoon per page.
+          </p>
+        </div>
+
+        <div class="field">
+          <span class="lab">Who is doing it</span>
+          <p>
+            <span class="co">Naboo</span> runs a dedicated alternatives page. Comparison articles built
+            around <span class="co">Hyperspell</span>, <span class="co">Mem0</span> and
+            <span class="co">Zep</span> already rank in search — which is, in fact, how we found several of
+            these companies during this research.
+          </p>
+        </div>
+
+        <div class="proof">
+          <span class="lab">The evidence</span>
+          These pages were a genuine discovery route in our own research. That’s direct proof they get read
+          by people actively comparing options.
+        </div>
+
+        <blockquote class="say">
+          <span class="lab">Say it like this</span>
+          <p>
+            “Comparison pages are how I found half these companies myself. Someone unhappy with a tool
+            searches its name plus ‘alternatives’ — if we own that page, we meet them at the exact moment
+            they’ve decided to switch. It’s an afternoon of work per page.”
+          </p>
+        </blockquote>
+      </div>
+    </li>
+
+    <!-- 10 -->
+    <li class="play">
+      <div class="rank">10<small>RANK</small></div>
+      <div>
+        <h3>Sell safety and control to regulated industries</h3>
+        <div class="tags">
+          <span class="tag mid"><b>Impact</b> · Low now</span>
+          <span class="tag mid"><b>Effort</b> · High</span>
+          <span class="tag">Later, not now</span>
+        </div>
+
+        <div class="field">
+          <span class="lab">What it means</span>
+          <p>
+            Banks, hospitals and pharmaceutical companies will not let company data leave their own
+            systems. If you can promise the data stays inside their walls, and show exactly who saw what
+            and when, you can charge a lot. But these deals take months and need trust a young company
+            hasn’t built yet.
+          </p>
+        </div>
+
+        <div class="field">
+          <span class="lab">Who is doing it</span>
+          <p>
+            <span class="co">Saphenia</span> targets financial services and pharma directly.
+            <span class="co">Naboo</span> offers to run inside the customer’s own systems.
+            <span class="co">Sentra</span>, <span class="co">Coworker</span> and
+            <span class="co">Zep</span> lean on audit trails and tracking what changed.
+          </p>
+        </div>
+
+        <div class="proof">
+          <span class="lab">The evidence</span>
+          Only about <b>11</b> of the 91 compete on this, so it is genuinely uncrowded. It ranks last purely
+          because of timing — the sales cycles are long and it suits a later, better-resourced stage.
+        </div>
+
+        <blockquote class="say">
+          <span class="lab">Say it like this</span>
+          <p>
+            “Almost nobody competes on security and audit trails — only about eleven of the ninety-one. It’s
+            real money and it’s wide open, but the sales cycles are long, so I’d file it as a year-two move
+            rather than something to chase now.”
+          </p>
+        </blockquote>
+      </div>
+    </li>
+
+  </ol>
+
+  <div class="spacer"></div>
+
+  <div class="sec-head">
+    <h2>Four mistakes worth pointing out</h2>
+    <p>
+      Naming what competitors get <em>wrong</em> shows sharper thinking than listing what they get right.
+      These four are all visible in the data.
+    </p>
+    <hr class="rule">
+  </div>
+
+  <div style="height:22px"></div>
+
+  <div class="miss">
+    <div class="miss-item">
+      <h3>Becoming the tenth identical “connect your Slack and Notion” tool</h3>
+      <p>
+        At least <b>nine</b> companies — <span class="co">Gyld</span>, <span class="co">Agently</span>,
+        <span class="co">Pensieve</span>, <span class="co">Almanac</span>, <span class="co">Lore</span>,
+        <span class="co">Compendium</span>, <span class="co">Memory Store</span>,
+        <span class="co">Hyper</span> and <span class="co">Company Brain</span> — describe themselves in
+        near-identical words. Between them they show <b>almost no named customers</b>. Sounding the same as
+        everyone else is the most expensive mistake in this market.
+      </p>
+    </div>
+    <div class="miss-item">
+      <h3>Launching with nothing to show</h3>
+      <p>
+        <b>25 of 91</b> companies display no customer, no case study and no quote. Some are well funded. A
+        visitor has no reason to believe any of it works, so they leave.
+      </p>
+    </div>
+    <div class="miss-item">
+      <h3>Describing the technology instead of the problem</h3>
+      <p>
+        Phrases like “institutional learning layer” or “persistent context graph” describe how the thing is
+        built, not what goes wrong without it. <b>Nobody has a budget for a layer.</b> They have a budget for
+        “our support team keeps answering the same question.”
+      </p>
+    </div>
+    <div class="miss-item">
+      <h3>Building memory for one person instead of a team</h3>
+      <p>
+        Personal memory — remembering what <em>you</em> told an assistant — is crowded and being given away
+        free by the big AI platforms. <b>Shared memory across a whole team</b> is the harder problem, has far
+        fewer credible competitors, and is the thing a company will actually pay for.
+      </p>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+
+  <div class="sec-head">
+    <h2>Words you’ll need</h2>
+    <p>Short, plain definitions for the terms that come up in this conversation.</p>
+    <hr class="rule">
+  </div>
+
+  <dl class="gloss">
+    <div>
+      <dt>Company brain</dt>
+      <dd>A shared memory for a whole company — everything decided in Slack, docs and meetings, kept in one
+        place so both people and AI assistants can look it up.</dd>
+    </div>
+    <div>
+      <dt>Agent</dt>
+      <dd>An AI assistant that does tasks on its own, not just answers questions. Answering support tickets,
+        for example.</dd>
+    </div>
+    <div>
+      <dt>MCP</dt>
+      <dd>A shared standard that lets any AI assistant connect to outside tools. Like USB — one plug that
+        fits many devices.</dd>
+    </div>
+    <div>
+      <dt>Seed stage</dt>
+      <dd>A young company that has raised its first proper money. Usually 10–50 people. Decisions are quick
+        and often made by the founder.</dd>
+    </div>
+    <div>
+      <dt>YC / Y Combinator</dt>
+      <dd>A well-known startup programme. Its companies form a tight network that buys from each other —
+        which is why play 01 works so well.</dd>
+    </div>
+    <div>
+      <dt>Open source</dt>
+      <dd>Giving your code away free so anyone can use it, then charging for the convenient hosted version.</dd>
+    </div>
+    <div>
+      <dt>Logo wall</dt>
+      <dd>The row of customer logos on a website. Weak proof on its own — a named quote is worth far more.</dd>
+    </div>
+    <div>
+      <dt>Design partner</dt>
+      <dd>An early customer who helps shape the product, usually cheap or free, in exchange for close
+        attention and being named publicly.</dd>
+    </div>
+  </dl>
+
+  <p class="foot">
+    <b>Where this came from.</b> We mapped 91 companies across five parallel searches — the Y Combinator
+    directory, general web search, open-source project listings, funding announcements and comparison
+    articles. We then read each company’s own website, customer pages, blog and launch posts, and collected
+    403 customers they publicly advertise. 37 of those customers were researched in depth. Every number and
+    quote on this page comes from something published by the companies themselves.
+    <br><br>
+    <b>One caveat worth saying out loud.</b> This only sees what companies choose to publish. A company with
+    no logos on its site may still have paying customers it hasn’t named — silence is a hint, not a verdict.
+  </p>
+
+</div>

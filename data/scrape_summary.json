@@ -1,0 +1,457 @@
+[
+ {
+  "vendor": "Memory Store (https://memory.store) \u2014 YC Spring 2026 (P26), \"Company Brain.\"",
+  "n": 1,
+  "notes": "BOTTOM LINE: Memory Store publicly advertises essentially NO named customers. There is no logo wall, no customers page, no case studies, and no attributed testimonials anywhere on their owned properti"
+ },
+ {
+  "vendor": "Wato (Wato Labs)",
+  "n": 0,
+  "notes": "Wato (Wato Labs) publicly advertises NO customers whatsoever. Zero named customers, zero logo walls of users, zero testimonials, zero case studies, zero design partners across every source checked.\n\nD"
+ },
+ {
+  "vendor": "Savant (heysavant.com) \u2014 Bledger, Inc.",
+  "n": 0,
+  "notes": "Savant (heysavant.com, legal entity Bledger, Inc., YC Spring 2026) advertises NO customers at all. Zero named customers, zero testimonials, zero case studies, zero logo walls across its entire public "
+ },
+ {
+  "vendor": "Glen (Glen Labs Incorporated) \u2014 https://www.tryglen.com/",
+  "n": 7,
+  "notes": "Glen DOES advertise customers, but only on the homepage and the YC page \u2014 there is no dedicated customers/case-studies/testimonials page (all such paths return 404).\n\nWHAT IS ADVERTISED\n1. A six-logo "
+ },
+ {
+  "vendor": "Hyperspell",
+  "n": 13,
+  "notes": "ALL public customer evidence for Hyperspell lives on a single page: the homepage. There is no /customers, /case-studies, /stories, /showcase, /testimonials or /wall-of-love page (all 404), no customer"
+ },
+ {
+  "vendor": "Hyper (heyhyper.ai) \u2014 YC Spring 2026 (P26)",
+  "n": 2,
+  "notes": "BOTTOM LINE: Hyper advertises essentially NO customers. The heyhyper.ai website contains zero named customers \u2014 no logo wall, no \"trusted by\" strip, no testimonials, no case studies, no customer quote"
+ },
+ {
+  "vendor": "Almanac (usealmanac.com) \u2014 YC S26",
+  "n": 0,
+  "notes": "ZERO CUSTOMERS ADVERTISED. Almanac publicly advertises no customers of any kind \u2014 no logo wall, no \"trusted by\"/\"used by\" section, no testimonials, no case studies, no named design partners, anywhere "
+ },
+ {
+  "vendor": "Sylph",
+  "n": 0,
+  "notes": "Sylph advertises NO customers at all \u2014 zero logo walls, zero testimonials, zero case studies, zero named users. Empty array is the correct result.\n\nWHAT EXISTS INSTEAD (self-reference only, not a cust"
+ },
+ {
+  "vendor": "GBrain",
+  "n": 1,
+  "notes": "GBrain advertises essentially NO customers. There is exactly one named entity presented as a user, and it is the author himself (Garry Tan / Y Combinator) \u2014 a dogfooding story, not third-party validat"
+ },
+ {
+  "vendor": "Mosaic (mosaic.inc)",
+  "n": 0,
+  "notes": "Mosaic (mosaic.inc, YC S26) publicly advertises ZERO named customers. The customers array is intentionally empty.\n\nSITE IS TINY: the entire public website is four routes \u2014 / (homepage), /blog/memo, /i"
+ },
+ {
+  "vendor": "Graphify Labs",
+  "n": 6,
+  "notes": "Graphify Labs DOES advertise customers, but thinly and with heavy caveats. Summary of what is real:\n\nTIER 1 \u2014 the official logo wall (3 names, identical on the homepage and /customers): Rootly AI Labs"
+ },
+ {
+  "vendor": "Mem0 (mem0.ai) \u2014 Embedchain, Inc., YC S24",
+  "n": 19,
+  "notes": "HEADLINE: Mem0 advertises only TWO real, named customers with attributed testimonials \u2014 Sunflower (Sunflower Sober) and OpenNote. Everything else is an unattributed logo on a marquee whose own heading"
+ },
+ {
+  "vendor": "Blume (blume.codes)",
+  "n": 1,
+  "notes": "BOTTOM LINE: Blume (blume.codes) advertises ZERO customers on its own properties. There is no customer logo wall, no testimonial section, no case studies, no named design partners anywhere on the site"
+ },
+ {
+  "vendor": "Cognee (Topoteretes UG) \u2014 https://cognee.ai",
+  "n": 33,
+  "notes": "Cognee advertises customers heavily and has a dedicated /customers page (headline: \"Memory in production. From global enterprises to fast-moving startups, teams run cognee in production\").\n\nTIERING OF"
+ },
+ {
+  "vendor": "Supermemory",
+  "n": 19,
+  "notes": "Supermemory advertises customers heavily. 19 named entities found across three distinct surfaces.\n\nKEY DISCOVERY: /customers 404s, but the footer link labelled \"Customers\" actually points to https://s"
+ },
+ {
+  "vendor": "Letta",
+  "n": 4,
+  "notes": "Letta publicly advertises exactly FOUR customers, all as long-form written case studies with named, titled speakers and verbatim quotes: Bilt, 11x, Hunt Club, and Kognitos. There is no logo wall, \"tru"
+ },
+ {
+  "vendor": "Slite (https://slite.com)",
+  "n": 47,
+  "notes": "Slite advertises customers heavily \u2014 this is one of the richest customer-marketing surfaces in the category, consistent with its incumbent positioning. 47 named customers found: 24 full case studies a"
+ },
+ {
+  "vendor": "Cerenovus (Cerenovus Inc., cerenovus.ai, YC S26)",
+  "n": 0,
+  "notes": "Cerenovus (cerenovus.ai) advertises ZERO customers. There is no logo wall, no \"trusted by\"/\"used by\" strip, no testimonial, no named design partner, and no case study anywhere across the entire public"
+ },
+ {
+  "vendor": "Zep (Zep AI, Inc. / getzep.com) \u2014 YC W24",
+  "n": 15,
+  "notes": "Zep DOES advertise customers, but only in two places on its marketing site \u2014 there is no dedicated customers or case-studies page anywhere. Confirmed by fetching https://www.getzep.com/sitemap.xml, wh"
+ },
+ {
+  "vendor": "Gyld (https://gyld.ai/)",
+  "n": 0,
+  "notes": "Gyld publicly advertises ZERO customers. No named customer, logo wall, testimonial, case study, or design partner appears anywhere on the site or its public channels.\n\nWHAT WAS FOUND INSTEAD (all excl"
+ },
+ {
+  "vendor": "Poth Labs",
+  "n": 5,
+  "notes": "SUMMARY: Poth Labs (YC S26) advertises exactly 5 customers, and only as an unlinked logo wall. There are ZERO testimonials, ZERO named people, ZERO case studies, and ZERO customer quotes anywhere on t"
+ },
+ {
+  "vendor": "Epicenter",
+  "n": 0,
+  "notes": "NO CUSTOMERS ADVERTISED. Epicenter publicly advertises zero named customers, zero testimonials, zero logo walls, and zero case studies anywhere on its owned surfaces. The customers array is intentiona"
+ },
+ {
+  "vendor": "Sentra (Dynamis Labs)",
+  "n": 4,
+  "notes": "Sentra advertises very little customer proof, and none of it sits where you'd expect. There is NO /customers page (it 308-redirects to /about), no /case-studies, /stories, /showcase, /testimonials or "
+ },
+ {
+  "vendor": "In Parallel (In Parallel Oy) \u2014 https://www.in-parallel.com/",
+  "n": 0,
+  "notes": "NO CUSTOMERS ARE ADVERTISED. In Parallel names zero customers anywhere in public. There is no logo wall, no case study, no named testimonial, and no customer story section. I crawled the complete site"
+ },
+ {
+  "vendor": "Falconer (https://falconer.com)",
+  "n": 8,
+  "notes": "METHOD: WebSearch quota for this session was already exhausted (200/200 used) before I started, so I could not run the requested web searches. I compensated by crawling the vendor's ENTIRE published s"
+ },
+ {
+  "vendor": "Interloom (interloom.com) \u2014 Interloom Technologies GmbH, Munich",
+  "n": 10,
+  "notes": "YES \u2014 Interloom advertises customers, but most of them are effectively hidden. The single highest-value find was the sitemap: https://www.interloom.com/sitemap-0.xml exposes an entire /en/customer-sto"
+ },
+ {
+  "vendor": "Pensieve (pensieve.uk)",
+  "n": 0,
+  "notes": "Pensieve (pensieve.uk) advertises NO customers at all. There is no logo wall, no \"trusted by\"/\"used by\" section, no testimonials, no case studies, and no customer marquee anywhere on the site, docs, o"
+ },
+ {
+  "vendor": "Webair AI",
+  "n": 1,
+  "notes": "BOTTOM LINE: Webair AI advertises essentially NO customers. There is no logo wall, no \"trusted by\", no customer marquee, no testimonials page, and no case-studies page anywhere on the site. /customers"
+ },
+ {
+  "vendor": "Coworker (coworker.ai) - Village Platforms, Inc.",
+  "n": 19,
+  "notes": "Coworker (coworker.ai; legal entity Village Platforms, Inc., San Francisco) advertises customers heavily. 19 evidence rows above cover 17 distinct companies.\n\nWHAT EXISTS:\n- A 15-logo \"Trusted by\" / \""
+ },
+ {
+  "vendor": "Zaro (zaro.ai)",
+  "n": 2,
+  "notes": "BOTTOM LINE: Zaro advertises essentially NO customers. There is no logo wall, no testimonial, no case study, and no named customer anywhere on zaro.ai. The two rows above are edge cases, both flagged,"
+ },
+ {
+  "vendor": "Company Brain (https://company-brain.ai/ \u2014 canonical https://www.company-brain.ai/)",
+  "n": 0,
+  "notes": "Company Brain advertises ZERO customers. No named customer, logo wall, testimonial, case study, or design partner exists anywhere on their public web presence. This is a genuine, thoroughly-verified e"
+ },
+ {
+  "vendor": "Memori (Memori Labs)",
+  "n": 7,
+  "notes": "Memori Labs advertises NO named-customer logo wall, and has no /customers, /case-studies, /testimonials, /stories, /showcase, or /wall-of-love page \u2014 all return 404, and the full sitemap (sitemap-0.xm"
+ },
+ {
+  "vendor": "ByteRover",
+  "n": 0,
+  "notes": "ByteRover publicly advertises ZERO named customers. No logo wall, no testimonials, no case studies, no named design partners were found anywhere.\n\nWHAT I CHECKED AND FOUND:\n\n1. HOMEPAGE \u2014 I extracted "
+ },
+ {
+  "vendor": "xmemory (xmemory.ai)",
+  "n": 0,
+  "notes": "NO CUSTOMERS ARE ADVERTISED. xmemory publicly names zero customers, design partners, beta users, or reference accounts anywhere I could reach. This is consistent with the company being in closed beta "
+ },
+ {
+  "vendor": "Colrows (colrows.com) \u2014 Alterbasics Technologies Pvt Ltd",
+  "n": 10,
+  "notes": "Colrows DOES advertise customers, and fairly heavily \u2014 10 entries total: 3 full case studies (one deliberately anonymous) and 8 logo-wall companies (Cipla appears in both).\n\nTIERS OF EVIDENCE (stronge"
+ },
+ {
+  "vendor": "MemoryLake",
+  "n": 0,
+  "notes": "MemoryLake publicly advertises ZERO named customers. No customer logos, no logo wall, no testimonials, no case studies, and no named design partners exist anywhere on their site or off-site presence.\n"
+ },
+ {
+  "vendor": "Honcho (Plastic Labs)",
+  "n": 40,
+  "notes": "HEADLINE: Honcho advertises exactly ONE piece of customer evidence \u2014 a homepage logo ticker headed \"Used by developers at\" containing 40 organizations. There are ZERO testimonials, ZERO named individu"
+ },
+ {
+  "vendor": "Graphlit (Unstruk Data, Inc.)",
+  "n": 0,
+  "notes": "Graphlit publicly advertises ZERO named external customers. This is a confident negative, not a gap in searching \u2014 I fetched 30+ URLs including every blog post in their sitemap, the rendered (JS) home"
+ },
+ {
+  "vendor": "Memories.ai",
+  "n": 8,
+  "notes": "BOTTOM LINE: Memories.ai advertises essentially NO conventional customers. There is not one named end-customer with a real deployment story, and there are no customer-facing routes at all \u2014 /customers"
+ },
+ {
+  "vendor": "Graphon AI",
+  "n": 0,
+  "notes": "NO CUSTOMERS ADVERTISED. Graphon AI publicly advertises zero customers. Across all 9 real pages on graphon.ai there is no logo wall, no \"trusted by\"/\"used by\" strip, no testimonials, no case studies, "
+ },
+ {
+  "vendor": "Basic Memory (Basic Machines, https://basicmemory.com/)",
+  "n": 4,
+  "notes": "Basic Memory advertises very little customer proof, and what exists is individual/prosumer scale, consistent with its local-first, open-source positioning. There is NO logo wall, NO \"trusted by\" band,"
+ },
+ {
+  "vendor": "Papr (papr.ai / Papr AI, Papr Work + Papr Graph/Memory)",
+  "n": 3,
+  "notes": "PAPR ADVERTISES EXACTLY THREE CUSTOMERS \u2014 all three are named testimonials on the papr.ai homepage, and that single section is the vendor's entire body of public customer proof. There is no logo wall,"
+ },
+ {
+  "vendor": "Glean (https://www.glean.com/)",
+  "n": 45,
+  "notes": "Glean advertises customers very heavily \u2014 this is the opposite of a stealth vendor. 45 entries above.\n\nSTRUCTURE OF THE EVIDENCE\n- /customers, /case-studies, /stories, /showcase, /testimonials and /wa"
+ },
+ {
+  "vendor": "Basic Memory (Basic Machines)",
+  "n": 4,
+  "notes": "Basic Memory advertises very little named customer proof: exactly one named case study (Luminary Solutions), one named-company testimonial on the homepage (TrainerDay), and two additional testimonials"
+ },
+ {
+  "vendor": "Atlan",
+  "n": 80,
+  "notes": "Atlan advertises customers very heavily \u2014 this is one of the richest public customer-evidence sets in the category. ~80 named customers found, plus 4 deliberately anonymized ones.\n\nSTRUCTURE OF ATLAN'"
+ },
+ {
+  "vendor": "Letta (formerly MemGPT)",
+  "n": 4,
+  "notes": "FOUR customers, all advertised as full case studies. Letta advertises exactly four named customers and no more: Bilt, 11x, Kognitos, Hunt Club. All four are listed on the homepage under \"Featured case"
+ },
+ {
+  "vendor": "Memori (MemoriLabs / GibsonAI)",
+  "n": 7,
+  "notes": "Memori (MemoriLabs / GibsonAI) DOES advertise customers \u2014 a six-quote testimonial wall on the homepage under the heading \"Trusted by top developers worldwide\" \u2014 but most of it is partner/integration e"
+ },
+ {
+  "vendor": "EverMind (EverOS) \u2014 https://evermind.ai",
+  "n": 6,
+  "notes": "HEADLINE: EverMind advertises ZERO commercial customers. Across the entire ~1.07M characters of body text of all 93 pages on evermind.ai (extracted via the site's own Framer full-text search index, so"
+ },
+ {
+  "vendor": "Guru (getguru.com) \u2014 Guru Technologies, Inc.",
+  "n": 124,
+  "notes": "Guru advertises customers very heavily \u2014 this is a mature, 10+-year-old KM incumbent with a large public reference program, not a startup with a handful of design partners. 131 named customers found.\n"
+ },
+ {
+  "vendor": "memU (NevaMind-AI)",
+  "n": 0,
+  "notes": "memU (NevaMind-AI) publicly advertises ZERO named customers. No logo wall, no \"trusted by\", no case studies, no testimonials, and no named design partners exist anywhere across their web properties. T"
+ },
+ {
+  "vendor": "Memobase (memobase.io, GitHub org memodb-io)",
+  "n": 8,
+  "notes": "HEADLINE: Memobase advertises NO named customers. It publishes exactly one piece of customer evidence \u2014 an 8-logo marquee under \"Trusted by Generative AI Applications\" \u2014 and every logo is an untitled "
+ },
+ {
+  "vendor": "MIRIX (mirix.io)",
+  "n": 1,
+  "notes": "MIRIX PUBLICLY ADVERTISES NO CUSTOMERS. This is a genuine zero-result: the commercial signal is the weakest of the set, consistent with the research-flavored profile.\n\nSTRUCTURAL FINDING: mirix.io is "
+ },
+ {
+  "vendor": "Hindsight (Vectorize.io)",
+  "n": 9,
+  "notes": "SUMMARY: Vectorize DOES advertise customers, but thinly. There is a 5-logo wall on the homepage and exactly two vendor-tagged customer/case-study posts on the docs blog. There is NO /customers, /case-"
+ },
+ {
+  "vendor": "Tribal (gotribal.ai)",
+  "n": 4,
+  "notes": "Tribal advertises exactly FOUR named customers, and does so consistently across the whole site. There is no logo wall, no \"trusted by\" strip, and no dedicated customer-proof section anywhere on gotrib"
+ },
+ {
+  "vendor": "Na\u00efve (usenaive.ai) \u2014 YC Spring 2025, founders Sean Dorje & Dennis Zax",
+  "n": 11,
+  "notes": "HEADLINE: Na\u00efve advertises ZERO named company/organizational customers. No logo wall, no case studies, no customer stories, no named design partners exist anywhere across 20+ pages checked. The only s"
+ },
+ {
+  "vendor": "Trace (trace.so)",
+  "n": 9,
+  "notes": "Trace DOES advertise customers, but only via a single homepage testimonial block \u2014 there is no /customers, /case-studies, /testimonials, /stories or /wall-of-love page (all 404), and no docs site (doc"
+ },
+ {
+  "vendor": "Engram (https://engram.com)",
+  "n": 3,
+  "notes": "Engram advertises exactly THREE customers/partners \u2014 Microsoft, Notion, and Harvey \u2014 and no others. There is no fourth name anywhere on the site, on social, in press coverage, or in third-party source"
+ },
+ {
+  "vendor": "Naboo (https://www.naboo.ai/)",
+  "n": 8,
+  "notes": "Naboo does advertise customers. Five companies appear on the logo wall (Global-e, Melio, Lemonade, Fiverr, monday.com) but the evidence is very uneven, so treat them as two tiers.\n\nTIER 1 - substantia"
+ },
+ {
+  "vendor": "Saphenia",
+  "n": 0,
+  "notes": "NO CUSTOMERS ARE PUBLICLY ADVERTISED. Saphenia names zero customers anywhere on its website, press release, or LinkedIn page. There are no case studies, no testimonials, no customer quotes, and no cus"
+ },
+ {
+  "vendor": "Sentra (sentra.app, operated by Dynamis Labs Inc.)",
+  "n": 4,
+  "notes": "FOUR customers are publicly advertised, but they are easy to miss: Sentra has NO /customers, /case-studies or /testimonials page (all 404 or absent from the sitemap), and the homepage carries NO custo"
+ },
+ {
+  "vendor": "Airia (https://airia.com)",
+  "n": 8,
+  "notes": "EIGHT named customers found, all from ONE page: https://airia.com/airia-in-action/ \u2014 a customer showcase Airia does not link from its main nav or footer, and which is NOT reachable via the obvious /cu"
+ },
+ {
+  "vendor": "Compendium (by Cerenovus Inc., YC S26) \u2014 https://www.producthunt.com/products/compendium-2",
+  "n": 0,
+  "notes": "NO CUSTOMERS ADVERTISED \u2014 zero. Compendium publicly advertises no customers of any kind: no logo wall, no \"trusted by\" strip, no testimonials, no case studies, no design partners, no customer spotligh"
+ },
+ {
+  "vendor": "Modern Relay (Omnigraph)",
+  "n": 0,
+  "notes": "NO CUSTOMERS ADVERTISED. Modern Relay publicly advertises zero customers, testimonials, case studies, or design partners anywhere across their web presence. This is a pre-customer-marketing, seed-stag"
+ },
+ {
+  "vendor": "Jedify",
+  "n": 11,
+  "notes": "Jedify DOES advertise customers, but only on the homepage (and two duplicate landing pages) \u2014 there is no dedicated customers/case-studies content anywhere.\n\nSTRUCTURE OF THE EVIDENCE\n1. An unlabeled "
+ },
+ {
+  "vendor": "Agently (https://agently.dev) \u2014 \"AI Work OS\" / Agently Brain, founded by Omar Ghandour (CEO) and Ahmad Hajj",
+  "n": 7,
+  "notes": "HEADLINE: Agently advertises NO named customers anywhere in its conventional marketing \u2014 no logo wall, no /customers, /case-studies, /stories, /showcase, /testimonials or /wall-of-love page (all 404, "
+ },
+ {
+  "vendor": "Zep (Graphiti)",
+  "n": 15,
+  "notes": "Zep advertises customers prominently, but exclusively via a homepage logo marquee plus a four-quote testimonial block \u2014 there is no dedicated customer page anywhere on the site.\n\nHOW THE EVIDENCE WAS "
+ },
+ {
+  "vendor": "Lore (uselore.io) \u2014 Brewster Consulting Group LLC DBA Lore",
+  "n": 2,
+  "notes": "BOTTOM LINE: Lore advertises essentially NO customers. The homepage has no logo wall, no \"trusted by\" strip, no customer marquee, and no testimonials \u2014 the only photo on it is founder Kade Brewster. T"
+ },
+ {
+  "vendor": "LangMem (LangChain)",
+  "n": 0,
+  "notes": "LangMem publicly advertises ZERO customers. Returning an empty customers array.\n\nLangMem is a free, MIT-licensed open-source Python library. It has no marketing site at all \u2014 its only \"homepage\" is a "
+ },
+ {
+  "vendor": "Maximem (Synap)",
+  "n": 23,
+  "notes": "MAIN FINDING: Maximem advertises ZERO named customers in the conventional sense. There are no case studies, no testimonials, no customer quotes, and no named person endorsing the product anywhere on t"
+ },
+ {
+  "vendor": "Memvid",
+  "n": 13,
+  "notes": "BOTTOM LINE: Memvid advertises essentially NO real customers. There is exactly ONE named company anywhere in their marketing \u2014 Scaylor \u2014 and even that appears only inside a third-party X/Twitter quote"
+ },
+ {
+  "vendor": "Cloudflare Agent Memory",
+  "n": 0,
+  "notes": "NO CUSTOMERS ADVERTISED. Cloudflare Agent Memory publicly names zero customers, design partners, or beta users. The launch post (2026) announces \"the private beta of Agent Memory\" and closes with a wa"
+ },
+ {
+  "vendor": "Onyx (onyx.app) \u2014 formerly Danswer",
+  "n": 24,
+  "notes": "Onyx advertises customers heavily, but has NO dedicated customers/case-studies page \u2014 /customers, /case-studies, /case-study, /customer-stories, /stories, /testimonials, /wall-of-love, /showcase and /"
+ },
+ {
+  "vendor": "Hindsight (agent memory system by Vectorize AI, Inc. \u2014 vectorize.io / hindsight.vectorize.io)",
+  "n": 14,
+  "notes": "IDENTIFICATION: \"Hindsight\" is an open-source agent memory system built by Vectorize AI, Inc. (Dover, DE; founded 2023/Jan 2024; ~9 employees). It is NOT a YC company \u2014 it raised a $3.6M seed led by T"
+ },
+ {
+  "vendor": "Vectorize (vectorize.io) \u2014 Vectorize, Inc.",
+  "n": 13,
+  "notes": "VERDICT: Vectorize advertises customers only thinly. There is no /customers, /case-studies, /testimonials, /stories, /showcase or /wall-of-love page (all 404), and the main marketing site (vectorize.i"
+ },
+ {
+  "vendor": "Actx0",
+  "n": 0,
+  "notes": "Actx0 advertises ZERO customers. This is a confirmed negative, not a research gap.\n\nWHY THE FINDING IS DEFINITIVE: actx0.com is a Vue 3 + Vite SPA (only a 3.4KB shell in raw HTML), so I downloaded and"
+ },
+ {
+  "vendor": "OpenMemory MCP (by Mem0 / Embedchain, Inc. \u2014 mem0.ai)",
+  "n": 22,
+  "notes": "SCOPE: \"OpenMemory MCP\" is not a standalone company. It is a free, open-source, local-first MCP memory server built and published by Mem0 (legal entity Embedchain, Inc., mem0.ai). OpenMemory MCP itsel"
+ },
+ {
+  "vendor": "Atlaso",
+  "n": 0,
+  "notes": "Atlaso advertises NO customers at all. Zero logo walls, zero \"trusted by\"/\"used by\" sections, zero testimonials, zero case studies, zero named design partners, and zero reviews were found anywhere acr"
+ },
+ {
+  "vendor": "MemSync (product of OpenGradient / Vanna Laboratories Inc.)",
+  "n": 7,
+  "notes": "BOTTOM LINE: MemSync advertises ZERO company/organization customers. There is no logo wall of users, no customer page, no case study, no named design partner anywhere on its own properties or its pare"
+ },
+ {
+  "vendor": "RoryPlans",
+  "n": 4,
+  "notes": "SUMMARY: RoryPlans (https://www.roryplans.ai, formerly reachable as roryplans.ai; makers Adelina Martiniuc, CEO and Radu Busuioc; San Francisco; 2-10 employees per LinkedIn) advertises exactly THREE n"
+ },
+ {
+  "vendor": "Sana (Sana Labs)",
+  "n": 33,
+  "notes": "Sana advertises customers very heavily \u2014 this is a customer-marketing-rich site, not a stealthy one. 33 entries above, of which 11 are full case studies with named, titled people, 10 are named testimo"
+ },
+ {
+  "vendor": "screenpipe (Negentropy Labs, Inc. \u2014 YC S26)",
+  "n": 15,
+  "notes": "SUMMARY: screenpipe advertises NO company/enterprise customers anywhere \u2014 no logo wall, no case studies, no named design partners. Its entire public social proof is one page, https://screenpipe.com/wa"
+ },
+ {
+  "vendor": "Liminary (Liminary Inc, liminary.io)",
+  "n": 11,
+  "notes": "HEADLINE: Liminary advertises ZERO named company customers. There is no logo wall, no \"trusted by / used by\" strip, no /customers, /case-studies, /stories, /showcase, /testimonials or /wall-of-love pa"
+ },
+ {
+  "vendor": "Memori (Memori Labs Inc.) \u2014 https://memorilabs.ai",
+  "n": 12,
+  "notes": "SUMMARY: Memori (Memori Labs Inc., memorilabs.ai \u2014 the PH listing is /products/memori-labs, launched 28 May 2026) DOES advertise customers, but has NO dedicated customers/case-studies page. Every /cus"
+ },
+ {
+  "vendor": "Tettra",
+  "n": 23,
+  "notes": "Tettra advertises customers heavily. 23 named customers found across 10 full case studies and four distinct logo walls.\n\nSTRUCTURE OF THE EVIDENCE:\n1. The customer index lives at /case-studies/ (the n"
+ },
+ {
+  "vendor": "Notion AI (Notion Labs, Inc. \u2014 https://www.notion.com/)",
+  "n": 88,
+  "notes": "Notion advertises customers very heavily \u2014 this is the opposite of a stealth vendor. 95 named customers captured above.\n\nIMPORTANT SCOPING CAVEAT: \"Notion AI\" is not a separate company \u2014 it is the AI "
+ },
+ {
+  "vendor": "Granola (granola.ai)",
+  "n": 27,
+  "notes": "Granola advertises customers heavily \u2014 this is a well-developed customer-proof program, not a thin one.\n\nSTRUCTURE OF THE EVIDENCE\n1. A real customer hub at https://www.granola.ai/customers (\"Helping "
+ },
+ {
+  "vendor": "Atlassian Intelligence (Confluence)",
+  "n": 32,
+  "notes": "Atlassian advertises customers very heavily \u2014 this is a public company with a mature ~93-story customer index, not a startup with a thin logo wall. The listed customers are the AI-relevant subset plus"
+ },
+ {
+  "vendor": "Dvina (Dvina Inc., https://dvina.ai)",
+  "n": 0,
+  "notes": "NO GENUINE CUSTOMERS FOUND. Dvina advertises zero verifiable customers of its own. Returning an empty array deliberately \u2014 see the critical finding below, which is the most important result of this re"
+ },
+ {
+  "vendor": "Sema4.ai",
+  "n": 15,
+  "notes": "Sema4.ai DOES advertise customers, and fairly heavily. Two tiers of evidence:\n\nTIER 1 \u2014 real, attributable case studies (only two accounts): Koch, Inc. / Koch Ag & Energy Solutions and Emerson. Both h"
+ },
+ {
+  "vendor": "LlamaIndex",
+  "n": 52,
+  "notes": "LlamaIndex advertises customers heavily. 52 distinct companies found: 23 with named case studies at /customers, 4 more with testimonials only (Salesforce, Rakuten, Adyen, CiCi AI), and 25 logo-wall-on"
+ },
+ {
+  "vendor": "Contextual AI (https://contextual.ai/)",
+  "n": 11,
+  "notes": "Contextual AI DOES advertise customers \u2014 10 plausible customers, of which 5 have named-person evidence (2 full case studies + 3 attributed testimonials) and 5 are logo-wall-only. Plus 1 ambiguous logo"
+ }
+]

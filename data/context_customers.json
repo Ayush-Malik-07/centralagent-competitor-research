@@ -1,0 +1,555 @@
+[
+ {
+  "name": "11x",
+  "category": "AI SDR / GTM automation ('digital workers') \u2014 the canonical AI-native agent startup",
+  "stage": "Series B",
+  "cited_by": [
+   "Letta",
+   "Letta (formerly MemGPT)"
+  ]
+ },
+ {
+  "name": "Kognitos",
+  "category": "agentic business-process automation / intelligent automation (AI-native RPA successor), finance ops focus",
+  "stage": "Series B",
+  "cited_by": [
+   "Letta",
+   "Letta (formerly MemGPT)"
+  ]
+ },
+ {
+  "name": "Thrive AI Health",
+  "category": "healthcare AI / consumer digital health (AI health coaching)",
+  "stage": "Corporate-backed joint venture, seed-equivalent; funding amount never disclosed",
+  "cited_by": [
+   "Zep (Zep AI, Inc. / getzep.com) \u2014 YC W24",
+   "Zep (Graphiti)"
+  ]
+ },
+ {
+  "name": "Groq",
+  "category": "AI inference cloud / AI compute infrastructure (not agent memory \u2014 this is the layer underneath agents)",
+  "stage": "Late-stage private. Confusingly, their Aug 2026 round is labeled \"Series A\" at a $3.5B valuation despite prior rounds at higher reported valuations \u2014 this reads as a recapitalization or restructure, plausibly tied to the Dec 2025 NVIDIA licensing agreement. Flagging the naming oddity rather than resolving it.",
+  "cited_by": [
+   "Hindsight (Vectorize.io)",
+   "Hindsight (agent memory system by Vectorize AI, Inc. \u2014 vectorize.io / hindsight.vectorize.io)",
+   "Vectorize (vectorize.io) \u2014 Vectorize, Inc."
+  ]
+ },
+ {
+  "name": "Lemonade",
+  "category": "Insurtech \u2014 AI-native consumer insurance carrier, publicly traded",
+  "stage": "Public company (NYSE: LMND)",
+  "cited_by": [
+   "Naboo (https://www.naboo.ai/)"
+  ]
+ },
+ {
+  "name": "Exodigo",
+  "category": "AI + sensing for infrastructure / construction tech (subsurface geospatial intelligence). Hardware + AI + services, sold heavily into public-sector infrastructure.",
+  "stage": "Series B",
+  "cited_by": [
+   "Jedify"
+  ]
+ },
+ {
+  "name": "Y Combinator",
+  "category": "Startup accelerator / early-stage venture fund \u2014 NOT an AI-native software buyer. Its appearance in this dataset is as a knowledge-work organization (and, in practice, as one executive's personal workflow).",
+  "stage": "n/a \u2014 established institution, operating since 2005; it is the investor, not the investee",
+  "cited_by": [
+   "GBrain",
+   "Granola (granola.ai)"
+  ]
+ },
+ {
+  "name": "Bilt (Bilt Rewards)",
+  "category": "Consumer fintech \u2014 loyalty, payments and local commerce (a non-AI-native scaled startup buying agent infrastructure, not an AI startup)",
+  "stage": "Late-stage growth (post-Series C; $250M round July 2025)",
+  "cited_by": [
+   "Letta",
+   "Letta (formerly MemGPT)"
+  ]
+ },
+ {
+  "name": "Hunt Club",
+  "category": "executive search / recruiting (services firm with proprietary tech), not a software vendor",
+  "stage": "Series B (last disclosed round Dec 2022); no round announced since",
+  "cited_by": [
+   "Letta",
+   "Letta (formerly MemGPT)"
+  ]
+ },
+ {
+  "name": "Twin Health",
+  "category": "digital health / virtual chronic-condition care (metabolic health), AI-driven",
+  "stage": "Late-stage private \u2014 Series D/E territory. Reported unicorn valuation off the 2022 round.",
+  "cited_by": [
+   "Zep (Zep AI, Inc. / getzep.com) \u2014 YC W24",
+   "Zep (Graphiti)"
+  ]
+ },
+ {
+  "name": "Axtria",
+  "category": "Enterprise life-sciences analytics + agentic AI software and services (pharma commercial operations)",
+  "stage": "Late-stage private, PE/growth-capital backed \u2014 not a venture startup. 16-year-old profitable services+software company",
+  "cited_by": [
+   "Zep (Zep AI, Inc. / getzep.com) \u2014 YC W24",
+   "Zep (Graphiti)"
+  ]
+ },
+ {
+  "name": "SK Networks",
+  "category": "diversified conglomerate / consumer robotics and wellness appliances (AI adopter, not AI-native)",
+  "stage": "Public company (KRX:001740), SK Group affiliate.",
+  "cited_by": [
+   "Memori (Memori Labs)",
+   "Memori (MemoriLabs / GibsonAI)",
+   "Memori (Memori Labs Inc.) \u2014 https://memorilabs.ai"
+  ]
+ },
+ {
+  "name": "DigitalOcean",
+  "category": "cloud infrastructure / IaaS, with an AI + agent platform layer",
+  "stage": "public company",
+  "cited_by": [
+   "Memori (Memori Labs)",
+   "Memori (MemoriLabs / GibsonAI)",
+   "Memori (Memori Labs Inc.) \u2014 https://memorilabs.ai"
+  ]
+ },
+ {
+  "name": "Zapier",
+  "category": "Workflow automation / iPaaS + AI agent platform (dev-tools adjacent, PLG SaaS)",
+  "stage": "Late-stage private, effectively bootstrapped. Profitable since 2014 and grew \"with minimal outside fundraising.\" No confirmed primary round after the 2012 seed; a Jan 2021 secondary sale set a $5B valuation. Not currently raising as far as could be confirmed.",
+  "cited_by": [
+   "Granola (granola.ai)"
+  ]
+ },
+ {
+  "name": "Golutra",
+  "category": "Dev tools / multi-agent orchestration for coding agents (agent workforce IDE replacement)",
+  "stage": "Bootstrapped indie open-source. No funding round, investor, incorporation or accelerator found. Won an 'Excellence' award ($3,000) at EverMind's Memory Genesis Competition 2026 under builder handle 'seeksky' \u2014 which corroborates against the GitHub org's public members: seekskyworld (the sole public contributor to the repo, X handle @seekskyworld, account created Oct 2023) and tt-a1i (1,302 followers).",
+  "cited_by": [
+   "EverMind (EverOS) \u2014 https://evermind.ai"
+  ]
+ },
+ {
+  "name": "Cockroach Labs",
+  "category": "database / data infrastructure (distributed SQL); NOT an agent-memory buyer \u2014 a BYODB storage backend and co-marketing partner",
+  "stage": "late-stage private (last publicly known round: Series F, December 2021)",
+  "cited_by": [
+   "Memori (Memori Labs)",
+   "Memori (MemoriLabs / GibsonAI)"
+  ]
+ },
+ {
+  "name": "Micro",
+  "category": "AI-native personal/SMB workspace \u2014 AI CRM + email client + meeting notetaker + task manager, sold as an \"everything app\" with an agent on top",
+  "stage": "unknown \u2014 no publicly announced priced round found. Launched out of stealth ~April 2025 (Forbes), open beta ~early 2026. A Crunchbase profile exists (legal name \"Micro Applications\") but no disclosed round amount surfaced.",
+  "cited_by": [
+   "Hyperspell"
+  ]
+ },
+ {
+  "name": "Snorkel AI",
+  "category": "AI training data / evaluation infrastructure (data labeling \u2192 frontier-AI data + RL environments + agent benchmarks)",
+  "stage": "Late-stage private (Series C+); strategic corporate investment from Accenture in Aug 2025",
+  "cited_by": [
+   "Hyper (heyhyper.ai) \u2014 YC Spring 2026 (P26)"
+  ]
+ },
+ {
+  "name": "Knowunity",
+  "category": "Consumer edtech / AI study companion (B2C mobile app, freemium subscription), with a small B2B Gen-Z advertising & recruiting arm",
+  "stage": "Series B (or later) \u2014 \u20ac27M Series B announced June 2025; company now self-reports '$50m raised to date', suggesting an extension or later round beyond publicly indexed rounds",
+  "cited_by": [
+   "Cognee (Topoteretes UG) \u2014 https://cognee.ai"
+  ]
+ },
+ {
+  "name": "Zurich Insurance Group",
+  "category": "Global multiline insurance (P&C, life, Farmers) \u2014 an enterprise BUYER of agent-memory software, not a vendor in the category",
+  "stage": "Public company (SIX Swiss Exchange: ZURN); ~150 years old",
+  "cited_by": [
+   "Interloom (interloom.com) \u2014 Interloom Technologies GmbH, Munich"
+  ]
+ },
+ {
+  "name": "SSP Group plc",
+  "category": "Travel-retail food & beverage operator (FTSE 250 hospitality incumbent). As a BUYER: large non-tech enterprise purchasing a data workspace / conversational-analytics platform.",
+  "stage": "Public company \u2014 London Stock Exchange, ticker SSPG, constituent of the FTSE 250 Index. Listed via IPO in 2014.",
+  "cited_by": [
+   "Colrows (colrows.com) \u2014 Alterbasics Technologies Pvt Ltd"
+  ]
+ },
+ {
+  "name": "Hippocratic AI",
+  "category": "healthcare AI \u2014 voice agents for patient engagement / clinical staffing augmentation",
+  "stage": "Series C",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ]
+ },
+ {
+  "name": "Rokid",
+  "category": "AI/AR smart glasses and spatial-computing hardware (consumer + industrial); adjacent to the AI-wearable / always-on-assistant category",
+  "stage": "Late-stage private. Reported to be planning a Hong Kong IPO (South China Morning Post, 7 April 2026, headline 'Chinese AI glasses maker Rokid planning Hong Kong IPO', cited as a footnote in Wikipedia's RayNeo article).",
+  "cited_by": [
+   "EverMind (EverOS) \u2014 https://evermind.ai"
+  ]
+ },
+ {
+  "name": "Dot Compliance",
+  "category": "Vertical SaaS \u2014 life sciences quality/compliance (eQMS), Salesforce-native, now AI-forward",
+  "stage": "Series B (with a Series B extension). No Series C announced as of September 2026.",
+  "cited_by": [
+   "Tribal (gotribal.ai)"
+  ]
+ },
+ {
+  "name": "Melio",
+  "category": "B2B payments / SMB fintech (AP automation + embedded payments)",
+  "stage": "Acquired \u2014 now a subsidiary of Xero (NZX/ASX: XRO). Was a late-stage private company (through Series E) before the deal.",
+  "cited_by": [
+   "Naboo (https://www.naboo.ai/)"
+  ]
+ },
+ {
+  "name": "DealHub",
+  "category": "revenue operations / CPQ + billing SaaS (sales tech); now positioning as agentic revenue infrastructure",
+  "stage": "Late-stage private / growth stage. Raised a $100M growth round in January 2026; prior $60M round in 2021-2022.",
+  "cited_by": [
+   "Jedify"
+  ]
+ },
+ {
+  "name": "Razorpay",
+  "category": "Payments / fintech infrastructure \u2014 with a newly launched agentic-AI product line",
+  "stage": "Late-stage private (Series F), pre-IPO",
+  "cited_by": [
+   "Hyper (heyhyper.ai) \u2014 YC Spring 2026 (P26)",
+   "Supermemory",
+   "Maximem (Synap)"
+  ]
+ },
+ {
+  "name": "Amazon Web Services (AWS)",
+  "category": "Cloud infrastructure / developer platform. In this context: an agent-platform vendor that ships its own competing agent-memory service.",
+  "stage": "Not applicable \u2014 wholly owned subsidiary of Amazon.com, Inc. (NASDAQ: AMZN), a public mega-cap. No stage, no investors.",
+  "cited_by": [
+   "Mem0 (mem0.ai) \u2014 Embedchain, Inc., YC S24",
+   "OpenMemory MCP (by Mem0 / Embedchain, Inc. \u2014 mem0.ai)"
+  ]
+ },
+ {
+  "name": "Microsoft",
+  "category": "Big Tech platform \u2014 cloud infrastructure, OS, productivity software, developer tools. NOT a startup and not a plausible ICP for a small agent-memory vendor; it is a platform competitor.",
+  "stage": "Public (NASDAQ: MSFT), IPO 1986",
+  "cited_by": [
+   "Mem0 (mem0.ai) \u2014 Embedchain, Inc., YC S24",
+   "Cognee (Topoteretes UG) \u2014 https://cognee.ai",
+   "Honcho (Plastic Labs)",
+   "Memories.ai",
+   "Engram (https://engram.com)",
+   "OpenMemory MCP (by Mem0 / Embedchain, Inc. \u2014 mem0.ai)"
+  ]
+ },
+ {
+  "name": "NVIDIA",
+  "category": "AI infrastructure / semiconductors + enterprise AI software platform. Again a platform vendor, not a memory-buying ICP \u2014 its own toolkit is the thing that *hosts* memory vendors.",
+  "stage": "Public (NASDAQ: NVDA), IPO 1999",
+  "cited_by": [
+   "Mem0 (mem0.ai) \u2014 Embedchain, Inc., YC S24",
+   "Honcho (Plastic Labs)",
+   "Memories.ai",
+   "Hindsight (Vectorize.io)",
+   "Maximem (Synap)",
+   "Hindsight (agent memory system by Vectorize AI, Inc. \u2014 vectorize.io / hindsight.vectorize.io)",
+   "Vectorize (vectorize.io) \u2014 Vectorize, Inc.",
+   "OpenMemory MCP (by Mem0 / Embedchain, Inc. \u2014 mem0.ai)"
+  ]
+ },
+ {
+  "name": "Adobe",
+  "category": "Creative software + marketing/CX cloud (SaaS). Enterprise software incumbent, not an agent-memory ICP.",
+  "stage": "Public (NASDAQ: ADBE), IPO 1986",
+  "cited_by": [
+   "Mem0 (mem0.ai) \u2014 Embedchain, Inc., YC S24",
+   "Cognee (Topoteretes UG) \u2014 https://cognee.ai",
+   "OpenMemory MCP (by Mem0 / Embedchain, Inc. \u2014 mem0.ai)"
+  ]
+ },
+ {
+  "name": "Lenovo",
+  "category": "Device and infrastructure OEM plus IT services \u2014 NOT a startup. Increasingly an AI services integrator selling agentic AI deployment to enterprises.",
+  "stage": "Public company (HKEX: 0992; listed 1994). Not applicable to venture stage taxonomy.",
+  "cited_by": [
+   "Mem0 (mem0.ai) \u2014 Embedchain, Inc., YC S24",
+   "Memories.ai",
+   "OpenMemory MCP (by Mem0 / Embedchain, Inc. \u2014 mem0.ai)"
+  ]
+ },
+ {
+  "name": "Schlumberger (SLB)",
+  "category": "Energy technology / oilfield services (Fortune-500 industrial enterprise, not an AI startup). Its digital arm is a software + agentic-AI platform vendor to energy operators.",
+  "stage": "Public company (NYSE: SLB). Not venture-stage.",
+  "cited_by": [
+   "Mem0 (mem0.ai) \u2014 Embedchain, Inc., YC S24",
+   "OpenMemory MCP (by Mem0 / Embedchain, Inc. \u2014 mem0.ai)"
+  ]
+ },
+ {
+  "name": "Vercel",
+  "category": "Developer infrastructure / PaaS \u2014 increasingly 'agent infrastructure' (sandboxes, durable orchestration, model gateway). Not an agent-memory buyer; a substrate other agent companies run on.",
+  "stage": "Late-stage private, Series F",
+  "cited_by": [
+   "Mem0 (mem0.ai) \u2014 Embedchain, Inc., YC S24",
+   "OpenMemory MCP (by Mem0 / Embedchain, Inc. \u2014 mem0.ai)",
+   "Granola (granola.ai)"
+  ]
+ },
+ {
+  "name": "University of Wyoming (UWYO)",
+  "category": "Higher education / public university \u2014 grant-funded special-education research group (not a software vendor)",
+  "stage": "n/a \u2014 public institution (state-funded; project is grant/department funded)",
+  "cited_by": [
+   "Cognee (Topoteretes UG) \u2014 https://cognee.ai"
+  ]
+ },
+ {
+  "name": "HoneyBook",
+  "category": "vertical SMB CRM / fintech (client management + payments for service businesses) \u2014 an incumbent SaaS company adding AI, not an AI-native startup",
+  "stage": "Late-stage private (Series E, 2021); no IPO. Effectively a growth-stage unicorn.",
+  "cited_by": [
+   "Zep (Zep AI, Inc. / getzep.com) \u2014 YC W24",
+   "Zep (Graphiti)"
+  ]
+ },
+ {
+  "name": "Palmstreet",
+  "category": "consumer marketplace / live commerce (social commerce)",
+  "stage": "unknown - venture-backed, almost certainly Series A/B era but no round was findable in public sources",
+  "cited_by": [
+   "Coworker (coworker.ai) - Village Platforms, Inc."
+  ]
+ },
+ {
+  "name": "Electronic Arts",
+  "category": "Video game publisher / interactive entertainment \u2014 a large legacy enterprise, NOT an AI-native startup. This is the outlier on the logo wall.",
+  "stage": "Private (post-LBO). EA announced completion of its acquisition by Saudi Arabia's Public Investment Fund, Silver Lake and Affinity Partners on August 4, 2026 \u2014 confirmed on ea.com/news. EA's about page now describes the company as \"privately owned.\" Previously NASDAQ-listed (EA).",
+  "cited_by": [
+   "Hindsight (Vectorize.io)",
+   "Hindsight (agent memory system by Vectorize AI, Inc. \u2014 vectorize.io / hindsight.vectorize.io)",
+   "Vectorize (vectorize.io) \u2014 Vectorize, Inc."
+  ]
+ },
+ {
+  "name": "SoundCloud",
+  "category": "Consumer music streaming / creator platform (B2C + prosumer creator SaaS + ads). A ~19-year-old internet company, not an AI startup.",
+  "stage": "Late-stage private, VC- and strategic-backed; never IPO'd",
+  "cited_by": [
+   "Jedify"
+  ]
+ },
+ {
+  "name": "AWS (Amazon Web Services)",
+  "category": "Cloud infrastructure / platform provider - and, critically, a competitor in the agent-memory category rather than a buyer of it",
+  "stage": "Segment of a public company (NASDAQ: AMZN)",
+  "cited_by": [
+   "Cognee (Topoteretes UG) \u2014 https://cognee.ai",
+   "Memvid"
+  ]
+ },
+ {
+  "name": "Shopify",
+  "category": "E-commerce SaaS / commerce infrastructure (not an agent-memory buyer category in itself)",
+  "stage": "Public \u2014 NASDAQ/TSX: SHOP, IPO May 2015",
+  "cited_by": [
+   "Cognee (Topoteretes UG) \u2014 https://cognee.ai"
+  ]
+ },
+ {
+  "name": "Baidu",
+  "category": "Search / internet conglomerate plus full-stack AI cloud and foundation-model vendor \u2014 a mega-cap incumbent and, in the agent-memory market, more plausibly a competitor than a customer",
+  "stage": "Public company. NASDAQ IPO August 2005; secondary listing on HKEX in 2021.",
+  "cited_by": [
+   "Cognee (Topoteretes UG) \u2014 https://cognee.ai"
+  ]
+ },
+ {
+  "name": "RapidSOS",
+  "category": "Public safety / emergency response infrastructure and data platform (govtech + enterprise safety). AI-forward but not AI-native.",
+  "stage": "Late-stage private growth company (post-Series C, effectively Series D+). Founded 2012 and still private after 13+ years \u2014 a long-cycle infrastructure company, not a fast-cycle AI startup.",
+  "cited_by": [
+   "Coworker (coworker.ai) - Village Platforms, Inc."
+  ]
+ },
+ {
+  "name": "Harness",
+  "category": "DevOps / software delivery platform (CI/CD, feature flags, FinOps, AppSec) \u2014 repositioned around AI agents. Sells to developers and platform engineering.",
+  "stage": "Late-stage private, venture-backed (Series D/E+ territory). Founded 2017, still private.",
+  "cited_by": [
+   "Coworker (coworker.ai) - Village Platforms, Inc."
+  ]
+ },
+ {
+  "name": "Harri",
+  "category": "Vertical HR tech / hospitality HCM + workforce management SaaS (frontline labor ops, scheduling, compliance)",
+  "stage": "Late-stage private / growth-stage. Not a conventional VC ladder \u2014 the disclosed investor set mixes a strategic corporate VC (ADP Ventures) with credit and specialty-finance funds (Golub Capital, Atalaya Capital Management), suggesting debt and structured financing rather than priced equity rounds. Most recent instrument reported is a small convertible note.",
+  "cited_by": [
+   "Coworker (coworker.ai) - Village Platforms, Inc."
+  ]
+ },
+ {
+  "name": "Truecaller",
+  "category": "consumer mobile app / communications trust and identity, plus B2B enterprise verified-communications",
+  "stage": "public company - listed on Nasdaq Stockholm since October 2021",
+  "cited_by": [
+   "Coworker (coworker.ai) - Village Platforms, Inc."
+  ]
+ },
+ {
+  "name": "Atlassian",
+  "category": "dev tools / work-management SaaS (enterprise collaboration)",
+  "stage": "Public company (NASDAQ: TEAM), IPO Dec 10, 2015",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ]
+ },
+ {
+  "name": "Coinbase",
+  "category": "crypto exchange / fintech + onchain developer infrastructure",
+  "stage": "Public company (NASDAQ: COIN), direct listing April 14, 2021",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ]
+ },
+ {
+  "name": "Rippling",
+  "category": "HR / IT / finance SaaS \u2014 workforce management ('compound startup' multi-product suite)",
+  "stage": "Late-stage private, Series G",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ]
+ },
+ {
+  "name": "Polymarket",
+  "category": "prediction markets / crypto fintech (NOT an AI company)",
+  "stage": "Late-stage growth; strategic corporate investment. Not a typical VC-lettered round at this point.",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ]
+ },
+ {
+  "name": "Phantom",
+  "category": "consumer crypto wallet / fintech (NOT an AI company)",
+  "stage": "Series C",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ]
+ },
+ {
+  "name": "University of Michigan",
+  "category": "Higher education / public research university (NOT an AI vendor; logo-wall entry in an agent-memory vendor's 'used by developers at' ticker)",
+  "stage": "not applicable - public university founded 1817, no venture stage",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ]
+ },
+ {
+  "name": "University of Toronto",
+  "category": "Higher education / public research university (NOT an AI vendor; logo-wall entry for Honcho, and an unverified citation for Onyx)",
+  "stage": "not applicable - public university founded 1827, no venture stage",
+  "cited_by": [
+   "Honcho (Plastic Labs)"
+  ]
+ },
+ {
+  "name": "Intuit",
+  "category": "fintech / SMB accounting, tax and marketing software (not an AI-memory vendor \u2014 a buyer)",
+  "stage": "Public company (Nasdaq: INTU). IPO 1993. Mature large-cap; ~$333/share as of Sept 4, 2026.",
+  "cited_by": [
+   "MIRIX (mirix.io)"
+  ]
+ },
+ {
+  "name": "Vanta",
+  "category": "security compliance / GRC automation (B2B SaaS)",
+  "stage": "Series D (late-stage private)",
+  "cited_by": [
+   "Granola (granola.ai)"
+  ]
+ },
+ {
+  "name": "Figma",
+  "category": "Design and collaboration SaaS, increasingly a developer-tools and AI-workflow company",
+  "stage": "Public. IPO'd July 31, 2025 on the NYSE under ticker FIG at $85/share.",
+  "cited_by": [
+   "Granola (granola.ai)"
+  ]
+ },
+ {
+  "name": "Ramp",
+  "category": "B2B fintech / spend management and finance automation SaaS, now heavily agentic",
+  "stage": "Late-stage private (Series E and beyond)",
+  "cited_by": [
+   "Granola (granola.ai)"
+  ]
+ },
+ {
+  "name": "Netlify",
+  "category": "developer tools / frontend cloud and web application PaaS; increasingly an AI app-building and agent-hosting platform",
+  "stage": "Late-stage private, Series D. Still independent and venture-backed; no IPO.",
+  "cited_by": [
+   "Jedify"
+  ]
+ },
+ {
+  "name": "DoubleVerify",
+  "category": "adtech \u2014 ad verification, brand safety, media measurement and campaign optimization",
+  "stage": "Public company, and currently mid-acquisition. IPO'd on NYSE April 21, 2021 at $27.00/share. As of September 2026 it is under an announced all-cash acquisition by Nielsen at approximately $2.15B ($13.60 per share); the stock traded at $13.36 on Sept 4, 2026, essentially pinned to the deal price.",
+  "cited_by": [
+   "Jedify"
+  ]
+ },
+ {
+  "name": "Brex",
+  "category": "Fintech \u2014 corporate cards and spend management (B2B). Now a Capital One subsidiary.",
+  "stage": "Acquired (Capital One, closed April 2026). Previously late-stage private \u2014 last private round Oct 2021 at a $12.3B valuation.",
+  "cited_by": [
+   "Granola (granola.ai)"
+  ]
+ },
+ {
+  "name": "Apple",
+  "category": "Consumer hardware, operating systems and digital services - a platform incumbent, not a member of the AI-startup buyer set",
+  "stage": "Public company (NASDAQ: AAPL)",
+  "cited_by": [
+   "Cognee (Topoteretes UG) \u2014 https://cognee.ai"
+  ]
+ },
+ {
+  "name": "Pfizer",
+  "category": "Large-cap pharmaceutical manufacturer (enterprise buyer, not an AI vendor)",
+  "stage": "Public company (NYSE: PFE)",
+  "cited_by": [
+   "Colrows (colrows.com) \u2014 Alterbasics Technologies Pvt Ltd"
+  ]
+ },
+ {
+  "name": "Qualcomm (Qualcomm Technologies, Inc.)",
+  "category": "semiconductors / edge AI silicon \u2014 NOT an agent-memory buyer; this is a platform/silicon partnership",
+  "stage": "Public company (NASDAQ: QCOM), IPO December 1991",
+  "cited_by": [
+   "Memories.ai"
+  ]
+ },
+ {
+  "name": "Spotify",
+  "category": "Consumer audio streaming / media platform (buyer of internal knowledge + AI-search tooling, not a seller in this category)",
+  "stage": "Public - direct listing on NYSE in April 2018, ticker SPOT",
+  "cited_by": [
+   "Granola (granola.ai)"
+  ]
+ }
+]
